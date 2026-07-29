@@ -55,14 +55,15 @@
     "Stars and forks are repository aggregate snapshots, not Skill installs.",
     "Path commit counts measure default-branch history touching the Skill path, not effort.",
     "GitHub does not provide this project with exact public stargazer event times.",
-    "This trial ranking uses current cumulative repository totals because a full week is unavailable."
+    "This trial ranking uses current cumulative repository totals because a full week is unavailable.",
+    "No new valid ranking was produced; this view preserves the last successful ranking and its original observation times."
   ],
-  "ranking_status": "trial",
+  "ranking_status": "stale",
   "schema_version": "1.0",
   "source_observed_at": [
     "2026-07-29T20:29:13.321329Z"
   ],
-  "stale_from_week": null,
+  "stale_from_week": "2026-07-27",
   "week": {
     "end_date": "2026-08-02",
     "start_date": "2026-07-27",
