@@ -197,22 +197,41 @@ def _build_demo(root: Path) -> None:
 
 def _run_daily(root: Path) -> None:
     today = datetime.now(tz=SHANGHAI).date()
-    attempted_week = (
-        previous_completed_week(today) if today.weekday() == 0 else week_containing(today)
-    )
+    current_week = week_containing(today)
+    attempted_week = previous_completed_week(today) if today.weekday() == 0 else current_week
     try:
         catalog = root / "data" / "candidates.json"
         if today.weekday() == 0 or not catalog.exists():
             _discover(root, include_search=bool(os.environ.get("DISCOVERY_GITHUB_TOKEN")))
         _collect(root, today)
+        boundary_paths = (
+            root / "data" / "snapshots" / f"{attempted_week.start}.json",
+            root / "data" / "snapshots" / f"{attempted_week.next_boundary}.json",
+        )
+        has_live_ranking = _has_live_ranking(root)
         if today.weekday() == 0:
-            _activity(root, attempted_week.start)
-            _rank(root, attempted_week.start, trial=False)
+            if all(path.exists() for path in boundary_paths):
+                _activity(root, attempted_week.start)
+                _rank(root, attempted_week.start, trial=False)
+            elif has_live_ranking:
+                mark_publication_stale(root, attempted_week.start.isoformat())
+            else:
+                _rank(root, current_week.start, trial=True)
+        elif not has_live_ranking:
+            _rank(root, current_week.start, trial=True)
     except Exception:
         # A first-ever failed collection may have no prior ranking to preserve.
         with suppress(FileNotFoundError):
             mark_publication_stale(root, attempted_week.start.isoformat())
         raise
+
+
+def _has_live_ranking(root: Path) -> bool:
+    for path in (root / "data" / "rankings").glob("*.json"):
+        value = read_json(path)
+        if isinstance(value, dict) and not bool(value.get("demo")):
+            return True
+    return False
 
 
 def _validate(root: Path) -> None:
