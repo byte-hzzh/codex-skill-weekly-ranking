@@ -115,6 +115,17 @@ def test_config_precedence_and_defaults(tmp_path: Path) -> None:
     assert loaded.denied_repositories == frozenset({"owner/repo"})
     assert loaded.top_n == 7
     assert loaded.max_skills_per_repository == 2
+    assert loaded.max_skills_per_seed == 100
+
+
+@pytest.mark.parametrize("value", ["0", "-1", "1.5", "true"])
+def test_max_skills_per_seed_must_be_a_positive_integer(tmp_path: Path, value: str) -> None:
+    config = tmp_path / "config"
+    config.mkdir()
+    (config / "policy.yml").write_text(f"max_skills_per_seed: {value}\n", encoding="utf-8")
+
+    with pytest.raises(ValueError, match="max_skills_per_seed must be a positive integer"):
+        load_policy(tmp_path)
 
 
 def test_project_seed_repositories_cover_trusted_skill_sources() -> None:

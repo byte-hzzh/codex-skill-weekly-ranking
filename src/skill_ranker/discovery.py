@@ -35,6 +35,7 @@ def discover(
         try:
             seed_repository_data = client.repository(seed.repository)
             branch = str(seed_repository_data.get("default_branch", "main"))
+            skill_paths: set[str] = set()
             for tree_item in client.tree(seed.repository, branch):
                 path = tree_item.get("path")
                 if (
@@ -42,7 +43,9 @@ def discover(
                     and isinstance(path, str)
                     and _is_skill_path(path)
                 ):
-                    locations[(seed.repository, path)] = ("seed", False)
+                    skill_paths.add(_normalize_path(path))
+            for path in sorted(skill_paths)[: policy.max_skills_per_seed]:
+                locations[(seed.repository, path)] = ("seed", False)
         except (GitHubError, ValueError) as error:
             errors.append(f"{seed.repository}: {error}")
 
@@ -147,5 +150,9 @@ def preserve_cached_candidates(
 
 
 def _is_skill_path(path: str) -> bool:
-    normalized = path.replace("\\", "/")
+    normalized = _normalize_path(path)
     return normalized == "SKILL.md" or normalized.endswith("/SKILL.md")
+
+
+def _normalize_path(path: str) -> str:
+    return path.replace("\\", "/")

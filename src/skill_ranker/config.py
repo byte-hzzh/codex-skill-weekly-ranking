@@ -26,6 +26,7 @@ class Policy:
     denied_keys: frozenset[str]
     denied_paths: frozenset[str]
     max_skills_per_repository: int = 2
+    max_skills_per_seed: int = 100
     top_n: int = 10
     max_frontmatter_bytes: int = 16_384
     max_skill_bytes: int = 131_072
@@ -46,6 +47,13 @@ def load_policy(root: Path) -> Policy:
     allow_data = _load_yaml(root / "config" / "allowlist.yml")
     deny_data = _load_yaml(root / "config" / "denylist.yml")
     policy_data = _load_yaml(root / "config" / "policy.yml")
+    max_skills_per_seed = policy_data.get("max_skills_per_seed", 100)
+    if (
+        isinstance(max_skills_per_seed, bool)
+        or not isinstance(max_skills_per_seed, int)
+        or max_skills_per_seed <= 0
+    ):
+        raise ValueError("max_skills_per_seed must be a positive integer")
     return Policy(
         seeds=tuple(Seed(str(item["repository"])) for item in seeds_data.get("repositories", [])),
         allowlist=tuple(
@@ -58,6 +66,7 @@ def load_policy(root: Path) -> Policy:
         denied_keys=frozenset(str(item) for item in deny_data.get("keys", [])),
         denied_paths=frozenset(str(item).casefold() for item in deny_data.get("paths", [])),
         max_skills_per_repository=int(policy_data.get("max_skills_per_repository", 2)),
+        max_skills_per_seed=max_skills_per_seed,
         top_n=int(policy_data.get("top_n", 10)),
         max_frontmatter_bytes=int(policy_data.get("max_frontmatter_bytes", 16_384)),
         max_skill_bytes=int(policy_data.get("max_skill_bytes", 131_072)),

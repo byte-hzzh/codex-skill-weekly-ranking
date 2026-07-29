@@ -43,6 +43,30 @@ def test_run_daily_publishes_current_week_trial_after_first_collection(
     ]
 
 
+def test_run_daily_rebuilds_missing_trial_archive_from_same_day_snapshot(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    _set_today(monkeypatch, date(2026, 7, 30))
+    catalog = tmp_path / "data" / "candidates.json"
+    catalog.parent.mkdir(parents=True)
+    catalog.touch()
+    snapshot = tmp_path / "data" / "snapshots" / "2026-07-30.json"
+    snapshot.parent.mkdir(parents=True)
+    snapshot.touch()
+    served = tmp_path / "docs" / "data" / "latest.json"
+    served.parent.mkdir(parents=True)
+    served.write_text(json.dumps({"demo": False}), encoding="utf-8")
+    collect = Mock()
+    rank = Mock()
+    monkeypatch.setattr(cli, "_collect", collect)
+    monkeypatch.setattr(cli, "_rank", rank)
+
+    cli._run_daily(tmp_path)
+
+    collect.assert_not_called()
+    rank.assert_called_once_with(tmp_path, date(2026, 7, 27), trial=True)
+
+
 def test_run_daily_keeps_monday_official_path_when_boundaries_exist(
     tmp_path: Path, monkeypatch: pytest.MonkeyPatch
 ) -> None:
@@ -62,7 +86,6 @@ def test_run_daily_keeps_monday_official_path_when_boundaries_exist(
 
     assert events.mock_calls == [
         call.discover(tmp_path, include_search=False),
-        call.collect(tmp_path, date(2026, 8, 3)),
         call.activity(tmp_path, date(2026, 7, 27)),
         call.rank(tmp_path, date(2026, 7, 27), trial=False),
     ]

@@ -204,7 +204,11 @@ def _run_daily(root: Path) -> None:
         force_discovery = os.environ.get("FORCE_DISCOVERY") == "1"
         if force_discovery or today.weekday() == 0 or not catalog.exists():
             _discover(root, include_search=bool(os.environ.get("DISCOVERY_GITHUB_TOKEN")))
-        _collect(root, today)
+        snapshot_path = root / "data" / "snapshots" / f"{today}.json"
+        if snapshot_path.exists():
+            print(f"reusing immutable snapshot {snapshot_path.relative_to(root)}")
+        else:
+            _collect(root, today)
         boundary_paths = (
             root / "data" / "snapshots" / f"{attempted_week.start}.json",
             root / "data" / "snapshots" / f"{attempted_week.next_boundary}.json",
