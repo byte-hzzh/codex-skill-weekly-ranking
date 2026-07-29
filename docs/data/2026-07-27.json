@@ -1,240 +1,56 @@
 {
   "algorithm_version": "trial-v1",
   "complete": true,
-  "demo": true,
+  "demo": false,
   "entries": [
     {
-      "candidate_key": "900002:skills/code-review/SKILL.md",
+      "candidate_key": "1103643573:skills/.curated/cli-creator/SKILL.md",
       "components": {
-        "recent_path_commit_percentile": 0.909091,
-        "total_fork_percentile": 0.909091,
-        "total_star_percentile": 0.909091
+        "recent_path_commit_percentile": 0.5,
+        "total_fork_percentile": 0.5,
+        "total_star_percentile": 0.5
       },
-      "description": "Fixture Skill for structured code review and actionable findings.",
+      "description": "Build a composable CLI for Codex from API docs, an OpenAPI spec, existing curl examples, an SDK, a web app, an admin tool, or a local script. Use when the user wants Codex to create a command-line tool that can run from any repo, expose composable read/write commands, return stable JSON, manage auth, and pair with a companion skill.",
       "metrics": {
-        "path_commits": 10,
-        "repository_forks": 81,
-        "repository_stars": 720,
-        "total_forks": 81,
-        "total_stars": 720
+        "path_commits": 0,
+        "repository_forks": 1652,
+        "repository_stars": 24315,
+        "total_forks": 1652,
+        "total_stars": 24315
       },
-      "name": "Code Review",
-      "path": "skills/code-review/SKILL.md",
+      "name": "cli-creator",
+      "path": "skills/.curated/cli-creator/SKILL.md",
       "rank": 1,
-      "repository": "demo-fixtures/dev-workflows",
-      "repository_url": "https://github.com/demo-fixtures/dev-workflows",
-      "score": 90.91,
-      "source_url": "https://github.com/demo-fixtures/dev-workflows/blob/main/skills/code-review/SKILL.md"
+      "repository": "openai/skills",
+      "repository_url": "https://github.com/openai/skills",
+      "score": 50.0,
+      "source_url": "https://github.com/openai/skills/blob/main/skills/.curated/cli-creator/SKILL.md"
     },
     {
-      "candidate_key": "900001:skills/research-brief/SKILL.md",
+      "candidate_key": "1103643573:skills/.curated/figma-create-design-system-rules/SKILL.md",
       "components": {
-        "recent_path_commit_percentile": 0.727273,
-        "total_fork_percentile": 1.0,
-        "total_star_percentile": 1.0
+        "recent_path_commit_percentile": 0.5,
+        "total_fork_percentile": 0.5,
+        "total_star_percentile": 0.5
       },
-      "description": "Fixture Skill that turns a question into a sourced research brief.",
+      "description": "Generates custom design system rules for the user's codebase. Use when user says \"create design system rules\", \"generate rules for my project\", \"set up design rules\", \"customize design system guidelines\", or wants to establish project-specific conventions for Figma-to-code workflows. Requires Figma MCP server connection.",
       "metrics": {
-        "path_commits": 8,
-        "repository_forks": 96,
-        "repository_stars": 860,
-        "total_forks": 96,
-        "total_stars": 860
+        "path_commits": 0,
+        "repository_forks": 1652,
+        "repository_stars": 24315,
+        "total_forks": 1652,
+        "total_stars": 24315
       },
-      "name": "Research Brief",
-      "path": "skills/research-brief/SKILL.md",
+      "name": "figma-create-design-system-rules",
+      "path": "skills/.curated/figma-create-design-system-rules/SKILL.md",
       "rank": 2,
-      "repository": "demo-fixtures/research-skills",
-      "repository_url": "https://github.com/demo-fixtures/research-skills",
-      "score": 90.45,
-      "source_url": "https://github.com/demo-fixtures/research-skills/blob/main/skills/research-brief/SKILL.md"
-    },
-    {
-      "candidate_key": "900004:skills/document-editor/SKILL.md",
-      "components": {
-        "recent_path_commit_percentile": 0.590909,
-        "total_fork_percentile": 0.727273,
-        "total_star_percentile": 0.727273
-      },
-      "description": "Fixture Skill for editing and visually checking document output.",
-      "metrics": {
-        "path_commits": 7,
-        "repository_forks": 59,
-        "repository_stars": 540,
-        "total_forks": 59,
-        "total_stars": 540
-      },
-      "name": "Document Editor",
-      "path": "skills/document-editor/SKILL.md",
-      "rank": 3,
-      "repository": "demo-fixtures/document-lab",
-      "repository_url": "https://github.com/demo-fixtures/document-lab",
-      "score": 67.95,
-      "source_url": "https://github.com/demo-fixtures/document-lab/blob/main/skills/document-editor/SKILL.md"
-    },
-    {
-      "candidate_key": "900003:skills/data-audit/SKILL.md",
-      "components": {
-        "recent_path_commit_percentile": 0.363636,
-        "total_fork_percentile": 0.818182,
-        "total_star_percentile": 0.818182
-      },
-      "description": "Fixture Skill for profiling tabular data and documenting anomalies.",
-      "metrics": {
-        "path_commits": 5,
-        "repository_forks": 77,
-        "repository_stars": 610,
-        "total_forks": 77,
-        "total_stars": 610
-      },
-      "name": "Data Audit",
-      "path": "skills/data-audit/SKILL.md",
-      "rank": 4,
-      "repository": "demo-fixtures/data-toolkit",
-      "repository_url": "https://github.com/demo-fixtures/data-toolkit",
-      "score": 65.91,
-      "source_url": "https://github.com/demo-fixtures/data-toolkit/blob/main/skills/data-audit/SKILL.md"
-    },
-    {
-      "candidate_key": "900006:skills/test-planner/SKILL.md",
-      "components": {
-        "recent_path_commit_percentile": 0.818182,
-        "total_fork_percentile": 0.545455,
-        "total_star_percentile": 0.545455
-      },
-      "description": "Fixture Skill that creates focused risk-based test plans.",
-      "metrics": {
-        "path_commits": 9,
-        "repository_forks": 42,
-        "repository_stars": 390,
-        "total_forks": 42,
-        "total_stars": 390
-      },
-      "name": "Test Planner",
-      "path": "skills/test-planner/SKILL.md",
-      "rank": 5,
-      "repository": "demo-fixtures/quality-suite",
-      "repository_url": "https://github.com/demo-fixtures/quality-suite",
-      "score": 64.09,
-      "source_url": "https://github.com/demo-fixtures/quality-suite/blob/main/skills/test-planner/SKILL.md"
-    },
-    {
-      "candidate_key": "900009:skills/a11y-review/SKILL.md",
-      "components": {
-        "recent_path_commit_percentile": 1.0,
-        "total_fork_percentile": 0.272727,
-        "total_star_percentile": 0.272727
-      },
-      "description": "Fixture Skill for keyboard, semantics, and contrast verification.",
-      "metrics": {
-        "path_commits": 11,
-        "repository_forks": 29,
-        "repository_stars": 275,
-        "total_forks": 29,
-        "total_stars": 275
-      },
-      "name": "Accessibility Review",
-      "path": "skills/a11y-review/SKILL.md",
-      "rank": 6,
-      "repository": "demo-fixtures/accessibility-kit",
-      "repository_url": "https://github.com/demo-fixtures/accessibility-kit",
-      "score": 52.73,
-      "source_url": "https://github.com/demo-fixtures/accessibility-kit/blob/main/skills/a11y-review/SKILL.md"
-    },
-    {
-      "candidate_key": "900005:skills/browser-check/SKILL.md",
-      "components": {
-        "recent_path_commit_percentile": 0.272727,
-        "total_fork_percentile": 0.636364,
-        "total_star_percentile": 0.636364
-      },
-      "description": "Fixture Skill for repeatable browser-based acceptance checks.",
-      "metrics": {
-        "path_commits": 4,
-        "repository_forks": 48,
-        "repository_stars": 450,
-        "total_forks": 48,
-        "total_stars": 450
-      },
-      "name": "Browser Check",
-      "path": "skills/browser-check/SKILL.md",
-      "rank": 7,
-      "repository": "demo-fixtures/browser-tools",
-      "repository_url": "https://github.com/demo-fixtures/browser-tools",
-      "score": 50.91,
-      "source_url": "https://github.com/demo-fixtures/browser-tools/blob/main/skills/browser-check/SKILL.md"
-    },
-    {
-      "candidate_key": "900008:skills/api-design/SKILL.md",
-      "components": {
-        "recent_path_commit_percentile": 0.454545,
-        "total_fork_percentile": 0.363636,
-        "total_star_percentile": 0.363636
-      },
-      "description": "Fixture Skill for explicit API contracts and compatibility review.",
-      "metrics": {
-        "path_commits": 6,
-        "repository_forks": 33,
-        "repository_stars": 310,
-        "total_forks": 33,
-        "total_stars": 310
-      },
-      "name": "API Design",
-      "path": "skills/api-design/SKILL.md",
-      "rank": 8,
-      "repository": "demo-fixtures/api-craft",
-      "repository_url": "https://github.com/demo-fixtures/api-craft",
-      "score": 39.55,
-      "source_url": "https://github.com/demo-fixtures/api-craft/blob/main/skills/api-design/SKILL.md"
-    },
-    {
-      "candidate_key": "900007:skills/release-notes/SKILL.md",
-      "components": {
-        "recent_path_commit_percentile": 0.181818,
-        "total_fork_percentile": 0.454545,
-        "total_star_percentile": 0.454545
-      },
-      "description": "Fixture Skill that drafts concise releases from verified changes.",
-      "metrics": {
-        "path_commits": 3,
-        "repository_forks": 38,
-        "repository_stars": 340,
-        "total_forks": 38,
-        "total_stars": 340
-      },
-      "name": "Release Notes",
-      "path": "skills/release-notes/SKILL.md",
-      "rank": 9,
-      "repository": "demo-fixtures/release-ops",
-      "repository_url": "https://github.com/demo-fixtures/release-ops",
-      "score": 35.91,
-      "source_url": "https://github.com/demo-fixtures/release-ops/blob/main/skills/release-notes/SKILL.md"
-    },
-    {
-      "candidate_key": "900011:skills/mobile-qa/SKILL.md",
-      "components": {
-        "recent_path_commit_percentile": 0.590909,
-        "total_fork_percentile": 0.090909,
-        "total_star_percentile": 0.090909
-      },
-      "description": "Fixture Skill for responsive layout and touch-target checks.",
-      "metrics": {
-        "path_commits": 7,
-        "repository_forks": 19,
-        "repository_stars": 185,
-        "total_forks": 19,
-        "total_stars": 185
-      },
-      "name": "Mobile QA",
-      "path": "skills/mobile-qa/SKILL.md",
-      "rank": 10,
-      "repository": "demo-fixtures/mobile-checks",
-      "repository_url": "https://github.com/demo-fixtures/mobile-checks",
-      "score": 26.59,
-      "source_url": "https://github.com/demo-fixtures/mobile-checks/blob/main/skills/mobile-qa/SKILL.md"
+      "repository": "openai/skills",
+      "repository_url": "https://github.com/openai/skills",
+      "score": 50.0,
+      "source_url": "https://github.com/openai/skills/blob/main/skills/.curated/figma-create-design-system-rules/SKILL.md"
     }
   ],
-  "generated_at": "2026-07-30T02:17:00Z",
+  "generated_at": "2026-07-29T20:29:13.701734Z",
   "limitations": [
     "Stars and forks are repository aggregate snapshots, not Skill installs.",
     "Path commit counts measure default-branch history touching the Skill path, not effort.",
@@ -244,7 +60,7 @@
   "ranking_status": "trial",
   "schema_version": "1.0",
   "source_observed_at": [
-    "2026-07-30T02:17:00Z"
+    "2026-07-29T20:29:13.321329Z"
   ],
   "stale_from_week": null,
   "week": {

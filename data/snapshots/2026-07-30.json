@@ -1,0 +1,22 @@
+{
+  "complete": true,
+  "errors": [],
+  "observed_at": "2026-07-29T20:29:13.321329Z",
+  "repositories": [
+    {
+      "archived": false,
+      "default_branch": "main",
+      "default_branch_sha": "",
+      "forks": 1652,
+      "repository": "openai/skills",
+      "repository_id": 1103643573,
+      "repository_node_id": "R_kgDOQchDtQ",
+      "request_status": "fresh",
+      "stars": 24315,
+      "visibility": "public"
+    }
+  ],
+  "scheduled_date": "2026-07-30",
+  "schema_version": "1.0",
+  "timezone": "Asia/Shanghai"
+}
