@@ -3,6 +3,8 @@ import json
 from base64 import b64encode
 from email.message import Message
 from urllib.error import HTTPError
+from urllib.parse import parse_qs, urlparse
+from urllib.request import Request
 
 import pytest
 
@@ -83,3 +85,32 @@ def test_incomplete_code_search_is_rejected() -> None:
     client = GitHubClient("token", opener=lambda *_args, **_kwargs: Response(body))
     with pytest.raises(GitHubError, match="incomplete"):
         list(client.search_skill_files("Codex filename:SKILL.md"))
+
+
+def test_code_search_is_limited_to_one_page_and_one_hundred_items() -> None:
+    calls: list[str] = []
+    body = json.dumps(
+        {
+            "incomplete_results": False,
+            "items": [{"path": f"skills/{index}/SKILL.md"} for index in range(101)],
+        }
+    ).encode()
+
+    def opener(request: Request, **_kwargs: object) -> Response:
+        calls.append(request.full_url)
+        return Response(
+            body,
+            headers={"Link": '<https://api.github.test/page2>; rel="next"'},
+        )
+
+    client = GitHubClient("token", opener=opener)
+    results = list(client.search_skill_files("Codex in:file filename:SKILL.md"))
+
+    assert len(results) == 100
+    assert len(calls) == 1
+    query = parse_qs(urlparse(calls[0]).query)
+    assert query == {
+        "q": ["Codex in:file filename:SKILL.md"],
+        "per_page": ["100"],
+        "page": ["1"],
+    }

@@ -55,9 +55,7 @@ def discover(
     search_degraded = False
     if include_search:
         try:
-            for search_item in client.search_skill_files(
-                'filename:SKILL.md ("Codex" OR "Agent Skills")'
-            ):
+            for search_item in client.search_skill_files("Codex in:file filename:SKILL.md"):
                 repository = search_item.get("repository")
                 path = search_item.get("path")
                 if isinstance(repository, dict) and isinstance(path, str):

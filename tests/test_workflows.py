@@ -34,3 +34,17 @@ def test_collect_workflow_separates_read_and_write_permissions() -> None:
 
     assert workflow["jobs"]["collect"]["permissions"] == {"contents": "read"}
     assert workflow["jobs"]["commit"]["permissions"] == {"contents": "write"}
+
+
+def test_manual_collection_forces_discovery_with_token_fallback() -> None:
+    workflow = yaml.safe_load(
+        (PROJECT_ROOT / ".github" / "workflows" / "collect.yml").read_text(encoding="utf-8")
+    )
+    collection_steps = workflow["jobs"]["collect"]["steps"]
+    collection_step = next(step for step in collection_steps if step.get("id") == "collection")
+
+    assert collection_step["env"] == {
+        "GITHUB_TOKEN": "${{ github.token }}",
+        "DISCOVERY_GITHUB_TOKEN": "${{ secrets.DISCOVERY_GITHUB_TOKEN || github.token }}",
+        "FORCE_DISCOVERY": "${{ github.event_name == 'workflow_dispatch' && '1' || '0' }}",
+    }

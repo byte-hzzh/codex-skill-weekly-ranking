@@ -115,3 +115,18 @@ def test_config_precedence_and_defaults(tmp_path: Path) -> None:
     assert loaded.denied_repositories == frozenset({"owner/repo"})
     assert loaded.top_n == 7
     assert loaded.max_skills_per_repository == 2
+
+
+def test_project_seed_repositories_cover_trusted_skill_sources() -> None:
+    project_root = Path(__file__).parents[1]
+
+    loaded = load_policy(project_root)
+
+    assert {seed.repository for seed in loaded.seeds} == {
+        "openai/skills",
+        "anthropics/skills",
+        "MicrosoftDocs/Agent-Skills",
+        "github/awesome-copilot",
+        "NVIDIA/skills",
+        "K-Dense-AI/scientific-agent-skills",
+    }

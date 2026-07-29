@@ -201,7 +201,8 @@ def _run_daily(root: Path) -> None:
     attempted_week = previous_completed_week(today) if today.weekday() == 0 else current_week
     try:
         catalog = root / "data" / "candidates.json"
-        if today.weekday() == 0 or not catalog.exists():
+        force_discovery = os.environ.get("FORCE_DISCOVERY") == "1"
+        if force_discovery or today.weekday() == 0 or not catalog.exists():
             _discover(root, include_search=bool(os.environ.get("DISCOVERY_GITHUB_TOKEN")))
         _collect(root, today)
         boundary_paths = (

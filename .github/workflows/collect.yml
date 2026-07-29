@@ -28,8 +28,9 @@ jobs:
         name: Collect public data and finalize completed week when applicable
         continue-on-error: true
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          DISCOVERY_GITHUB_TOKEN: ${{ secrets.DISCOVERY_GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
+          DISCOVERY_GITHUB_TOKEN: ${{ secrets.DISCOVERY_GITHUB_TOKEN || github.token }}
+          FORCE_DISCOVERY: ${{ github.event_name == 'workflow_dispatch' && '1' || '0' }}
         run: skill-ranker --root . run-daily
       - name: Validate generated artifacts
         run: skill-ranker --root . validate

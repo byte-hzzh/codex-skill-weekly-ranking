@@ -14,6 +14,7 @@ def _set_today(monkeypatch: pytest.MonkeyPatch, today: date) -> None:
     clock = Mock()
     clock.now.return_value = current
     monkeypatch.setattr(cli, "datetime", clock)
+    monkeypatch.delenv("FORCE_DISCOVERY", raising=False)
 
 
 def _write_live_ranking_marker(root: Path) -> None:
@@ -104,6 +105,28 @@ def test_run_daily_does_not_replace_latest_live_ranking_midweek(
 
     collect.assert_called_once_with(tmp_path, date(2026, 8, 4))
     rank.assert_not_called()
+
+
+def test_run_daily_force_discovery_refreshes_existing_catalog_midweek(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    _set_today(monkeypatch, date(2026, 8, 4))
+    monkeypatch.setenv("FORCE_DISCOVERY", "1")
+    monkeypatch.setenv("DISCOVERY_GITHUB_TOKEN", "token")
+    catalog = tmp_path / "data" / "candidates.json"
+    catalog.parent.mkdir(parents=True)
+    catalog.touch()
+    _write_live_ranking_marker(tmp_path)
+    events = Mock()
+    monkeypatch.setattr(cli, "_discover", lambda *args, **kwargs: events.discover(*args, **kwargs))
+    monkeypatch.setattr(cli, "_collect", lambda *args, **kwargs: events.collect(*args, **kwargs))
+
+    cli._run_daily(tmp_path)
+
+    assert events.mock_calls == [
+        call.discover(tmp_path, include_search=True),
+        call.collect(tmp_path, date(2026, 8, 4)),
+    ]
 
 
 def test_run_daily_marks_attempted_week_stale_when_collection_fails(

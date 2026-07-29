@@ -1,4 +1,8 @@
 # Seed repositories are scanned recursively for files named SKILL.md.
 repositories:
   - repository: openai/skills
-
+  - repository: anthropics/skills
+  - repository: MicrosoftDocs/Agent-Skills
+  - repository: github/awesome-copilot
+  - repository: NVIDIA/skills
+  - repository: K-Dense-AI/scientific-agent-skills

@@ -197,21 +197,18 @@ class GitHubClient:
     def search_skill_files(self, query: str) -> Iterator[dict[str, Any]]:
         if not self.authenticated:
             raise GitHubError("Global code search requires DISCOVERY_GITHUB_TOKEN")
-        next_url: str | None = f"{API_ROOT}/search/code?{urlencode({'q': query, 'per_page': 100})}"
-        while next_url:
-            response = self.get(next_url)
-            payload = response.data
-            if not isinstance(payload, dict):
-                raise GitHubError(f"Expected an object from {next_url}")
-            if payload.get("incomplete_results") is True:
-                raise GitHubError("GitHub code search returned incomplete results")
-            items = payload.get("items")
-            if not isinstance(items, list):
-                raise GitHubError(f"Expected search items from {next_url}")
-            for item in items:
-                if isinstance(item, dict):
-                    yield item
-            next_url = _next_link(response.headers.get("link"))
+        url = f"{API_ROOT}/search/code?{urlencode({'q': query, 'per_page': 100, 'page': 1})}"
+        payload = self.get(url).data
+        if not isinstance(payload, dict):
+            raise GitHubError(f"Expected an object from {url}")
+        if payload.get("incomplete_results") is True:
+            raise GitHubError("GitHub code search returned incomplete results")
+        items = payload.get("items")
+        if not isinstance(items, list):
+            raise GitHubError(f"Expected search items from {url}")
+        for item in items[:100]:
+            if isinstance(item, dict):
+                yield item
 
     def commits(
         self, full_name: str, path: str, since: str, until: str
