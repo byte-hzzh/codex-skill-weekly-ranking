@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/schemas/candidates-1.0.json",
+  "type": "object",
+  "required": ["schema_version", "generated_at", "search_degraded", "errors", "candidates"],
+  "properties": {
+    "schema_version": { "const": "1.0" },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "search_degraded": { "type": "boolean" },
+    "errors": { "type": "array", "items": { "type": "string" } },
+    "candidates": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/candidate" }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "candidate": {
+      "type": "object",
+      "required": [
+        "key", "repository_id", "repository_node_id", "repository", "default_branch",
+        "path", "name", "description", "source_url", "repository_url",
+        "discovered_via", "checked_at", "eligible", "exclusion_reason"
+      ],
+      "properties": {
+        "key": { "type": "string", "minLength": 3 },
+        "repository_id": { "type": "integer", "minimum": 1 },
+        "repository_node_id": { "type": "string" },
+        "repository": { "type": "string", "pattern": "^[^/]+/[^/]+$" },
+        "default_branch": { "type": "string", "minLength": 1 },
+        "path": { "type": "string", "pattern": "(^|/)SKILL\\.md$" },
+        "name": { "type": "string", "minLength": 1, "maxLength": 80 },
+        "description": { "type": "string", "minLength": 8, "maxLength": 500 },
+        "source_url": { "type": "string", "pattern": "^https://github\\.com/" },
+        "repository_url": { "type": "string", "pattern": "^https://github\\.com/" },
+        "discovered_via": { "type": "string" },
+        "checked_at": { "type": "string", "format": "date-time" },
+        "eligible": { "type": "boolean" },
+        "exclusion_reason": { "type": ["string", "null"] }
+      },
+      "additionalProperties": false
+    }
+  }
+}
+

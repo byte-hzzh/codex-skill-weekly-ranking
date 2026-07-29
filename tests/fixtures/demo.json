@@ -1,0 +1,237 @@
+{
+  "scheduled_date": "2026-07-30",
+  "observed_at": "2026-07-30T02:17:00Z",
+  "repositories": [
+    {
+      "repository_id": 900001,
+      "repository_node_id": "FIXTURE_1",
+      "repository": "demo-fixtures/research-skills",
+      "default_branch": "main",
+      "default_branch_sha": "fixture",
+      "stars": 860,
+      "forks": 96,
+      "archived": false,
+      "visibility": "public",
+      "request_status": "fresh"
+    },
+    {
+      "repository_id": 900002,
+      "repository_node_id": "FIXTURE_2",
+      "repository": "demo-fixtures/dev-workflows",
+      "default_branch": "main",
+      "default_branch_sha": "fixture",
+      "stars": 720,
+      "forks": 81,
+      "archived": false,
+      "visibility": "public",
+      "request_status": "fresh"
+    },
+    {
+      "repository_id": 900003,
+      "repository_node_id": "FIXTURE_3",
+      "repository": "demo-fixtures/data-toolkit",
+      "default_branch": "main",
+      "default_branch_sha": "fixture",
+      "stars": 610,
+      "forks": 77,
+      "archived": false,
+      "visibility": "public",
+      "request_status": "fresh"
+    },
+    {
+      "repository_id": 900004,
+      "repository_node_id": "FIXTURE_4",
+      "repository": "demo-fixtures/document-lab",
+      "default_branch": "main",
+      "default_branch_sha": "fixture",
+      "stars": 540,
+      "forks": 59,
+      "archived": false,
+      "visibility": "public",
+      "request_status": "fresh"
+    },
+    {
+      "repository_id": 900005,
+      "repository_node_id": "FIXTURE_5",
+      "repository": "demo-fixtures/browser-tools",
+      "default_branch": "main",
+      "default_branch_sha": "fixture",
+      "stars": 450,
+      "forks": 48,
+      "archived": false,
+      "visibility": "public",
+      "request_status": "fresh"
+    },
+    {
+      "repository_id": 900006,
+      "repository_node_id": "FIXTURE_6",
+      "repository": "demo-fixtures/quality-suite",
+      "default_branch": "main",
+      "default_branch_sha": "fixture",
+      "stars": 390,
+      "forks": 42,
+      "archived": false,
+      "visibility": "public",
+      "request_status": "fresh"
+    },
+    {
+      "repository_id": 900007,
+      "repository_node_id": "FIXTURE_7",
+      "repository": "demo-fixtures/release-ops",
+      "default_branch": "main",
+      "default_branch_sha": "fixture",
+      "stars": 340,
+      "forks": 38,
+      "archived": false,
+      "visibility": "public",
+      "request_status": "fresh"
+    },
+    {
+      "repository_id": 900008,
+      "repository_node_id": "FIXTURE_8",
+      "repository": "demo-fixtures/api-craft",
+      "default_branch": "main",
+      "default_branch_sha": "fixture",
+      "stars": 310,
+      "forks": 33,
+      "archived": false,
+      "visibility": "public",
+      "request_status": "fresh"
+    },
+    {
+      "repository_id": 900009,
+      "repository_node_id": "FIXTURE_9",
+      "repository": "demo-fixtures/accessibility-kit",
+      "default_branch": "main",
+      "default_branch_sha": "fixture",
+      "stars": 275,
+      "forks": 29,
+      "archived": false,
+      "visibility": "public",
+      "request_status": "fresh"
+    },
+    {
+      "repository_id": 900010,
+      "repository_node_id": "FIXTURE_10",
+      "repository": "demo-fixtures/security-review",
+      "default_branch": "main",
+      "default_branch_sha": "fixture",
+      "stars": 230,
+      "forks": 24,
+      "archived": false,
+      "visibility": "public",
+      "request_status": "fresh"
+    },
+    {
+      "repository_id": 900011,
+      "repository_node_id": "FIXTURE_11",
+      "repository": "demo-fixtures/mobile-checks",
+      "default_branch": "main",
+      "default_branch_sha": "fixture",
+      "stars": 185,
+      "forks": 19,
+      "archived": false,
+      "visibility": "public",
+      "request_status": "fresh"
+    },
+    {
+      "repository_id": 900012,
+      "repository_node_id": "FIXTURE_12",
+      "repository": "demo-fixtures/maintenance",
+      "default_branch": "main",
+      "default_branch_sha": "fixture",
+      "stars": 140,
+      "forks": 14,
+      "archived": false,
+      "visibility": "public",
+      "request_status": "fresh"
+    }
+  ],
+  "skills": [
+    {
+      "repository_id": 900001,
+      "path": "skills/research-brief/SKILL.md",
+      "name": "Research Brief",
+      "description": "Fixture Skill that turns a question into a sourced research brief.",
+      "commits": 8
+    },
+    {
+      "repository_id": 900002,
+      "path": "skills/code-review/SKILL.md",
+      "name": "Code Review",
+      "description": "Fixture Skill for structured code review and actionable findings.",
+      "commits": 10
+    },
+    {
+      "repository_id": 900003,
+      "path": "skills/data-audit/SKILL.md",
+      "name": "Data Audit",
+      "description": "Fixture Skill for profiling tabular data and documenting anomalies.",
+      "commits": 5
+    },
+    {
+      "repository_id": 900004,
+      "path": "skills/document-editor/SKILL.md",
+      "name": "Document Editor",
+      "description": "Fixture Skill for editing and visually checking document output.",
+      "commits": 7
+    },
+    {
+      "repository_id": 900005,
+      "path": "skills/browser-check/SKILL.md",
+      "name": "Browser Check",
+      "description": "Fixture Skill for repeatable browser-based acceptance checks.",
+      "commits": 4
+    },
+    {
+      "repository_id": 900006,
+      "path": "skills/test-planner/SKILL.md",
+      "name": "Test Planner",
+      "description": "Fixture Skill that creates focused risk-based test plans.",
+      "commits": 9
+    },
+    {
+      "repository_id": 900007,
+      "path": "skills/release-notes/SKILL.md",
+      "name": "Release Notes",
+      "description": "Fixture Skill that drafts concise releases from verified changes.",
+      "commits": 3
+    },
+    {
+      "repository_id": 900008,
+      "path": "skills/api-design/SKILL.md",
+      "name": "API Design",
+      "description": "Fixture Skill for explicit API contracts and compatibility review.",
+      "commits": 6
+    },
+    {
+      "repository_id": 900009,
+      "path": "skills/a11y-review/SKILL.md",
+      "name": "Accessibility Review",
+      "description": "Fixture Skill for keyboard, semantics, and contrast verification.",
+      "commits": 11
+    },
+    {
+      "repository_id": 900010,
+      "path": "skills/threat-model/SKILL.md",
+      "name": "Threat Model",
+      "description": "Fixture Skill for trust boundaries and practical mitigations.",
+      "commits": 2
+    },
+    {
+      "repository_id": 900011,
+      "path": "skills/mobile-qa/SKILL.md",
+      "name": "Mobile QA",
+      "description": "Fixture Skill for responsive layout and touch-target checks.",
+      "commits": 7
+    },
+    {
+      "repository_id": 900012,
+      "path": "skills/dependency-care/SKILL.md",
+      "name": "Dependency Care",
+      "description": "Fixture Skill for safe dependency review and upgrade notes.",
+      "commits": 1
+    }
+  ]
+}
+

@@ -1,0 +1,49 @@
+[build-system]
+requires = ["hatchling==1.27.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "codex-skill-weekly-ranking"
+version = "0.1.0"
+description = "A reproducible weekly ranking of public Codex-compatible Skills"
+readme = "README.md"
+requires-python = ">=3.12"
+license = { file = "LICENSE" }
+authors = [{ name = "Codex Skill Weekly Ranking contributors" }]
+dependencies = [
+  "Jinja2==3.1.6",
+  "jsonschema==4.25.0",
+  "PyYAML==6.0.2",
+  "tzdata==2025.2",
+]
+
+[project.optional-dependencies]
+dev = [
+  "mypy==1.17.1",
+  "pytest==8.4.1",
+  "pytest-cov==6.2.1",
+  "ruff==0.12.7",
+  "types-PyYAML==6.0.12.20250516",
+]
+
+[project.scripts]
+skill-ranker = "skill_ranker.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/skill_ranker"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM", "RUF"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+packages = ["skill_ranker"]

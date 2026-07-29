@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A reproducible weekly ranking of public Codex-compatible Skills.">
+  <title>Codex Skill Weekly Ranking · {{ ranking.week.start_date }}</title>
+  <link rel="stylesheet" href="{{ asset_prefix }}assets/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#ranking">Skip to ranking</a>
+  <header class="site-header">
+    <a class="wordmark" href="{{ asset_prefix }}index.html" aria-label="Codex Skill Weekly Ranking home">CSWR</a>
+    <nav aria-label="Primary">
+      <a href="#history">History</a>
+      <a href="#methodology">Methodology</a>
+      <a href="{{ data_href }}">Data JSON</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero" aria-labelledby="page-title">
+      <p class="eyebrow">Open data · reproducible scoring · Asia/Shanghai</p>
+      <h1 id="page-title">Codex Skill<br>Weekly Ranking</h1>
+      <p class="lede">A transparent scan of public, compatible <code>SKILL.md</code> projects.</p>
+      <div class="period">
+        <div>
+          <span class="meta-label">Ranking period</span>
+          <strong>{{ ranking.week.start_date }} — {{ ranking.week.end_date }}</strong>
+        </div>
+        <span class="status{% if is_stale %} status-stale{% elif is_demo %} status-demo{% endif %}">{{ status_label }}</span>
+      </div>
+      {% if is_stale %}
+      <aside class="notice notice-stale" role="status">
+        <strong>Data is stale.</strong>
+        A new safe ranking could not be produced for the attempted week beginning {{ ranking.stale_from_week }}. The entries and observation times below are preserved from the last successful ranking.
+      </aside>
+      {% endif %}
+      {% if is_demo %}
+      <aside class="notice" role="status">
+        <strong>Awaiting first live collection.</strong>
+        Every metric on this page is deterministic fixture data for local verification. It is not a real GitHub ranking.
+      </aside>
+      {% endif %}
+      <p class="freshness">Observed: {{ ranking.source_observed_at|join(", ") }} · Generated: {{ ranking.generated_at }}</p>
+    </section>
+
+    <section id="ranking" class="ranking-section" aria-labelledby="ranking-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Top {{ ranking.entries|length }}</p>
+          <h2 id="ranking-title">Ranked Skills</h2>
+        </div>
+        <p>Score / 100</p>
+      </div>
+      <div class="rank-header" aria-hidden="true">
+        <span>Rank</span><span>Skill</span><span>Signals</span><span>Score</span>
+      </div>
+      <ol class="ranking-list">
+        {% for entry in ranking.entries %}
+        <li class="rank-row" data-candidate-key="{{ entry.candidate_key }}">
+          <span class="rank-number" aria-label="Rank {{ entry.rank }}">{{ "%02d"|format(entry.rank) }}</span>
+          <div class="skill-copy">
+            <h3><a href="{{ entry.source_url }}" rel="noreferrer">{{ entry.name }}</a></h3>
+            <p class="repo">{{ entry.repository }} / {{ entry.path }}</p>
+            <p>{{ entry.description }}</p>
+          </div>
+          <dl class="metrics">
+            <div><dt>{{ "Stars" if uses_trial_metrics else "Allocated Δ stars" }}</dt><dd>{{ entry.metrics.repository_stars if uses_trial_metrics else "%.2f"|format(entry.metrics.allocated_star_delta) }}</dd></div>
+            <div><dt>{{ "Forks" if uses_trial_metrics else "Allocated Δ forks" }}</dt><dd>{{ entry.metrics.repository_forks if uses_trial_metrics else "%.2f"|format(entry.metrics.allocated_fork_delta) }}</dd></div>
+            <div><dt>Path commits</dt><dd>{{ entry.metrics.path_commits }}</dd></div>
+          </dl>
+          <strong class="score">{{ "%.2f"|format(entry.score) }}</strong>
+        </li>
+        {% endfor %}
+      </ol>
+    </section>
+
+    <section id="history" class="text-section" aria-labelledby="history-title">
+      <p class="eyebrow">Archive</p>
+      <h2 id="history-title">Historical weeks</h2>
+      <ul class="history-list">
+        {% for item in history %}
+        <li><a href="{{ asset_prefix }}weeks/{{ item.href }}">{{ item.label }}</a><span>{{ item.status }}</span></li>
+        {% endfor %}
+      </ul>
+    </section>
+
+    <section id="methodology" class="text-section" aria-labelledby="methodology-title">
+      <p class="eyebrow">How it works</p>
+      <h2 id="methodology-title">Methodology & limitations</h2>
+      <p>Formal weeks use two Monday boundary snapshots. Repository gains are allocated among eligible Skills using Laplace-smoothed path commits, normalized to percentiles, and scored as 65% stars, 15% forks, and 20% commits. Trial weeks use cumulative public totals and recent path activity under a separately versioned formula.</p>
+      <ul>
+        {% for limitation in ranking.limitations %}<li>{{ limitation }}</li>{% endfor %}
+      </ul>
+      <p><a href="{{ asset_prefix }}METHODOLOGY.md">Full methodology and correction policy</a></p>
+    </section>
+  </main>
+  <footer>
+    <p>Schema {{ ranking.schema_version }} · Algorithm {{ ranking.algorithm_version }} · No installation telemetry is claimed.</p>
+  </footer>
+  <script src="{{ asset_prefix }}assets/site.js" defer></script>
+</body>
+</html>

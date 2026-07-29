@@ -1,0 +1,6 @@
+top_n: 10
+max_skills_per_repository: 2
+max_frontmatter_bytes: 16384
+max_skill_bytes: 131072
+boundary_tolerance_hours: 6
+

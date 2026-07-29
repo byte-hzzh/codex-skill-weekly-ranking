@@ -1,0 +1,16 @@
+## Latest ranking
+
+> **{{ status_label|md }}.** {% if is_demo %}These values are deterministic test fixtures, not GitHub observations. The project is awaiting its first live collection.{% endif %}
+{% if is_stale %}> A safe replacement could not be generated for the week beginning {{ ranking.stale_from_week }}. The period and timestamps below are from the last successful ranking.
+{% endif %}
+
+**Week:** {{ ranking.week.start_date }} — {{ ranking.week.end_date }} (Asia/Shanghai)  
+**Generated:** {{ ranking.generated_at|md }} · **Algorithm:** `{{ ranking.algorithm_version|md }}`
+
+| # | Skill | Description | Repository | Score | {{ "Stars" if uses_trial_metrics else "Allocated Δ stars" }} | {{ "Forks" if uses_trial_metrics else "Allocated Δ forks" }} | Path commits |
+|---:|---|---|---|---:|---:|---:|---:|
+{% for entry in ranking.entries -%}
+| {{ entry.rank }} | [{{ entry.name|md }}]({{ entry.source_url }}) | {{ entry.description|md }} | `{{ entry.repository|md }}` | {{ "%.2f"|format(entry.score) }} | {{ entry.metrics.repository_stars if uses_trial_metrics else "%.2f"|format(entry.metrics.allocated_star_delta) }} | {{ entry.metrics.repository_forks if uses_trial_metrics else "%.2f"|format(entry.metrics.allocated_fork_delta) }} | {{ entry.metrics.path_commits }} |
+{% endfor %}
+
+[Browse the responsive ranking and history](docs/index.html) · [Read the methodology](METHODOLOGY.md)

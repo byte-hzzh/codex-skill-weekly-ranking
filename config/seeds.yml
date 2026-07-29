@@ -1,0 +1,4 @@
+# Seed repositories are scanned recursively for files named SKILL.md.
+repositories:
+  - repository: openai/skills
+

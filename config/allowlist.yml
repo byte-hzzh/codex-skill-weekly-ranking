@@ -1,0 +1,3 @@
+# Manual inclusions still must pass size, UTF-8, frontmatter, path, and public-repository checks.
+skills: []
+
