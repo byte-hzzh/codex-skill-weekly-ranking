@@ -4,11 +4,103 @@
   "demo": false,
   "entries": [
     {
+      "candidate_key": "1000362065:skills/latchshot-page-capture/SKILL.md",
+      "components": {
+        "recent_path_commit_percentile": 0.5,
+        "total_fork_percentile": 0.995652,
+        "total_star_percentile": 0.995652
+      },
+      "description": "Use this skill when a user needs a screenshot, website thumbnail, full-page capture, or PDF of a public HTTP(S) webpage saved as a local artifact through Latchshot, including report, QA, archive, and social-preview workflows. Do not use it for private or authenticated pages, raw HTML, scraping or extraction, arbitrary browser actions, CAPTCHA or anti-bot bypass, or local-file capture.",
+      "metrics": {
+        "path_commits": 0,
+        "repository_forks": 4668,
+        "repository_stars": 37199,
+        "total_forks": 4668,
+        "total_stars": 37199
+      },
+      "name": "latchshot-page-capture",
+      "path": "skills/latchshot-page-capture/SKILL.md",
+      "rank": 1,
+      "repository": "github/awesome-copilot",
+      "repository_url": "https://github.com/github/awesome-copilot",
+      "score": 82.22,
+      "source_url": "https://github.com/github/awesome-copilot/blob/main/skills/latchshot-page-capture/SKILL.md"
+    },
+    {
+      "candidate_key": "1000362065:skills/suggest-awesome-github-copilot-skills/SKILL.md",
+      "components": {
+        "recent_path_commit_percentile": 0.5,
+        "total_fork_percentile": 0.995652,
+        "total_star_percentile": 0.995652
+      },
+      "description": "Suggest relevant GitHub Copilot skills from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates with existing skills in this repository, and identifying outdated skills that need updates.",
+      "metrics": {
+        "path_commits": 0,
+        "repository_forks": 4668,
+        "repository_stars": 37199,
+        "total_forks": 4668,
+        "total_stars": 37199
+      },
+      "name": "suggest-awesome-github-copilot-skills",
+      "path": "skills/suggest-awesome-github-copilot-skills/SKILL.md",
+      "rank": 2,
+      "repository": "github/awesome-copilot",
+      "repository_url": "https://github.com/github/awesome-copilot",
+      "score": 82.22,
+      "source_url": "https://github.com/github/awesome-copilot/blob/main/skills/suggest-awesome-github-copilot-skills/SKILL.md"
+    },
+    {
+      "candidate_key": "1079456184:skills/database-lookup/SKILL.md",
+      "components": {
+        "recent_path_commit_percentile": 0.5,
+        "total_fork_percentile": 0.978261,
+        "total_star_percentile": 0.978261
+      },
+      "description": "Query documented public database APIs with explicit endpoints, filters, pagination, and provenance. Use when a scientific, regulatory, financial, or other database-backed fact must be retrieved reproducibly from a named source rather than inferred from general knowledge.",
+      "metrics": {
+        "path_commits": 0,
+        "repository_forks": 3185,
+        "repository_stars": 32115,
+        "total_forks": 3185,
+        "total_stars": 32115
+      },
+      "name": "database-lookup",
+      "path": "skills/database-lookup/SKILL.md",
+      "rank": 3,
+      "repository": "K-Dense-AI/scientific-agent-skills",
+      "repository_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "score": 81.09,
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/database-lookup/SKILL.md"
+    },
+    {
+      "candidate_key": "1079456184:skills/pathml/SKILL.md",
+      "components": {
+        "recent_path_commit_percentile": 0.5,
+        "total_fork_percentile": 0.978261,
+        "total_star_percentile": 0.978261
+      },
+      "description": "Use PathML for local, research-only computational pathology workflows: load and tile slides, build preprocessing and QC pipelines, manage h5path data, quantify multiplex images, construct spatial graphs, and plan bounded model inference.",
+      "metrics": {
+        "path_commits": 0,
+        "repository_forks": 3185,
+        "repository_stars": 32115,
+        "total_forks": 3185,
+        "total_stars": 32115
+      },
+      "name": "pathml",
+      "path": "skills/pathml/SKILL.md",
+      "rank": 4,
+      "repository": "K-Dense-AI/scientific-agent-skills",
+      "repository_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "score": 81.09,
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/pathml/SKILL.md"
+    },
+    {
       "candidate_key": "1103643573:skills/.curated/cli-creator/SKILL.md",
       "components": {
         "recent_path_commit_percentile": 0.5,
-        "total_fork_percentile": 0.5,
-        "total_star_percentile": 0.5
+        "total_fork_percentile": 0.878261,
+        "total_star_percentile": 0.878261
       },
       "description": "Build a composable CLI for Codex from API docs, an OpenAPI spec, existing curl examples, an SDK, a web app, an admin tool, or a local script. Use when the user wants Codex to create a command-line tool that can run from any repo, expose composable read/write commands, return stable JSON, manage auth, and pair with a companion skill.",
       "metrics": {
@@ -20,18 +112,18 @@
       },
       "name": "cli-creator",
       "path": "skills/.curated/cli-creator/SKILL.md",
-      "rank": 1,
+      "rank": 5,
       "repository": "openai/skills",
       "repository_url": "https://github.com/openai/skills",
-      "score": 50.0,
+      "score": 74.59,
       "source_url": "https://github.com/openai/skills/blob/main/skills/.curated/cli-creator/SKILL.md"
     },
     {
       "candidate_key": "1103643573:skills/.curated/figma-create-design-system-rules/SKILL.md",
       "components": {
         "recent_path_commit_percentile": 0.5,
-        "total_fork_percentile": 0.5,
-        "total_star_percentile": 0.5
+        "total_fork_percentile": 0.878261,
+        "total_star_percentile": 0.878261
       },
       "description": "Generates custom design system rules for the user's codebase. Use when user says \"create design system rules\", \"generate rules for my project\", \"set up design rules\", \"customize design system guidelines\", or wants to establish project-specific conventions for Figma-to-code workflows. Requires Figma MCP server connection.",
       "metrics": {
@@ -43,27 +135,118 @@
       },
       "name": "figma-create-design-system-rules",
       "path": "skills/.curated/figma-create-design-system-rules/SKILL.md",
-      "rank": 2,
+      "rank": 6,
       "repository": "openai/skills",
       "repository_url": "https://github.com/openai/skills",
-      "score": 50.0,
+      "score": 74.59,
       "source_url": "https://github.com/openai/skills/blob/main/skills/.curated/figma-create-design-system-rules/SKILL.md"
+    },
+    {
+      "candidate_key": "1172189879:SKILL.md",
+      "components": {
+        "recent_path_commit_percentile": 0.5,
+        "total_fork_percentile": 0.591304,
+        "total_star_percentile": 0.782609
+      },
+      "description": "Use when writing academic papers, theses, or research articles - supports brainstorming, chapter writing, literature review, and LaTeX output",
+      "metrics": {
+        "path_commits": 0,
+        "repository_forks": 198,
+        "repository_stars": 2935,
+        "total_forks": 198,
+        "total_stars": 2935
+      },
+      "name": "research-writing-assistant",
+      "path": "SKILL.md",
+      "rank": 7,
+      "repository": "Norman-bury/research-writing-skill",
+      "repository_url": "https://github.com/Norman-bury/research-writing-skill",
+      "score": 65.5,
+      "source_url": "https://github.com/Norman-bury/research-writing-skill/blob/main/SKILL.md"
+    },
+    {
+      "candidate_key": "1167034425:plugins/nvidia-skills/skills/nvidia-skill-finder/SKILL.md",
+      "components": {
+        "recent_path_commit_percentile": 0.5,
+        "total_fork_percentile": 0.691304,
+        "total_star_percentile": 0.682609
+      },
+      "description": "Use for NVIDIA-related requests where an NVIDIA skill might help, even if the user did not ask for a skill. Trigger on NVIDIA products, hardware, software, SDKs, GPUs, Jetson/JetPack/L4T/BSP/SDK Manager/driver/flashing/setup, CUDA, NIM, NeMo, Omniverse/OpenUSD/SimReady, RAPIDS/cuDF, cuPyNumeric, cuOpt, Dynamo, Holoscan, TensorRT, DeepStream, VSS, TAO, NGC/NVCF. Do not use for generic non-NVIDIA route, optimize, deploy, AI, video, data, or infrastructure tasks.",
+      "metrics": {
+        "path_commits": 0,
+        "repository_forks": 318,
+        "repository_stars": 2727,
+        "total_forks": 318,
+        "total_stars": 2727
+      },
+      "name": "nvidia-skill-finder",
+      "path": "plugins/nvidia-skills/skills/nvidia-skill-finder/SKILL.md",
+      "rank": 8,
+      "repository": "NVIDIA/skills",
+      "repository_url": "https://github.com/NVIDIA/skills",
+      "score": 62.0,
+      "source_url": "https://github.com/NVIDIA/skills/blob/main/plugins/nvidia-skills/skills/nvidia-skill-finder/SKILL.md"
+    },
+    {
+      "candidate_key": "1167034425:skills/aiq-deploy/SKILL.md",
+      "components": {
+        "recent_path_commit_percentile": 0.5,
+        "total_fork_percentile": 0.691304,
+        "total_star_percentile": 0.682609
+      },
+      "description": "Use when asked to install, deploy, run, validate, troubleshoot, or stop NVIDIA AI-Q Blueprint infrastructure.",
+      "metrics": {
+        "path_commits": 0,
+        "repository_forks": 318,
+        "repository_stars": 2727,
+        "total_forks": 318,
+        "total_stars": 2727
+      },
+      "name": "aiq-deploy",
+      "path": "skills/aiq-deploy/SKILL.md",
+      "rank": 9,
+      "repository": "NVIDIA/skills",
+      "repository_url": "https://github.com/NVIDIA/skills",
+      "score": 62.0,
+      "source_url": "https://github.com/NVIDIA/skills/blob/main/skills/aiq-deploy/SKILL.md"
+    },
+    {
+      "candidate_key": "1227136277:SKILL.md",
+      "components": {
+        "recent_path_commit_percentile": 0.5,
+        "total_fork_percentile": 0.547826,
+        "total_star_percentile": 0.582609
+      },
+      "description": "Use when Codex feels slow or bloated, when local sessions/logs/worktrees/config have grown over time, or when a user wants safe maintenance for Codex Desktop/CLI state. Provides a read-only report by default, backs up before applying changes, archives instead of deleting, normalizes Windows extended paths, prunes dead config projects, rotates large logs, and moves stale worktrees.",
+      "metrics": {
+        "path_commits": 0,
+        "repository_forks": 84,
+        "repository_stars": 1489,
+        "total_forks": 84,
+        "total_stars": 1489
+      },
+      "name": "keep-codex-fast",
+      "path": "SKILL.md",
+      "rank": 10,
+      "repository": "vibeforge1111/keep-codex-fast",
+      "repository_url": "https://github.com/vibeforge1111/keep-codex-fast",
+      "score": 54.85,
+      "source_url": "https://github.com/vibeforge1111/keep-codex-fast/blob/main/SKILL.md"
     }
   ],
-  "generated_at": "2026-07-29T20:29:13.701734Z",
+  "generated_at": "2026-07-29T20:55:41.662408Z",
   "limitations": [
     "Stars and forks are repository aggregate snapshots, not Skill installs.",
     "Path commit counts measure default-branch history touching the Skill path, not effort.",
     "GitHub does not provide this project with exact public stargazer event times.",
-    "This trial ranking uses current cumulative repository totals because a full week is unavailable.",
-    "No new valid ranking was produced; this view preserves the last successful ranking and its original observation times."
+    "This trial ranking uses current cumulative repository totals because a full week is unavailable."
   ],
-  "ranking_status": "stale",
+  "ranking_status": "trial",
   "schema_version": "1.0",
   "source_observed_at": [
-    "2026-07-29T20:29:13.321329Z"
+    "2026-07-29T20:55:16.491165Z"
   ],
-  "stale_from_week": "2026-07-27",
+  "stale_from_week": null,
   "week": {
     "end_date": "2026-08-02",
     "start_date": "2026-07-27",
