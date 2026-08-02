@@ -7,7 +7,8 @@ The checked-in page currently contains an **explicitly non-live demo** so layout
 <!-- ranking:start -->
 ## Latest ranking
 
-> **Trial ranking.** 
+> **Stale — last successful ranking.** > A safe replacement could not be generated for the week beginning 2026-07-27. The period and timestamps below are from the last successful ranking.
+
 **Week:** 2026-07-27 — 2026-08-02 (Asia/Shanghai)  
 **Generated:** 2026-07-29T20:55:41.662408Z · **Algorithm:** `trial-v1`
 
