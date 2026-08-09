@@ -33,7 +33,7 @@
       "source_url": "https://github.com/github/awesome-copilot/blob/main/skills/suggest-awesome-github-copilot-skills/SKILL.md"
     },
     {
-      "checked_at": "2026-08-02T17:14:50.661889Z",
+      "checked_at": "2026-08-09T16:53:47.829981Z",
       "default_branch": "main",
       "description": "Query documented public database APIs with explicit endpoints, filters, pagination, and provenance. Use when a scientific, regulatory, financial, or other database-backed fact must be retrieved reproducibly from a named source rather than inferred from general knowledge.",
       "discovered_via": "seed",
@@ -49,7 +49,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/database-lookup/SKILL.md"
     },
     {
-      "checked_at": "2026-08-02T17:14:50.661889Z",
+      "checked_at": "2026-08-09T16:53:47.829981Z",
       "default_branch": "main",
       "description": "Use PathML for local, research-only computational pathology workflows: load and tile slides, build preprocessing and QC pipelines, manage h5path data, quantify multiplex images, construct spatial graphs, and plan bounded model inference.",
       "discovered_via": "seed",
@@ -81,7 +81,7 @@
       "source_url": "https://github.com/thelearningest/Byterover-Claude-Codex-Collaboration-/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-08-02T17:14:50.661889Z",
+      "checked_at": "2026-08-09T16:53:47.829981Z",
       "default_branch": "main",
       "description": "Build a composable CLI for Codex from API docs, an OpenAPI spec, existing curl examples, an SDK, a web app, an admin tool, or a local script. Use when the user wants Codex to create a command-line tool that can run from any repo, expose composable read/write commands, return stable JSON, manage auth, and pair with a companion skill.",
       "discovered_via": "seed",
@@ -97,7 +97,7 @@
       "source_url": "https://github.com/openai/skills/blob/main/skills/.curated/cli-creator/SKILL.md"
     },
     {
-      "checked_at": "2026-08-02T17:14:50.661889Z",
+      "checked_at": "2026-08-09T16:53:47.829981Z",
       "default_branch": "main",
       "description": "Generates custom design system rules for the user's codebase. Use when user says \"create design system rules\", \"generate rules for my project\", \"set up design rules\", \"customize design system guidelines\", or wants to establish project-specific conventions for Figma-to-code workflows. Requires Figma MCP server connection.",
       "discovered_via": "seed",
@@ -113,7 +113,7 @@
       "source_url": "https://github.com/openai/skills/blob/main/skills/.curated/figma-create-design-system-rules/SKILL.md"
     },
     {
-      "checked_at": "2026-08-02T17:14:50.661889Z",
+      "checked_at": "2026-08-09T16:53:47.829981Z",
       "default_branch": "main",
       "description": "Use when the user asks to create, scaffold, or edit Jupyter notebooks (`.ipynb`) for experiments, explorations, or tutorials; prefer the bundled templates and run the helper script `new_notebook.py` to generate a clean starting notebook.",
       "discovered_via": "seed",
@@ -129,7 +129,7 @@
       "source_url": "https://github.com/openai/skills/blob/main/skills/.curated/jupyter-notebook/SKILL.md"
     },
     {
-      "checked_at": "2026-08-02T17:14:50.661889Z",
+      "checked_at": "2026-08-09T16:53:47.829981Z",
       "default_branch": "main",
       "description": "Manage issues, projects & team workflows in Linear. Use when the user wants to read, create or updates tickets in Linear.",
       "discovered_via": "seed",
@@ -145,7 +145,7 @@
       "source_url": "https://github.com/openai/skills/blob/main/skills/.curated/linear/SKILL.md"
     },
     {
-      "checked_at": "2026-08-02T17:14:50.661889Z",
+      "checked_at": "2026-08-09T16:53:47.829981Z",
       "default_branch": "main",
       "description": "Migrate supported instruction files, skills, agents, and MCP config into Codex project and global files.",
       "discovered_via": "seed",
@@ -161,7 +161,7 @@
       "source_url": "https://github.com/openai/skills/blob/main/skills/.curated/migrate-to-codex/SKILL.md"
     },
     {
-      "checked_at": "2026-08-02T17:14:50.661889Z",
+      "checked_at": "2026-08-09T16:53:47.829981Z",
       "default_branch": "main",
       "description": "Capture conversations and decisions into structured Notion pages; use when turning chats/notes into wiki entries, how-tos, decisions, or FAQs with proper linking.",
       "discovered_via": "seed",
@@ -177,7 +177,7 @@
       "source_url": "https://github.com/openai/skills/blob/main/skills/.curated/notion-knowledge-capture/SKILL.md"
     },
     {
-      "checked_at": "2026-08-02T17:14:50.661889Z",
+      "checked_at": "2026-08-09T16:53:47.829981Z",
       "default_branch": "main",
       "description": "Prepare meeting materials with Notion context and Codex research; use when gathering context, drafting agendas/pre-reads, and tailoring materials to attendees.",
       "discovered_via": "seed",
@@ -193,7 +193,7 @@
       "source_url": "https://github.com/openai/skills/blob/main/skills/.curated/notion-meeting-intelligence/SKILL.md"
     },
     {
-      "checked_at": "2026-08-02T17:14:50.661889Z",
+      "checked_at": "2026-08-09T16:53:47.829981Z",
       "default_branch": "main",
       "description": "Research across Notion and synthesize into structured documentation; use when gathering info from multiple Notion sources to produce briefs, comparisons, or reports with citations.",
       "discovered_via": "seed",
@@ -209,7 +209,7 @@
       "source_url": "https://github.com/openai/skills/blob/main/skills/.curated/notion-research-documentation/SKILL.md"
     },
     {
-      "checked_at": "2026-08-02T17:14:50.661889Z",
+      "checked_at": "2026-08-09T16:53:47.829981Z",
       "default_branch": "main",
       "description": "Turn Notion specs into implementation plans, tasks, and progress tracking; use when implementing PRDs/feature specs and creating Notion plans + tasks from them.",
       "discovered_via": "seed",
@@ -225,7 +225,7 @@
       "source_url": "https://github.com/openai/skills/blob/main/skills/.curated/notion-spec-to-implementation/SKILL.md"
     },
     {
-      "checked_at": "2026-08-02T17:14:50.661889Z",
+      "checked_at": "2026-08-09T16:53:47.829981Z",
       "default_branch": "main",
       "description": "Use when the user asks how to build with OpenAI products or APIs, asks about Codex itself or choosing Codex surfaces, needs up-to-date official documentation with citations, help choosing the latest model for a use case, or model upgrade and prompt-upgrade guidance; use OpenAI docs MCP tools for non-Codex docs questions, use the Codex manual helper first for broad Codex self-knowledge, and restrict fallback browsing to official OpenAI domains.",
       "discovered_via": "seed",
@@ -241,7 +241,7 @@
       "source_url": "https://github.com/openai/skills/blob/main/skills/.curated/openai-docs/SKILL.md"
     },
     {
-      "checked_at": "2026-08-02T17:14:50.661889Z",
+      "checked_at": "2026-08-09T16:53:47.829981Z",
       "default_branch": "main",
       "description": "Persistent browser and Electron interaction through `js_repl` for fast iterative UI debugging.",
       "discovered_via": "seed",
@@ -257,7 +257,7 @@
       "source_url": "https://github.com/openai/skills/blob/main/skills/.curated/playwright-interactive/SKILL.md"
     },
     {
-      "checked_at": "2026-08-02T17:14:50.661889Z",
+      "checked_at": "2026-08-09T16:53:47.829981Z",
       "default_branch": "main",
       "description": "Use when the task requires automating a real browser from the terminal (navigation, form filling, snapshots, screenshots, data extraction, UI-flow debugging) via `playwright-cli` or the bundled wrapper script.",
       "discovered_via": "seed",
@@ -273,7 +273,7 @@
       "source_url": "https://github.com/openai/skills/blob/main/skills/.curated/playwright/SKILL.md"
     },
     {
-      "checked_at": "2026-08-02T17:14:50.661889Z",
+      "checked_at": "2026-08-09T16:53:47.829981Z",
       "default_branch": "main",
       "description": "Deploy applications to Render by analyzing codebases, generating render.yaml Blueprints, and providing Dashboard deeplinks. Use when the user wants to deploy, host, publish, or set up their application on Render's cloud platform.",
       "discovered_via": "seed",
@@ -289,7 +289,7 @@
       "source_url": "https://github.com/openai/skills/blob/main/skills/.curated/render-deploy/SKILL.md"
     },
     {
-      "checked_at": "2026-08-02T17:14:50.661889Z",
+      "checked_at": "2026-08-09T16:53:47.829981Z",
       "default_branch": "main",
       "description": "Use when the user explicitly asks for a desktop or system screenshot (full screen, specific app or window, or a pixel region), or when tool-specific capture capabilities are unavailable and an OS-level capture is needed.",
       "discovered_via": "seed",
@@ -305,7 +305,7 @@
       "source_url": "https://github.com/openai/skills/blob/main/skills/.curated/screenshot/SKILL.md"
     },
     {
-      "checked_at": "2026-08-02T17:14:50.661889Z",
+      "checked_at": "2026-08-09T16:53:47.829981Z",
       "default_branch": "main",
       "description": "Perform language and framework specific security best-practice reviews and suggest improvements. Trigger only when the user explicitly requests security best practices guidance, a security review/report, or secure-by-default coding help. Trigger only for supported languages (python, javascript/typescript, go). Do not trigger for general code review, debugging, or non-security tasks.",
       "discovered_via": "seed",
@@ -321,7 +321,7 @@
       "source_url": "https://github.com/openai/skills/blob/main/skills/.curated/security-best-practices/SKILL.md"
     },
     {
-      "checked_at": "2026-08-02T17:14:50.661889Z",
+      "checked_at": "2026-08-09T16:53:47.829981Z",
       "default_branch": "main",
       "description": "Use when the user asks for text-to-speech narration or voiceover, accessibility reads, audio prompts, or batch speech generation via the OpenAI Audio API; run the bundled CLI (`scripts/text_to_speech.py`) with built-in voices and require `OPENAI_API_KEY` for live calls. Custom voice creation is out of scope.",
       "discovered_via": "seed",
@@ -337,7 +337,7 @@
       "source_url": "https://github.com/openai/skills/blob/main/skills/.curated/speech/SKILL.md"
     },
     {
-      "checked_at": "2026-08-02T17:14:50.661889Z",
+      "checked_at": "2026-08-09T16:53:47.829981Z",
       "default_branch": "main",
       "description": "Transcribe audio files to text with optional diarization and known-speaker hints. Use when a user asks to transcribe speech from audio/video, extract text from recordings, or label speakers in interviews or meetings.",
       "discovered_via": "seed",
@@ -353,7 +353,7 @@
       "source_url": "https://github.com/openai/skills/blob/main/skills/.curated/transcribe/SKILL.md"
     },
     {
-      "checked_at": "2026-08-02T17:14:50.661889Z",
+      "checked_at": "2026-08-09T16:53:47.829981Z",
       "default_branch": "main",
       "description": "Use when the user asks how to build with OpenAI products or APIs, asks about Codex itself or choosing Codex surfaces, needs up-to-date official documentation with citations, help choosing the latest model for a use case, or model upgrade and prompt-upgrade guidance; use OpenAI docs MCP tools for non-Codex docs questions, use the Codex manual helper first for broad Codex self-knowledge, and restrict fallback browsing to official OpenAI domains.",
       "discovered_via": "seed",
@@ -369,7 +369,7 @@
       "source_url": "https://github.com/openai/skills/blob/main/skills/.system/openai-docs/SKILL.md"
     },
     {
-      "checked_at": "2026-08-02T17:14:50.661889Z",
+      "checked_at": "2026-08-09T16:53:47.829981Z",
       "default_branch": "main",
       "description": "Create and scaffold plugin directories for Codex with a required `.codex-plugin/plugin.json`, optional plugin folders/files, and baseline placeholders you can edit before publishing or testing. Use when Codex needs to create a new local plugin, add optional plugin structure, or generate or update repo-root `.agents/plugins/marketplace.json` entries for plugin ordering and availability metadata.",
       "discovered_via": "seed",
@@ -385,7 +385,7 @@
       "source_url": "https://github.com/openai/skills/blob/main/skills/.system/plugin-creator/SKILL.md"
     },
     {
-      "checked_at": "2026-08-02T17:14:50.661889Z",
+      "checked_at": "2026-08-09T16:53:47.829981Z",
       "default_branch": "main",
       "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Codex's capabilities with specialized knowledge, workflows, or tool integrations.",
       "discovered_via": "seed",
@@ -401,7 +401,7 @@
       "source_url": "https://github.com/openai/skills/blob/main/skills/.system/skill-creator/SKILL.md"
     },
     {
-      "checked_at": "2026-08-02T17:14:50.661889Z",
+      "checked_at": "2026-08-09T16:53:47.829981Z",
       "default_branch": "main",
       "description": "Install Codex skills into $CODEX_HOME/skills from a curated list or a GitHub repo path. Use when a user asks to list installable skills, install a curated skill, or install a skill from another repo (including private repos).",
       "discovered_via": "seed",
@@ -609,7 +609,7 @@
       "source_url": "https://github.com/cosformula/resilient-coding-agent-skill/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-08-02T17:14:50.661889Z",
+      "checked_at": "2026-08-09T16:53:47.829981Z",
       "default_branch": "main",
       "description": "Use for NVIDIA-related requests where an NVIDIA skill might help, even if the user did not ask for a skill. Trigger on NVIDIA products, hardware, software, SDKs, GPUs, Jetson/JetPack/L4T/BSP/SDK Manager/driver/flashing/setup, CUDA, NIM, NeMo, Omniverse/OpenUSD/SimReady, RAPIDS/cuDF, cuPyNumeric, cuOpt, Dynamo, Holoscan, TensorRT, DeepStream, VSS, TAO, NGC/NVCF. Do not use for generic non-NVIDIA route, optimize, deploy, AI, video, data, or infrastructure tasks.",
       "discovered_via": "seed",
@@ -625,7 +625,7 @@
       "source_url": "https://github.com/NVIDIA/skills/blob/main/plugins/nvidia-skills/skills/nvidia-skill-finder/SKILL.md"
     },
     {
-      "checked_at": "2026-08-02T17:14:50.661889Z",
+      "checked_at": "2026-08-09T16:53:47.829981Z",
       "default_branch": "main",
       "description": "Use when asked to install, deploy, run, validate, troubleshoot, or stop NVIDIA AI-Q Blueprint infrastructure.",
       "discovered_via": "seed",
@@ -641,7 +641,7 @@
       "source_url": "https://github.com/NVIDIA/skills/blob/main/skills/aiq-deploy/SKILL.md"
     },
     {
-      "checked_at": "2026-08-02T17:14:50.661889Z",
+      "checked_at": "2026-08-09T16:53:47.829981Z",
       "default_branch": "main",
       "description": "Run end-to-end calibration on the shipped sample dataset (sdg_08_2_sample_data_010926.zip) against a running AMC microservice. Use when user says 'test sample dataset', 'run sample calibration', 'verify AMC install', or 'launch and test'.",
       "discovered_via": "seed",
@@ -657,7 +657,7 @@
       "source_url": "https://github.com/NVIDIA/skills/blob/main/skills/amc-run-sample-calibration/SKILL.md"
     },
     {
-      "checked_at": "2026-08-02T17:14:50.661889Z",
+      "checked_at": "2026-08-09T16:53:47.829981Z",
       "default_branch": "main",
       "description": "Calibrate a new dataset from pre-recorded video files via the AutoMagicCalib REST API. Use when user has local MP4s and says 'calibrate my videos', 'run AMC on these videos', or similar. For RTSP/live streams, use amc-run-rtsp-calibration instead.",
       "discovered_via": "seed",
@@ -673,7 +673,7 @@
       "source_url": "https://github.com/NVIDIA/skills/blob/main/skills/amc-run-video-calibration/SKILL.md"
     },
     {
-      "checked_at": "2026-08-02T17:14:50.661889Z",
+      "checked_at": "2026-08-09T16:53:47.829981Z",
       "default_branch": "main",
       "description": "Stage 1 of Clinical ASR Flywheel. Use when bootstrapping a cycle: NVCF+MW disclosure, NVIDIA_API_KEY check, deps install, TTS+ASR smoke test.",
       "discovered_via": "seed",
@@ -689,7 +689,7 @@
       "source_url": "https://github.com/NVIDIA/skills/blob/main/skills/digital-health-clinical-asr-setup/SKILL.md"
     },
     {
-      "checked_at": "2026-08-02T17:14:50.661889Z",
+      "checked_at": "2026-08-09T16:53:47.829981Z",
       "default_branch": "main",
       "description": "Validate that a Dynamo deployment's NIXL/UCX/NCCL interconnect is ready for disaggregated serving over RDMA/NVLink. Use after recipe-runner brings a deployment up (especially disagg/multi-node) to confirm the KV transport is correct; use troubleshoot for diagnosing already-failed pods.",
       "discovered_via": "seed",
@@ -705,7 +705,7 @@
       "source_url": "https://github.com/NVIDIA/skills/blob/main/skills/dynamo-interconnect-check/SKILL.md"
     },
     {
-      "checked_at": "2026-08-02T17:14:50.661889Z",
+      "checked_at": "2026-08-09T16:53:47.829981Z",
       "default_branch": "main",
       "description": "Select, validate, patch, and deploy existing NVIDIA Dynamo Kubernetes recipes. Use for model/backend/GPU/deployment-mode recipe bring-up; use router-starter for router-only mode work and troubleshoot for broken deployments.",
       "discovered_via": "seed",
@@ -721,7 +721,7 @@
       "source_url": "https://github.com/NVIDIA/skills/blob/main/skills/dynamo-recipe-runner/SKILL.md"
     },
     {
-      "checked_at": "2026-08-02T17:14:50.661889Z",
+      "checked_at": "2026-08-09T16:53:47.829981Z",
       "default_branch": "main",
       "description": "Start or patch Dynamo router modes and run router endpoint smoke checks. Use for round-robin, KV-aware, least-loaded, or device-aware routing setup; use recipe-runner for recipe deployment and troubleshoot for failure diagnosis.",
       "discovered_via": "seed",
@@ -737,7 +737,7 @@
       "source_url": "https://github.com/NVIDIA/skills/blob/main/skills/dynamo-router-starter/SKILL.md"
     },
     {
-      "checked_at": "2026-08-02T17:14:50.661889Z",
+      "checked_at": "2026-08-09T16:53:47.829981Z",
       "default_branch": "main",
       "description": "Diagnose failed or unhealthy Dynamo deployments. Use when pods, model-cache jobs, PVCs, workers, frontend/router health, endpoints, or benchmark jobs fail; use recipe-runner/router-starter before this for normal bring-up.",
       "discovered_via": "seed",
@@ -1922,13 +1922,6 @@
     }
   ],
   "errors": [
-    "AElfProject/aelf-skills/SKILL.md: frontmatter description must be 8-500 characters",
-    "AIScientists-Dev/academic-humanizer/SKILL.md: no Codex/Agent Skills compatibility evidence",
-    "AgriciDaniel/gogh/SKILL.md: frontmatter description must be 8-500 characters",
-    "BanmaXM/operate-ui-by-screenshot/SKILL.md: frontmatter description must be 8-500 characters",
-    "Goldentrii/AgentRecall-X/SKILL.md: frontmatter description must be 8-500 characters",
-    "IgorGanapolsky/ThumbGate/SKILL.md: frontmatter description must be 8-500 characters",
-    "Isoform/yansu-skill/SKILL.md: frontmatter description must be 8-500 characters",
     "K-Dense-AI/scientific-agent-skills/skills/adaptyv/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "K-Dense-AI/scientific-agent-skills/skills/aeon/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "K-Dense-AI/scientific-agent-skills/skills/analytical-method-validation/SKILL.md: frontmatter description must be 8-500 characters",
@@ -1953,6 +1946,7 @@
     "K-Dense-AI/scientific-agent-skills/skills/dask/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "K-Dense-AI/scientific-agent-skills/skills/datamol/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "K-Dense-AI/scientific-agent-skills/skills/deepchem/SKILL.md: no Codex/Agent Skills compatibility evidence",
+    "K-Dense-AI/scientific-agent-skills/skills/deepspot-m/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "K-Dense-AI/scientific-agent-skills/skills/deeptools/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "K-Dense-AI/scientific-agent-skills/skills/depmap/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "K-Dense-AI/scientific-agent-skills/skills/dhdna-profiler/SKILL.md: frontmatter description must be 8-500 characters",
@@ -2000,6 +1994,7 @@
     "K-Dense-AI/scientific-agent-skills/skills/modal/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "K-Dense-AI/scientific-agent-skills/skills/molecular-dynamics/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "K-Dense-AI/scientific-agent-skills/skills/molfeat/SKILL.md: no Codex/Agent Skills compatibility evidence",
+    "K-Dense-AI/scientific-agent-skills/skills/ncats-arax/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "K-Dense-AI/scientific-agent-skills/skills/networkx/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "K-Dense-AI/scientific-agent-skills/skills/neurokit2/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "K-Dense-AI/scientific-agent-skills/skills/neuropixels-analysis/SKILL.md: no Codex/Agent Skills compatibility evidence",
@@ -2025,10 +2020,6 @@
     "K-Dense-AI/scientific-agent-skills/skills/pi-agent/SKILL.md: frontmatter description must be 8-500 characters",
     "K-Dense-AI/scientific-agent-skills/skills/pkpd-modeling/SKILL.md: frontmatter description must be 8-500 characters",
     "K-Dense-AI/scientific-agent-skills/skills/polars-bio/SKILL.md: no Codex/Agent Skills compatibility evidence",
-    "K-Dense-AI/scientific-agent-skills/skills/polars/SKILL.md: no Codex/Agent Skills compatibility evidence",
-    "K-Dense-AI/scientific-agent-skills/skills/pptx-posters/SKILL.md: no Codex/Agent Skills compatibility evidence",
-    "KaguraNanaga/document-format-skills/SKILL.md: no Codex/Agent Skills compatibility evidence",
-    "Korkyzer/multica-mcp/SKILL.md: SKILL.md must begin with YAML frontmatter",
     "MicrosoftDocs/Agent-Skills/skills/azure-active-directory-b2c/SKILL.md: frontmatter description must be 8-500 characters",
     "MicrosoftDocs/Agent-Skills/skills/azure-advisor/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "MicrosoftDocs/Agent-Skills/skills/azure-ai-vision/SKILL.md: frontmatter description must be 8-500 characters",
@@ -2044,7 +2035,7 @@
     "MicrosoftDocs/Agent-Skills/skills/azure-arc/SKILL.md: frontmatter description must be 8-500 characters",
     "MicrosoftDocs/Agent-Skills/skills/azure-architecture/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "MicrosoftDocs/Agent-Skills/skills/azure-artifact-signing/SKILL.md: no Codex/Agent Skills compatibility evidence",
-    "MicrosoftDocs/Agent-Skills/skills/azure-artifacts/SKILL.md: no Codex/Agent Skills compatibility evidence",
+    "MicrosoftDocs/Agent-Skills/skills/azure-artifacts/SKILL.md: frontmatter description must be 8-500 characters",
     "MicrosoftDocs/Agent-Skills/skills/azure-attestation/SKILL.md: frontmatter description must be 8-500 characters",
     "MicrosoftDocs/Agent-Skills/skills/azure-automation/SKILL.md: frontmatter description must be 8-500 characters",
     "MicrosoftDocs/Agent-Skills/skills/azure-backup/SKILL.md: frontmatter description must be 8-500 characters",
@@ -2114,7 +2105,7 @@
     "MicrosoftDocs/Agent-Skills/skills/azure-front-door/SKILL.md: frontmatter description must be 8-500 characters",
     "MicrosoftDocs/Agent-Skills/skills/azure-functions/SKILL.md: frontmatter description must be 8-500 characters",
     "MicrosoftDocs/Agent-Skills/skills/azure-hdinsight/SKILL.md: frontmatter description must be 8-500 characters",
-    "MicrosoftDocs/Agent-Skills/skills/azure-health-bot/SKILL.md: frontmatter description must be 8-500 characters",
+    "MicrosoftDocs/Agent-Skills/skills/azure-health-bot/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "MicrosoftDocs/Agent-Skills/skills/azure-health-data-services/SKILL.md: frontmatter description must be 8-500 characters",
     "MicrosoftDocs/Agent-Skills/skills/azure-hpc-cache/SKILL.md: frontmatter description must be 8-500 characters",
     "MicrosoftDocs/Agent-Skills/skills/azure-immersive-reader/SKILL.md: frontmatter description must be 8-500 characters",
@@ -2220,14 +2211,6 @@
     "NVIDIA/skills/skills/earth2studio-create-datasource/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "NVIDIA/skills/skills/earth2studio-create-diagnostic/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "NVIDIA/skills/skills/earth2studio-create-prognostic/SKILL.md: no Codex/Agent Skills compatibility evidence",
-    "Paidax01/web-to-design-md/SKILL.md: frontmatter description must be 8-500 characters",
-    "Picrew/CodeAtlas/SKILL.md: SKILL.md frontmatter is malformed",
-    "Sunwood-ai-labs/SourceSage/SKILL.md: no Codex/Agent Skills compatibility evidence",
-    "Syh1906/openai-compatible-imagegen/SKILL.md: frontmatter description must be 8-500 characters",
-    "TongmingLAIC/AKO4ALL/SKILL.md: frontmatter description must be 8-500 characters",
-    "Vivixiao980/xhs-cover-skill/SKILL.md: frontmatter description must be 8-500 characters",
-    "YouMind-OpenLab/nano-banana-pro-prompts-recommend-skill/SKILL.md: frontmatter description must be 8-500 characters",
-    "ZCZHAO-1999/shakespeare-writing-studio/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "anthropics/skills/skills/algorithmic-art/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "anthropics/skills/skills/brand-guidelines/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "anthropics/skills/skills/canvas-design/SKILL.md: no Codex/Agent Skills compatibility evidence",
@@ -2246,10 +2229,8 @@
     "anthropics/skills/skills/webapp-testing/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "anthropics/skills/skills/xlsx/SKILL.md: frontmatter description must be 8-500 characters",
     "anthropics/skills/template/SKILL.md: no Codex/Agent Skills compatibility evidence",
-    "blader/schematic/SKILL.md: frontmatter description must be 8-500 characters",
-    "chenhg5/agencycli/SKILL.md: frontmatter description must be 8-500 characters",
-    "cth9191/cloneify/SKILL.md: frontmatter description must be 8-500 characters",
     "github/awesome-copilot/.github/skills/agentic-workflows/SKILL.md: no Codex/Agent Skills compatibility evidence",
+    "github/awesome-copilot/.github/skills/create-canvas-extension/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "github/awesome-copilot/skills/acquire-codebase-knowledge/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "github/awesome-copilot/skills/acreadiness-assess/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "github/awesome-copilot/skills/acreadiness-generate-instructions/SKILL.md: no Codex/Agent Skills compatibility evidence",
@@ -2295,6 +2276,7 @@
     "github/awesome-copilot/skills/azure-architecture-autopilot/SKILL.md: frontmatter description must be 8-500 characters",
     "github/awesome-copilot/skills/azure-container-registry-cli/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "github/awesome-copilot/skills/azure-deployment-preflight/SKILL.md: no Codex/Agent Skills compatibility evidence",
+    "github/awesome-copilot/skills/azure-developer-cli/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "github/awesome-copilot/skills/azure-devops-cli/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "github/awesome-copilot/skills/azure-pricing/SKILL.md: frontmatter description must be 8-500 characters",
     "github/awesome-copilot/skills/azure-resource-health-diagnose/SKILL.md: no Codex/Agent Skills compatibility evidence",
@@ -2315,6 +2297,7 @@
     "github/awesome-copilot/skills/breakdown-plan/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "github/awesome-copilot/skills/breakdown-test/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "github/awesome-copilot/skills/bug-reproduction-brief/SKILL.md: no Codex/Agent Skills compatibility evidence",
+    "github/awesome-copilot/skills/build-evidence-map/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "github/awesome-copilot/skills/centos-linux-triage/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "github/awesome-copilot/skills/chrome-devtools/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "github/awesome-copilot/skills/cli-mastery/SKILL.md: no Codex/Agent Skills compatibility evidence",
@@ -2346,13 +2329,6 @@
     "github/awesome-copilot/skills/create-agentsmd/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "github/awesome-copilot/skills/create-architectural-decision-record/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "github/awesome-copilot/skills/create-github-action-workflow-specification/SKILL.md: no Codex/Agent Skills compatibility evidence",
-    "github/awesome-copilot/skills/create-github-issue-feature-from-specification/SKILL.md: no Codex/Agent Skills compatibility evidence",
-    "github/awesome-copilot/skills/create-github-issues-feature-from-implementation-plan/SKILL.md: no Codex/Agent Skills compatibility evidence",
-    "github/awesome-copilot/skills/create-github-issues-for-unmet-specification-requirements/SKILL.md: no Codex/Agent Skills compatibility evidence",
-    "leyuan0602-glitch/cc-claude-codex/SKILL.md: SKILL.md must begin with YAML frontmatter",
-    "makinux/adversarial-panel/SKILL.md: frontmatter description must be 8-500 characters",
-    "nashsu/autocli-skill/SKILL.md: frontmatter description must be 8-500 characters",
-    "oil-oil/oil-icon/SKILL.md: frontmatter description must be 8-500 characters",
     "openai/skills/skills/.curated/aspnet-core/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "openai/skills/skills/.curated/chatgpt-apps/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "openai/skills/skills/.curated/cloudflare-deploy/SKILL.md: no Codex/Agent Skills compatibility evidence",
@@ -2375,15 +2351,9 @@
     "openai/skills/skills/.curated/vercel-deploy/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "openai/skills/skills/.curated/winui-app/SKILL.md: frontmatter description must be 8-500 characters",
     "openai/skills/skills/.curated/yeet/SKILL.md: no Codex/Agent Skills compatibility evidence",
-    "openai/skills/skills/.system/imagegen/SKILL.md: frontmatter description must be 8-500 characters",
-    "petar-nauka/fact-check-skill/SKILL.md: frontmatter description must be 8-500 characters",
-    "rafsilva85/credit-optimizer-v5/SKILL.md: no Codex/Agent Skills compatibility evidence",
-    "sheeki03/tirith/SKILL.md: frontmatter description must be 8-500 characters",
-    "veithly/climux/SKILL.md: frontmatter description must be 8-500 characters",
-    "wjgoarxiv/autoresearch-skill/SKILL.md: frontmatter description must be 8-500 characters",
-    "wrsmith108/claude-md-optimizer/SKILL.md: frontmatter description must be 8-500 characters"
+    "openai/skills/skills/.system/imagegen/SKILL.md: frontmatter description must be 8-500 characters"
   ],
-  "generated_at": "2026-08-02T17:17:27.109847Z",
+  "generated_at": "2026-08-09T16:56:40.053634Z",
   "schema_version": "1.0",
   "search_degraded": false
 }
