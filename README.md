@@ -7,7 +7,8 @@ The checked-in page currently contains an **explicitly non-live demo** so layout
 <!-- ranking:start -->
 ## Latest ranking
 
-> **Official weekly ranking.** 
+> **Stale — last successful ranking.** > A safe replacement could not be generated for the week beginning 2026-08-10. The period and timestamps below are from the last successful ranking.
+
 **Week:** 2026-08-03 — 2026-08-09 (Asia/Shanghai)  
 **Generated:** 2026-08-09T16:57:49.658112Z · **Algorithm:** `weekly-v1`
 

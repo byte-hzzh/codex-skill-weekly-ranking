@@ -27,8 +27,12 @@
           <span class="meta-label">Ranking period</span>
           <strong>2026-08-03 — 2026-08-09</strong>
         </div>
-        <span class="status">Official weekly ranking</span>
+        <span class="status status-stale">Stale — last successful ranking</span>
       </div>
+      <aside class="notice notice-stale" role="status">
+        <strong>Data is stale.</strong>
+        A new safe ranking could not be produced for the attempted week beginning 2026-08-10. The entries and observation times below are preserved from the last successful ranking.
+      </aside>
       <p class="freshness">Observed: 2026-08-02T17:17:27.134275Z, 2026-08-09T16:56:40.078024Z · Generated: 2026-08-09T16:57:49.658112Z</p>
     </section>
 
@@ -191,7 +195,7 @@
       <p class="eyebrow">Archive</p>
       <h2 id="history-title">Historical weeks</h2>
       <ul class="history-list">
-        <li><a href="weeks/2026-08-03.html">2026-08-03 — 2026-08-09</a><span>official</span></li>
+        <li><a href="weeks/2026-08-03.html">2026-08-03 — 2026-08-09</a><span>stale</span></li>
         <li><a href="weeks/2026-07-27.html">2026-07-27 — 2026-08-02</a><span>trial</span></li>
       </ul>
     </section>
@@ -201,7 +205,7 @@
       <h2 id="methodology-title">Methodology & limitations</h2>
       <p>Formal weeks use two Monday boundary snapshots. Repository gains are allocated among eligible Skills using Laplace-smoothed path commits, normalized to percentiles, and scored as 65% stars, 15% forks, and 20% commits. Trial weeks use cumulative public totals and recent path activity under a separately versioned formula.</p>
       <ul>
-<li>Stars and forks are repository aggregate snapshots, not Skill installs.</li><li>Path commit counts measure default-branch history touching the Skill path, not effort.</li><li>GitHub does not provide this project with exact public stargazer event times.</li>      </ul>
+<li>Stars and forks are repository aggregate snapshots, not Skill installs.</li><li>Path commit counts measure default-branch history touching the Skill path, not effort.</li><li>GitHub does not provide this project with exact public stargazer event times.</li><li>No new valid ranking was produced; this view preserves the last successful ranking and its original observation times.</li>      </ul>
       <p><a href="METHODOLOGY.md">Full methodology and correction policy</a></p>
     </section>
   </main>

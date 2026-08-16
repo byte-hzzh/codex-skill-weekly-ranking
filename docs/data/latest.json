@@ -258,15 +258,16 @@
   "limitations": [
     "Stars and forks are repository aggregate snapshots, not Skill installs.",
     "Path commit counts measure default-branch history touching the Skill path, not effort.",
-    "GitHub does not provide this project with exact public stargazer event times."
+    "GitHub does not provide this project with exact public stargazer event times.",
+    "No new valid ranking was produced; this view preserves the last successful ranking and its original observation times."
   ],
-  "ranking_status": "official",
+  "ranking_status": "stale",
   "schema_version": "1.0",
   "source_observed_at": [
     "2026-08-02T17:17:27.134275Z",
     "2026-08-09T16:56:40.078024Z"
   ],
-  "stale_from_week": null,
+  "stale_from_week": "2026-08-10",
   "week": {
     "end_date": "2026-08-09",
     "start_date": "2026-08-03",
