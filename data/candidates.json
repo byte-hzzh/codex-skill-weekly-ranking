@@ -97,7 +97,7 @@
       "source_url": "https://github.com/obra/superpowers/blob/main/skills/using-superpowers/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "How to use the Adaptyv Bio Foundry API and Python SDK for protein experiment design, submission, and results retrieval. Use this skill whenever the user mentions Adaptyv, Foundry API, protein binding assays, protein screening experiments, BLI/SPR assays, thermostability assays, or wants to submit protein sequences for experimental characterization. Also trigger when code imports `adaptyv`, `adaptyv_sdk`, or `FoundryClient`, or references `foundry-api-public.adaptyvbio.com`.",
       "discovered_via": "seed",
@@ -113,7 +113,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/adaptyv/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "This skill should be used for time series machine learning tasks including classification, regression, clustering, forecasting, anomaly detection, segmentation, and similarity search. Use when working with temporal data, sequential patterns, or time-indexed observations requiring specialized algorithms beyond standard ML approaches. Particularly suited for univariate and multivariate time series analysis with scikit-learn compatible APIs.",
       "discovered_via": "seed",
@@ -129,7 +129,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/aeon/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Data structure for annotated matrices in single-cell analysis. Use when working with .h5ad files or integrating with the scverse ecosystem. This is the data format skill—for analysis workflows use scanpy; for probabilistic models use scvi-tools; for population-scale queries use cellxgene-census.",
       "discovered_via": "seed",
@@ -145,7 +145,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/anndata/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Infer gene regulatory networks (GRNs) from gene expression data using scalable algorithms (GRNBoost2, GENIE3). Use when analyzing transcriptomics data (bulk RNA-seq, single-cell RNA-seq) to identify transcription factor-target gene relationships and regulatory interactions. Supports distributed computation for large-scale datasets.",
       "discovered_via": "seed",
@@ -161,7 +161,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/arboreto/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Core Python library for astronomy and astrophysics workflows that need Astropy APIs, including units/quantities, coordinates, FITS I/O, tables, time systems, WCS, and cosmology. Use when implementing or debugging astronomical data analysis code with Astropy.",
       "discovered_via": "seed",
@@ -177,7 +177,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/astropy/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Benchling Python SDK and REST API integration for registry entities, inventory, ELN entries, workflows, Benchling Apps, and Data Warehouse queries. Use when automating lab data with benchling-sdk or the v2 API.",
       "discovered_via": "seed",
@@ -193,7 +193,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/benchling-integration/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Comprehensive molecular biology toolkit. Use for sequence manipulation, file parsing (FASTA/GenBank/PDB), phylogenetics, and programmatic NCBI/PubMed access (Bio.Entrez). Best for batch processing, custom bioinformatics pipelines, BLAST automation. For quick lookups use gget; for multi-service integration use bioservices.",
       "discovered_via": "seed",
@@ -209,7 +209,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/biopython/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Unified Python interface to 40+ bioinformatics services. Use when querying multiple databases (UniProt, KEGG, ChEMBL, Reactome) in a single workflow with consistent API. Best for cross-database analysis, ID mapping across services. For quick single-database lookups use gget; for sequence/file manipulation use biopython.",
       "discovered_via": "seed",
@@ -225,7 +225,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/bioservices/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Query the CZ CELLxGENE Census programmatically for versioned public single-cell and spatial transcriptomics data. Use when you need population-scale cell metadata, gene expression slices, Census summary counts, source H5AD URIs/downloads, embeddings, spatial Census data, or reference atlas comparisons across organisms, tissues, diseases, assays, and cell types. For analyzing your own local single-cell data use scanpy, anndata, or scvi-tools.",
       "discovered_via": "seed",
@@ -241,7 +241,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/cellxgene-census/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Google quantum computing framework. Use when targeting Google Quantum AI hardware, designing noise-aware circuits, or running quantum characterization experiments. Best for Google hardware, noise modeling, and low-level circuit design. For IBM hardware use qiskit; for quantum ML with autodiff use pennylane; for physics simulations use qutip.",
       "discovered_via": "seed",
@@ -257,7 +257,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/cirq/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Comprehensive citation management for academic research. Search OpenAlex, PubMed, and Google Scholar for papers, extract accurate metadata, validate citations, and generate properly formatted BibTeX entries. This skill should be used when you need to find papers, verify citation information, convert DOIs to BibTeX, or ensure reference accuracy in scientific writing.",
       "discovered_via": "seed",
@@ -273,7 +273,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/citation-management/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Prepare and validate research-only clinical decision-support evaluation, evidence-profile, cohort, survival, biomarker/model, privacy, and governance artifacts. Use for aggregate or synthetic research documentation and traceability—not patient care or live clinical operation.",
       "discovered_via": "seed",
@@ -289,7 +289,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/clinical-decision-support/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Create safety-bounded draft structures and run local deterministic checks for clinical case, diagnostic, trial, safety, and aggregate research reports. Use only with synthetic, de-identified, or aggregate inputs and verified source-fact manifests; every output requires qualified review.",
       "discovered_via": "seed",
@@ -305,7 +305,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/clinical-reports/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Constraint-based metabolic modeling (COBRA). FBA, FVA, gene knockouts, flux sampling, SBML models, for systems biology and metabolic engineering analysis.",
       "discovered_via": "seed",
@@ -321,7 +321,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/cobrapy/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Distributed computing for larger-than-RAM pandas/NumPy workflows. Use when you need to scale existing pandas/NumPy code beyond memory or across clusters. Best for parallel file processing, distributed ML, integration with existing pandas code. For out-of-core analytics on single machine use vaex; for in-memory speed use polars.",
       "discovered_via": "seed",
@@ -337,7 +337,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/dask/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Query documented public database APIs with explicit endpoints, filters, pagination, and provenance. Use when a scientific, regulatory, financial, or other database-backed fact must be retrieved reproducibly from a named source rather than inferred from general knowledge.",
       "discovered_via": "seed",
@@ -353,7 +353,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/database-lookup/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Pythonic wrapper around RDKit with simplified interface and sensible defaults. Preferred for standard drug discovery including SMILES parsing, standardization, descriptors, fingerprints, clustering, 3D conformers, parallel processing. Returns native rdkit.Chem.Mol objects. For advanced control or custom parameters, use rdkit directly.",
       "discovered_via": "seed",
@@ -369,7 +369,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/datamol/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Molecular ML with diverse featurizers and pre-built datasets. Use for property prediction (ADMET, toxicity) with traditional ML or GNNs when you want extensive featurization options and MoleculeNet benchmarks. Best for quick experiments with pre-trained models, diverse molecular representations. For graph-first PyTorch workflows use torchdrug; for benchmark datasets use pytdc.",
       "discovered_via": "seed",
@@ -385,7 +385,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/deepchem/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "NGS analysis toolkit. BAM to bigWig conversion, QC (correlation, PCA, fingerprints), heatmaps/profiles (TSS, peaks), for ChIP-seq, RNA-seq, ATAC-seq visualization.",
       "discovered_via": "seed",
@@ -401,7 +401,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/deeptools/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "DiffDock and DiffDock-L molecular docking. Use for protein-small-molecule pose prediction from PDB or sequence plus SMILES/SDF/MOL2, batch docking, virtual screening, and pose-confidence interpretation. Not for binding affinity prediction.",
       "discovered_via": "seed",
@@ -417,7 +417,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/diffdock/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Build and operate reproducible genomics workloads on DNAnexus with the dx CLI, dxpy, apps/applets, native workflows, dxCompiler, and Nextflow. Use for DNAnexus data transfers, dxapp.json development, execution monitoring, workflow import, and project automation.",
       "discovered_via": "seed",
@@ -433,7 +433,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/dnanexus-integration/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Use when working directly with the `esm` Python SDK, ESM3 or ESMC model IDs, Forge/Biohub inference clients, or ESMFold2 folding workflows.",
       "discovered_via": "seed",
@@ -449,7 +449,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/esm/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Analyze, manipulate, compare, annotate, and visualize phylogenetic or other hierarchical trees with ETE 4. Use for Newick/Nexus tree I/O, topology edits and pattern matching, Robinson-Foulds comparisons, gene-tree evolutionary events and reconciliation, NCBI/GTDB taxonomy, SmartView exploration, and publication rendering. Do not use it to infer trees from raw sequences; align sequences and infer a tree first.",
       "discovered_via": "seed",
@@ -465,7 +465,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/etetoolkit/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Perform bounded, local exploratory analysis of explicitly supported scientific files. Use for redacted CSV/TSV/JSON profiles; optional NumPy, HDF5, FASTA/FASTQ, and basic image metadata inspection; missingness/leakage audits; outlier and transformation sensitivity; and rigorous EDA report scaffolds. Other domain formats are reference-only and unknown formats fail closed.",
       "discovered_via": "seed",
@@ -481,7 +481,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/exploratory-data-analysis/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Read, inspect, and write Flow Cytometry Standard (FCS) 2.0, 3.0, and 3.1 files with FlowIO. Use for low-level FCS metadata and channel inspection, NumPy event extraction, multi-dataset files, table export, and FCS 3.1 creation; use FlowKit for compensation, cytometry transforms, gating, or FlowJo workspaces.",
       "discovered_via": "seed",
@@ -497,7 +497,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/flowio/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Plan, configure, inspect, restart, and analyze bounded FluidSim computational-fluid-dynamics simulations with explicit numerical-validity and HPC safety checks. Use for FluidSim solver selection, parameter review, FFT/MPI setup, output diagnostics, or restart compatibility.",
       "discovered_via": "seed",
@@ -513,7 +513,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/fluidsim/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Generate or edit images with AI models through the OpenRouter Image API (Gemini, Seedream, Recraft, GPT-Image, Riverflow). Use for photos, illustrations, artwork, concept art, visual assets, logos, and image editing or compositing from reference images. For flowcharts, circuits, pathways, and other technical diagrams, use the scientific-schematics skill instead.",
       "discovered_via": "seed",
@@ -529,7 +529,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/generate-image/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Use Geniml for audited local genomic-interval workflows: validate BED and universe contracts, plan Region2Vec or scEmbed runs, inspect model/tokenizer compatibility, and assess consensus universes.",
       "discovered_via": "seed",
@@ -545,7 +545,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/geniml/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Guidance and local audit tools for Python workflows that directly use GeoPandas GeoSeries, GeoDataFrame, spatial operations, or vector-data I/O.",
       "discovered_via": "seed",
@@ -561,7 +561,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/geopandas/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Detect host inventory and effective CPU, memory, disk, scheduler, container, and accelerator limits when a user asks for resource-aware planning or before a clearly resource-sensitive local workload. Produces a redacted JSON snapshot and conservative planning helpers without stress tests or assuming visible host hardware is usable.",
       "discovered_via": "seed",
@@ -577,7 +577,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/get-available-resources/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Fast CLI/Python queries to 20+ bioinformatics databases. Use for quick lookups: gene info, BLAST/BLAT, viral sequence downloads, AlphaFold structures, enrichment analysis, OpenTargets, COSMIC, CELLxGENE, and 8cube mouse specificity/expression data. Best for interactive exploration and simple queries. For batch processing or advanced BLAST use biopython; for multi-database Python workflows use bioservices.",
       "discovered_via": "seed",
@@ -593,7 +593,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/gget/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Use Gtars for local genomic interval models and set algebra, overlaps and counts, consensus and coverage, tokenization, fragment processing, and refget/BEDbase planning across Python, Rust, and the CLI.",
       "discovered_via": "seed",
@@ -609,7 +609,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/gtars/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Lightweight WSI tile extraction and preprocessing. Use for basic slide processing, tissue detection, tile extraction, and stain normalization for H&E images. Best for simple pipelines, dataset preparation, and quick tile-based analysis. For advanced spatial proteomics, multiplexed imaging, or deep learning pipelines use pathml.",
       "discovered_via": "seed",
@@ -625,7 +625,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/histolab/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Plans and audits use of ChicagoHAI HypoGeniC/HypoRefine for LLM-assisted hypothesis generation from labeled text datasets. Use for the `hypogenic` package, its task configs, hypothesis banks, or HypoBench datasets—not for manual hypothesis formulation or scientific validation.",
       "discovered_via": "seed",
@@ -641,7 +641,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/hypogenic/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Formulate evidence-bounded scientific questions, candidate hypotheses, rival explanations, causal or associational claims, discriminating predictions, measurements, and preregistration-ready analysis plans. Use when turning observations or preliminary findings into transparent, testable research plans without treating hypotheses as facts.",
       "discovered_via": "seed",
@@ -657,7 +657,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/hypothesis-generation/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Create professional infographics using Nano Banana Pro AI with smart iterative refinement. Uses Gemini 3.6 Flash for quality review. Integrates research-lookup and web search for accurate data. Supports 10 infographic types, 8 industry styles, and colorblind-safe palettes.",
       "discovered_via": "seed",
@@ -673,7 +673,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/infographics/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Design custom laboratory hardware as parametric build123d models and export fabrication-ready STEP, STL, and DXF files - microfluidic chips and molds, optomechanical mounts and breadboard adapters, cuvette and microplate holders, tube racks, animal-behavior rigs, and 3D-printed instrument fixtures. Use when a research task needs a physical part that must mate with standardized labware, an optical table, a cage system, or a printer, CNC, or laser process.",
       "discovered_via": "seed",
@@ -689,7 +689,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/lab-hardware-cad/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Securely integrate with the official LabArchives ELN REST-like API and Inventory API v1. Use for regional endpoint selection, signed-request construction, user authorization and UID flows, local LA container validation, and verified LabArchives integration workflows.",
       "discovered_via": "seed",
@@ -705,7 +705,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/labarchive-integration/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Use when working with LaminDB, the open-source lineage-native lakehouse for biological datasets and models. Covers setup, artifact registration, query/search, lineage tracking, validation, ontology-backed annotation with Bionty, collections, branches, storage, and workflow integrations.",
       "discovered_via": "seed",
@@ -721,7 +721,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/lamindb/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Build, register, debug, and operate bioinformatics workflows on Latch using the Python SDK, CLI, Latch Data and Registry, Nextflow, Snakemake, programmatic execution, and Latch MCP. Use when authoring or deploying Latch workflows, configuring resources or interfaces, moving data, integrating Registry, or launching and monitoring runs.",
       "discovered_via": "seed",
@@ -737,7 +737,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/latchbio-integration/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Create professional research posters in LaTeX using beamerposter, tikzposter, or baposter. Support for conference presentations, academic posters, and scientific communication. Includes layout design, color schemes, multi-column formats, figure integration, and poster-specific best practices for visual communication.",
       "discovered_via": "seed",
@@ -753,7 +753,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/latex-posters/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Local document and PDF parsing that returns spatial text with bounding boxes. Use for extracting text from PDFs, DOCX, Office files, and images; running OCR on scans; producing layout-preserved JSON for RAG; batch-ingesting folders of papers; or rendering pages to PNG for multimodal agents. Distinguishing capabilities are per-token bounding boxes, page raster output, and fully local processing with no cloud API.",
       "discovered_via": "seed",
@@ -769,7 +769,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/liteparse/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Conduct comprehensive, systematic literature reviews using multiple academic databases (PubMed, arXiv, bioRxiv, Semantic Scholar, etc.). This skill should be used when conducting systematic literature reviews, meta-analyses, research synthesis, or comprehensive literature searches across biomedical, scientific, and technical domains. Creates professionally formatted markdown documents and PDFs with verified citations in multiple citation styles (APA, Nature, Vancouver, etc.).",
       "discovered_via": "seed",
@@ -785,7 +785,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/literature-review/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Build evidence-traceable market research reports and assumption-driven market sizing or forecast scenarios. Use for market definition, industry and customer evidence, competitive landscapes, TAM/SAM/SOM reconciliation, forecast sensitivity, and auditable report scaffolds.",
       "discovered_via": "seed",
@@ -801,7 +801,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/market-research-reports/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Convert heterogeneous documents and selected URIs to Markdown with Microsoft MarkItDown for text analysis, search, and LLM/RAG ingestion. Covers safe local conversion, streams, Office/PDF/data formats, batch workflows, plugins, vision OCR, Azure extraction, and the official MCP server.",
       "discovered_via": "seed",
@@ -817,7 +817,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/markitdown/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Process, clean, compare, and search tandem mass spectra with matchms. Use for MS/MS file I/O, metadata harmonization, peak filtering, spectral similarity, library matching, score matrices, and molecular-similarity networks. Use pyopenms instead for LC-MS feature detection or proteomics pipelines.",
       "discovered_via": "seed",
@@ -833,7 +833,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/matchms/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Build, review, migrate, and safely plan MATLAB or GNU Octave numerical workflows, including arrays, tabular/time data, tests, projects, graphics, MAT files, and explicit Python interoperability.",
       "discovered_via": "seed",
@@ -849,7 +849,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/matlab/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Low-level plotting library for full customization. Use when you need fine-grained control over every plot element, creating novel plot types, or integrating with specific scientific workflows. Export to PNG/PDF/SVG for publication. For quick statistical plots use seaborn; for interactive plots use plotly; for publication-ready multi-panel figures with journal styling, use scientific-visualization.",
       "discovered_via": "seed",
@@ -865,7 +865,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/matplotlib/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Medicinal chemistry filters for compound triage. Apply drug-likeness rules (Lipinski, Veber, CNS), structural alert catalogs (PAINS, NIBR, ChEMBL), complexity metrics, and the medchem query language for library filtering.",
       "discovered_via": "seed",
@@ -881,7 +881,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/medchem/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Modal is a serverless cloud platform for running Python on demand, including on-demand GPUs. Use when deploying or serving AI/ML models, running GPU-accelerated workloads (training, fine-tuning, inference), serving web endpoints, scheduling batch jobs, or scaling Python code to cloud containers with the Modal SDK.",
       "discovered_via": "seed",
@@ -897,7 +897,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/modal/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Molecular featurization for ML (100+ featurizers). ECFP, MACCS, descriptors, pretrained models (ChemBERTa), convert SMILES to features, for QSAR and molecular ML.",
       "discovered_via": "seed",
@@ -913,7 +913,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/molfeat/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Create, analyze, and visualize complex networks and graphs in Python with NetworkX. Use when working with network/graph data structures, computing graph algorithms (shortest paths, centrality, clustering), detecting communities, generating synthetic networks (random, scale-free, small-world), reading/writing graph file formats, or drawing network topologies. Common applications include social, biological, transportation, and citation networks.",
       "discovered_via": "seed",
@@ -929,7 +929,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/networkx/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Use NeuroKit2 to build or audit reproducible research workflows for physiological time-series preprocessing, event/interval analysis, multimodal alignment, variability, and complexity. Trigger when code imports neurokit2 or needs its current APIs, schemas, and method-aware validation—not for diagnosis or device validation.",
       "discovered_via": "seed",
@@ -945,7 +945,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/neurokit2/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Analyze Neuropixels extracellular recordings end-to-end with SpikeInterface. Covers loading SpikeGLX/Open Ephys/NWB data, preprocessing, drift/motion correction, Kilosort4 (and CPU) spike sorting, quality metrics, and unit curation (threshold-based, model-based UnitRefine, and AI-assisted visual review). Use when working with Neuropixels 1.0/2.0 recordings, spike sorting, or extracellular electrophysiology analysis.",
       "discovered_via": "seed",
@@ -961,7 +961,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/neuropixels-analysis/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Securely inspect and automate microscopy data workflows against OMERO.server with omero-py, BlitzGateway, OMERO CLI, tables, annotations, ROIs, rendering, and documented OMERO.web APIs. Use for scoped OMERO inventory, metadata export, import/export planning, or reviewed write workflows.",
       "discovered_via": "seed",
@@ -977,7 +977,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/omero-integration/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Author, review, migrate, simulate, and troubleshoot official Opentrons Python Protocol API v2 protocols for Flex and OT-2 robots. Use for robot-specific liquid handling, deck and labware setup, pipettes, modules, runtime parameters, liquid classes, and Opentrons App analysis. Use pylabrobot instead when one workflow must support multiple robot vendors.",
       "discovered_via": "seed",
@@ -993,7 +993,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/opentrons-integration/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Use Parallel CLI for web search, URL extraction, deep research, structured data enrichment, entity discovery, and recurring web monitoring. Best for requests that explicitly need current web evidence, academic-source discovery, repeated entity lookups, exhaustive reports, or ongoing change tracking.",
       "discovered_via": "seed",
@@ -1009,7 +1009,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/parallel-web/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Use PathML for local, research-only computational pathology workflows: load and tile slides, build preprocessing and QC pipelines, manage h5path data, quantify multiplex images, construct spatial graphs, and plan bounded model inference.",
       "discovered_via": "seed",
@@ -1025,7 +1025,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/pathml/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Prepare evidence-bounded, constructive peer-review drafts and structured manuscript assessments. Use for authorized review of scientific manuscripts, protocols, preprints, or research proposals; reporting-guideline selection; claim–evidence checks; methods, statistics, reproducibility, ethics, figure/table, and citation critique; or revision-response planning.",
       "discovered_via": "seed",
@@ -1041,7 +1041,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/peer-review/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Hardware-agnostic quantum ML framework with automatic differentiation. Use when training quantum circuits via gradients, building hybrid quantum-classical models, or needing device portability across IBM/Google/Rigetti/IonQ. Best for variational algorithms (VQE, QAOA), quantum neural networks, and integration with PyTorch or JAX. For hardware-specific optimizations use qiskit (IBM) or cirq (Google); for open quantum systems use qutip.",
       "discovered_via": "seed",
@@ -1057,7 +1057,7 @@
       "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/pennylane/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Enable automated collaboration between Claude Code and Codex CLI using Byterover as shared memory. This skill should be used when architectural review or code validation from Codex is desired before or after implementation. Claude creates plans, directly invokes Codex for expert review via Bash, and implements based on feedback - all automatically without manual user intervention. All context persists in Byterover.",
       "discovered_via": "code-search",
@@ -1329,7 +1329,7 @@
       "source_url": "https://github.com/openclaw/openclaw/blob/main/skills/model-usage/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Build a composable CLI for Codex from API docs, an OpenAPI spec, existing curl examples, an SDK, a web app, an admin tool, or a local script. Use when the user wants Codex to create a command-line tool that can run from any repo, expose composable read/write commands, return stable JSON, manage auth, and pair with a companion skill.",
       "discovered_via": "seed",
@@ -1345,7 +1345,7 @@
       "source_url": "https://github.com/openai/skills/blob/main/skills/.curated/cli-creator/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Generates custom design system rules for the user's codebase. Use when user says \"create design system rules\", \"generate rules for my project\", \"set up design rules\", \"customize design system guidelines\", or wants to establish project-specific conventions for Figma-to-code workflows. Requires Figma MCP server connection.",
       "discovered_via": "seed",
@@ -1361,7 +1361,7 @@
       "source_url": "https://github.com/openai/skills/blob/main/skills/.curated/figma-create-design-system-rules/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Use when the user asks to create, scaffold, or edit Jupyter notebooks (`.ipynb`) for experiments, explorations, or tutorials; prefer the bundled templates and run the helper script `new_notebook.py` to generate a clean starting notebook.",
       "discovered_via": "seed",
@@ -1377,7 +1377,7 @@
       "source_url": "https://github.com/openai/skills/blob/main/skills/.curated/jupyter-notebook/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Manage issues, projects & team workflows in Linear. Use when the user wants to read, create or updates tickets in Linear.",
       "discovered_via": "seed",
@@ -1393,7 +1393,7 @@
       "source_url": "https://github.com/openai/skills/blob/main/skills/.curated/linear/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Migrate supported instruction files, skills, agents, and MCP config into Codex project and global files.",
       "discovered_via": "seed",
@@ -1409,7 +1409,7 @@
       "source_url": "https://github.com/openai/skills/blob/main/skills/.curated/migrate-to-codex/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Capture conversations and decisions into structured Notion pages; use when turning chats/notes into wiki entries, how-tos, decisions, or FAQs with proper linking.",
       "discovered_via": "seed",
@@ -1425,7 +1425,7 @@
       "source_url": "https://github.com/openai/skills/blob/main/skills/.curated/notion-knowledge-capture/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Prepare meeting materials with Notion context and Codex research; use when gathering context, drafting agendas/pre-reads, and tailoring materials to attendees.",
       "discovered_via": "seed",
@@ -1441,7 +1441,7 @@
       "source_url": "https://github.com/openai/skills/blob/main/skills/.curated/notion-meeting-intelligence/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Research across Notion and synthesize into structured documentation; use when gathering info from multiple Notion sources to produce briefs, comparisons, or reports with citations.",
       "discovered_via": "seed",
@@ -1457,7 +1457,7 @@
       "source_url": "https://github.com/openai/skills/blob/main/skills/.curated/notion-research-documentation/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Turn Notion specs into implementation plans, tasks, and progress tracking; use when implementing PRDs/feature specs and creating Notion plans + tasks from them.",
       "discovered_via": "seed",
@@ -1473,7 +1473,7 @@
       "source_url": "https://github.com/openai/skills/blob/main/skills/.curated/notion-spec-to-implementation/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Use when the user asks how to build with OpenAI products or APIs, asks about Codex itself or choosing Codex surfaces, needs up-to-date official documentation with citations, help choosing the latest model for a use case, or model upgrade and prompt-upgrade guidance; use OpenAI docs MCP tools for non-Codex docs questions, use the Codex manual helper first for broad Codex self-knowledge, and restrict fallback browsing to official OpenAI domains.",
       "discovered_via": "seed",
@@ -1489,7 +1489,7 @@
       "source_url": "https://github.com/openai/skills/blob/main/skills/.curated/openai-docs/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Persistent browser and Electron interaction through `js_repl` for fast iterative UI debugging.",
       "discovered_via": "seed",
@@ -1505,7 +1505,7 @@
       "source_url": "https://github.com/openai/skills/blob/main/skills/.curated/playwright-interactive/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Use when the task requires automating a real browser from the terminal (navigation, form filling, snapshots, screenshots, data extraction, UI-flow debugging) via `playwright-cli` or the bundled wrapper script.",
       "discovered_via": "seed",
@@ -1521,7 +1521,7 @@
       "source_url": "https://github.com/openai/skills/blob/main/skills/.curated/playwright/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Deploy applications to Render by analyzing codebases, generating render.yaml Blueprints, and providing Dashboard deeplinks. Use when the user wants to deploy, host, publish, or set up their application on Render's cloud platform.",
       "discovered_via": "seed",
@@ -1537,7 +1537,7 @@
       "source_url": "https://github.com/openai/skills/blob/main/skills/.curated/render-deploy/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Use when the user explicitly asks for a desktop or system screenshot (full screen, specific app or window, or a pixel region), or when tool-specific capture capabilities are unavailable and an OS-level capture is needed.",
       "discovered_via": "seed",
@@ -1553,7 +1553,7 @@
       "source_url": "https://github.com/openai/skills/blob/main/skills/.curated/screenshot/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Perform language and framework specific security best-practice reviews and suggest improvements. Trigger only when the user explicitly requests security best practices guidance, a security review/report, or secure-by-default coding help. Trigger only for supported languages (python, javascript/typescript, go). Do not trigger for general code review, debugging, or non-security tasks.",
       "discovered_via": "seed",
@@ -1569,7 +1569,7 @@
       "source_url": "https://github.com/openai/skills/blob/main/skills/.curated/security-best-practices/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Use when the user asks for text-to-speech narration or voiceover, accessibility reads, audio prompts, or batch speech generation via the OpenAI Audio API; run the bundled CLI (`scripts/text_to_speech.py`) with built-in voices and require `OPENAI_API_KEY` for live calls. Custom voice creation is out of scope.",
       "discovered_via": "seed",
@@ -1585,7 +1585,7 @@
       "source_url": "https://github.com/openai/skills/blob/main/skills/.curated/speech/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Transcribe audio files to text with optional diarization and known-speaker hints. Use when a user asks to transcribe speech from audio/video, extract text from recordings, or label speakers in interviews or meetings.",
       "discovered_via": "seed",
@@ -1601,7 +1601,7 @@
       "source_url": "https://github.com/openai/skills/blob/main/skills/.curated/transcribe/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Use when the user asks how to build with OpenAI products or APIs, asks about Codex itself or choosing Codex surfaces, needs up-to-date official documentation with citations, help choosing the latest model for a use case, or model upgrade and prompt-upgrade guidance; use OpenAI docs MCP tools for non-Codex docs questions, use the Codex manual helper first for broad Codex self-knowledge, and restrict fallback browsing to official OpenAI domains.",
       "discovered_via": "seed",
@@ -1617,7 +1617,7 @@
       "source_url": "https://github.com/openai/skills/blob/main/skills/.system/openai-docs/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Create and scaffold plugin directories for Codex with a required `.codex-plugin/plugin.json`, optional plugin folders/files, and baseline placeholders you can edit before publishing or testing. Use when Codex needs to create a new local plugin, add optional plugin structure, or generate or update repo-root `.agents/plugins/marketplace.json` entries for plugin ordering and availability metadata.",
       "discovered_via": "seed",
@@ -1633,7 +1633,7 @@
       "source_url": "https://github.com/openai/skills/blob/main/skills/.system/plugin-creator/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Codex's capabilities with specialized knowledge, workflows, or tool integrations.",
       "discovered_via": "seed",
@@ -1649,7 +1649,7 @@
       "source_url": "https://github.com/openai/skills/blob/main/skills/.system/skill-creator/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Install Codex skills into $CODEX_HOME/skills from a curated list or a GitHub repo path. Use when a user asks to list installable skills, install a curated skill, or install a skill from another repo (including private repos).",
       "discovered_via": "seed",
@@ -1729,7 +1729,7 @@
       "source_url": "https://github.com/Dicklesworthstone/cass_memory_system/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "使用本技能审计、审查、验证或检查 AI 助手配置的质量。 触发条件：\"审计\"、\"审查\"、\"验证\"、\"检查质量\"、\"分析提示词\"、\"评估技能\"、 \"检查插件\"、\"验证配置\"、\"评估记忆文件\"、\"GPT 提示词指南合规性\"、 \"audit\"、\"review\"、\"validate\"、\"check quality\"。 支持：提示词文本、提示词文件、技能 (SKILL.md)、插件、MCP 服务器、代理、钩子、 记忆文件 (AGENTS.md, CLAUDE.md, GEMINI.md) 以及复合配置。",
       "discovered_via": "code-search",
@@ -1761,7 +1761,7 @@
       "source_url": "https://github.com/asklokesh/loki-mode/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Quickly transcribe local videos or URLs supported by yt-dlp with bundled faster-whisper, then clean up, summarize, or evaluate the transcript in Codex. Use when the user asks to turn video content into text or analyze its content.",
       "discovered_via": "code-search",
@@ -1777,7 +1777,7 @@
       "source_url": "https://github.com/tiandaren/video-quick-eval/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-08-23T16:42:28.650757Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Manage tasks, projects, areas, headings, and tags in the Things 3 macOS app via a local CLI (list Inbox/Today/Upcoming/Anytime/Someday/Logbook, search, create/update/complete/cancel items, open items in Things). Use when Codex needs to manage Things 3 on macOS.",
       "discovered_via": "code-search",
@@ -1793,7 +1793,7 @@
       "source_url": "https://github.com/eugenepyvovarov/things3-agent-skill/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Delegate code implementation/review/debugging/alternatives to Claude Code via a JSON bridge script. Multi-turn via SESSION_ID.",
       "discovered_via": "code-search",
@@ -2257,7 +2257,7 @@
       "source_url": "https://github.com/nicobailon/pi-foreground-chains/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Mission control dashboard for OpenClaw - real-time session monitoring, LLM usage tracking, cost intelligence, and system vitals. View all your AI agents in one place.",
       "discovered_via": "code-search",
@@ -2321,7 +2321,7 @@
       "source_url": "https://github.com/DataDog/pup/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "在 Codex 对话中管理本机历史会话，支持 list、preview、export、archive、recover、delete，并同步清理 history.jsonl。",
       "discovered_via": "code-search",
@@ -2385,6 +2385,22 @@
       "source_url": "https://github.com/diegosouzapw/OmniRoute/blob/release%2Fv3.8.51/skills/omni-cli-tools/SKILL.md"
     },
     {
+      "checked_at": "2026-09-20T18:47:15.631954Z",
+      "default_branch": "main",
+      "description": "Search Adobe Fonts (Typekit) families, create and manage web kits/projects, and return ready-to-use embed snippets plus CSS font-family values. Use when the user asks to find Adobe fonts, compare font options, set up Typekit for a website, add fonts to kits, publish kits, or generate copy/paste font embed metadata for Codex, Claude Code, or OpenCode workflows.",
+      "discovered_via": "code-search",
+      "eligible": true,
+      "exclusion_reason": null,
+      "key": "1158113767:SKILL.md",
+      "name": "adobe-fonts-skill",
+      "path": "SKILL.md",
+      "repository": "alexh/adobe-fonts-skill",
+      "repository_id": 1158113767,
+      "repository_node_id": "R_kgDORQdp5w",
+      "repository_url": "https://github.com/alexh/adobe-fonts-skill",
+      "source_url": "https://github.com/alexh/adobe-fonts-skill/blob/main/SKILL.md"
+    },
+    {
       "checked_at": "2026-08-02T17:14:50.661889Z",
       "default_branch": "main",
       "description": "面向中国发明专利：从 GitHub 项目/技术方案生成可交付的专利技术交底书（Word .docx），并【必须】完成专利检索 + 权利要求抽取（claims）+ 特征对比矩阵 + 候选新颖点（差异特征组合）提炼。",
@@ -2401,7 +2417,7 @@
       "source_url": "https://github.com/bb-boy/repo2patent/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-08-23T16:42:28.650757Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Run long-running coding agents (Codex, Claude Code, etc.) in tmux sessions that survive orchestrator restarts, with automatic resume on interruption.",
       "discovered_via": "code-search",
@@ -2417,7 +2433,7 @@
       "source_url": "https://github.com/cosformula/resilient-coding-agent-skill/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Use for NVIDIA-related requests where an NVIDIA skill might help, even if the user did not ask for a skill. Trigger on NVIDIA products, hardware, software, SDKs, GPUs, Jetson/JetPack/L4T/BSP/SDK Manager/driver/flashing/setup, CUDA, NIM, NeMo, Omniverse/OpenUSD/SimReady, RAPIDS/cuDF, cuPyNumeric, cuOpt, Dynamo, Holoscan, TensorRT, DeepStream, VSS, TAO, NGC/NVCF. Do not use for generic non-NVIDIA route, optimize, deploy, AI, video, data, or infrastructure tasks.",
       "discovered_via": "seed",
@@ -2433,7 +2449,7 @@
       "source_url": "https://github.com/NVIDIA/skills/blob/main/plugins/nvidia-skills/skills/nvidia-skill-finder/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Use when asked to install, deploy, run, validate, troubleshoot, or stop NVIDIA AI-Q Blueprint infrastructure.",
       "discovered_via": "seed",
@@ -2449,7 +2465,7 @@
       "source_url": "https://github.com/NVIDIA/skills/blob/main/skills/aiq-deploy/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Calibrate a new dataset from live RTSP camera streams via the AutoMagicCalib REST API. Use when the user provides RTSP URLs or asks to calibrate live cameras; VIOS records clips, AMC ingests them, then runs calibration.",
       "discovered_via": "seed",
@@ -2465,7 +2481,7 @@
       "source_url": "https://github.com/NVIDIA/skills/blob/main/skills/amc-run-rtsp-calibration/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Run end-to-end calibration on the shipped sample dataset (sdg_08_2_sample_data_010926.zip) against a running AMC microservice. Use when user says 'test sample dataset', 'run sample calibration', 'verify AMC install', or 'launch and test'.",
       "discovered_via": "seed",
@@ -2481,7 +2497,7 @@
       "source_url": "https://github.com/NVIDIA/skills/blob/main/skills/amc-run-sample-calibration/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Calibrates pre-recorded `cam_*.mp4` datasets through the AutoMagicCalib REST API. Use for user-supplied local MP4s; route live RTSP streams to `amc-run-rtsp-calibration`.",
       "discovered_via": "seed",
@@ -2497,7 +2513,23 @@
       "source_url": "https://github.com/NVIDIA/skills/blob/main/skills/amc-run-video-calibration/SKILL.md"
     },
     {
-      "checked_at": "2026-09-13T18:47:12.834498Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
+      "default_branch": "main",
+      "description": "Finetune a pretrained KERMT encoder on a labeled CSV. Validate the checkpoint and data, prepare features, and run containerized training. Use a local checkpoint or optionally download a pinned Hugging Face model bundle using HF_TOKEN if configured. Write model bundles, prepared data, logs, and trained models to user-selected host directories.",
+      "discovered_via": "seed",
+      "eligible": true,
+      "exclusion_reason": null,
+      "key": "1167034425:skills/bionemo-kermt-finetune/SKILL.md",
+      "name": "kermt-finetune",
+      "path": "skills/bionemo-kermt-finetune/SKILL.md",
+      "repository": "NVIDIA/skills",
+      "repository_id": 1167034425,
+      "repository_node_id": "R_kgDORY-IOQ",
+      "repository_url": "https://github.com/NVIDIA/skills",
+      "source_url": "https://github.com/NVIDIA/skills/blob/main/skills/bionemo-kermt-finetune/SKILL.md"
+    },
+    {
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Stage 1 of Clinical ASR Flywheel. Use when bootstrapping a cycle: NVCF+MW disclosure, NVIDIA_API_KEY check, deps install, TTS+ASR smoke test.",
       "discovered_via": "seed",
@@ -2785,7 +2817,7 @@
       "source_url": "https://github.com/NVIDIA/skills/blob/main/skills/tilegym-monkey-patch-kernels-to-transformers/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "高并发异步扫描 Codex 探活机制的专属执行工具。遇到关键词如「扫号」、「清死号」、「清理 Codex 401」、「扫描凭证」时自动激活。",
       "discovered_via": "code-search",
@@ -2817,7 +2849,7 @@
       "source_url": "https://github.com/Bhanunamikaze/Agentic-SEO-Skill/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Use when writing academic papers, theses, or research articles - supports brainstorming, chapter writing, literature review, and LaTeX output",
       "discovered_via": "code-search",
@@ -3185,7 +3217,7 @@
       "source_url": "https://github.com/gear-foundation/vara-skills/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Install and operate a Telegram bot that exposes Codex, MCP, GitHub subagents, repo switching, and minimal frontend dev-server control.",
       "discovered_via": "code-search",
@@ -3201,7 +3233,7 @@
       "source_url": "https://github.com/MackDing/CodexClaw/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Run GitHub pull request reviews in isolated sandboxes with CURe. Use when you need a safe, repeatable PR review workflow with `cure setup`, `cure pr`, `cure status`, and `resume`.",
       "discovered_via": "code-search",
@@ -3217,7 +3249,7 @@
       "source_url": "https://github.com/grzegorznowak/CURe/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-08-23T16:42:28.650757Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Manage the Feishu/Lark bridge daemon for Claude Code and Codex. Use for: CLI install guidance, setup guidance, start/stop/status/logs/doctor, checking bridge health, or explaining how to configure the Feishu bot. This skill is Feishu/Lark-only.",
       "discovered_via": "code-search",
@@ -3233,7 +3265,7 @@
       "source_url": "https://github.com/francize/agents-to-im/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "gstack 的 WorkBuddy/OpenClaw 适配版本。源自 gstack (Y Combinator Garry Tan)，专为 WorkBuddy/OpenClaw 等 AI 助手平台优化。包含 15 个专业工具，涵盖从产品构思到代码发布的完整开发流程。",
       "discovered_via": "code-search",
@@ -3281,7 +3313,23 @@
       "source_url": "https://github.com/egerev/superflow/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
+      "default_branch": "main",
+      "description": "Use when the user connects Poke, Cursor, OpenCode, Codex, or Claude Code to the poke-agents MCP, or asks about local agent session history, headless CLI control, or POKE_AGENTS_EDITORS.",
+      "discovered_via": "code-search",
+      "eligible": true,
+      "exclusion_reason": null,
+      "key": "1188232664:SKILL.md",
+      "name": "poke-agents-mcp",
+      "path": "SKILL.md",
+      "repository": "leoakok/poke-agents",
+      "repository_id": 1188232664,
+      "repository_node_id": "R_kgDORtL92A",
+      "repository_url": "https://github.com/leoakok/poke-agents",
+      "source_url": "https://github.com/leoakok/poke-agents/blob/main/SKILL.md"
+    },
+    {
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Repo-local workflow skill for large coding tasks. Initializes .agent/tasks/TASK_ID artifacts, installs project-scoped Codex and Claude subagents, updates AGENTS.md plus the repo's Claude guide file with the workflow, and runs a spec-freeze → build → evidence → verify → fix loop with fresh-session verification.",
       "discovered_via": "code-search",
@@ -3313,7 +3361,7 @@
       "source_url": "https://github.com/quanru/cross-review-skill/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Use Lazyweb to find real product evidence, improve conversion, and turn research into clear product decisions.",
       "discovered_via": "code-search",
@@ -3345,7 +3393,7 @@
       "source_url": "https://github.com/viticci/remctl/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Use when you need GA4 + GTM tracking delivery from site discovery through publish, or when the right phase entry point is still unclear.",
       "discovered_via": "code-search",
@@ -3377,7 +3425,7 @@
       "source_url": "https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-08-23T16:42:28.650757Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Buffett-style company analysis and value-investing research. Use when Codex needs to analyze a business or listed company with Warren Buffett's framework, including 巴菲特框架, 价值投资, 护城河, 管理层, 企业文化, 资本配置, 财务韧性, 回购, 错误复盘, 危机应对, or when asked for a Buffett-style investment memo or recommendation.",
       "discovered_via": "code-search",
@@ -3393,7 +3441,7 @@
       "source_url": "https://github.com/MichaelRochonnn/buffett-investment-research/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Translate long-form books and ebooks (PDF, DOCX, EPUB) through a four-stage Codex plus local model workflow. Use when converting a book into Markdown chunks, generating baseline sample translations with Codex, running local `gemma-4-e4b-it-8bit` drafts, running local `gemma-4-26b-a4b-it-8bit` refinement, auditing high-risk chunks, and packaging final translated output back into HTML, DOCX, EPUB, and PDF with Pandoc and Calibre.",
       "discovered_via": "code-search",
@@ -3505,7 +3553,7 @@
       "source_url": "https://github.com/0xchaihu/mcu-debug-probe/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "FateCat 执行型测算基础设施 skill：安装并校验当前仓库，执行生产化 capability，输出 JSON / Markdown，启动 Web / API / Telegram 交付层，并在发布前运行仓库卫生与生产就绪门禁。Use when 用户要求测算、排盘、生成报告、启动 Web/API/Bot、验收 skill、导出 bundle、检查生产可用性。",
       "discovered_via": "code-search",
@@ -3537,7 +3585,7 @@
       "source_url": "https://github.com/betseyliu/prd-debate/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Generate visually striking PPT slides via OpenAI's gpt-image-2 -- use any style in styles/<collection>/STYLE_ID.md or mimic a user-supplied .pptx template; outputs high-res slide PNGs and a 16:9 .pptx. Use when the user asks to make a presentation, slides, deck, pitch deck, investor PPT, magazine-style PPT, or 做一份 PPT / 生成幻灯片 / 用 gpt-image 生成 PPT / 按这个模板生成 PPT.",
       "discovered_via": "code-search",
@@ -3569,7 +3617,7 @@
       "source_url": "https://github.com/akseolabs-seo/AK-Threads-booster/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "master",
       "description": "Codex 懶人包全集 — 環境建置、MCP 串接、技能安裝、設定同步。說「Codex 懶人包」「安裝 Codex 懶人包」時載入。",
       "discovered_via": "code-search",
@@ -3601,7 +3649,7 @@
       "source_url": "https://github.com/buluslan/gpt-image2-ecommerce/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Generate a self-contained HTML presentation with Magic Move transitions. Use when the user wants to create a slideshow, presentation, or slide deck from a topic or outline, or invokes magic-slide preview to start the preview server.",
       "discovered_via": "code-search",
@@ -3617,7 +3665,7 @@
       "source_url": "https://github.com/daniel-style/magic-slide/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "中文文献检索、筛选、批量采集和合法全文获取助手。用于用户需要查找论文、下载可合法获取的 PDF/HTML/XML 全文、生成关键词和检索式、查询 DOI/PMID、筛选高影响因子或高分区期刊、检查开放获取、做引用链扩展、批量文献候选表、下载日志、去重清单、Zotero/BibTeX 整理，或解决文献难下载问题；禁止绕过付费墙、盗版下载、共享账号或规避版权限制。",
       "discovered_via": "code-search",
@@ -3665,7 +3713,7 @@
       "source_url": "https://github.com/nexu-io/open-design/blob/main/skills/swiftui-design/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Recover the previous actionable Codex request for the current workspace at the start of a fresh session after compaction, crash, or context loss. Use when the user types `codexgo` as an explicit skill request, asks to recover the previous Codex session, or asks to continue after a compact/crash break.",
       "discovered_via": "code-search",
@@ -3681,7 +3729,7 @@
       "source_url": "https://github.com/JY0xLU/codexgo/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Use when Codex feels slow or bloated, when local sessions/logs/worktrees/config have grown over time, or when a user wants safe maintenance for Codex Desktop/CLI state. Provides a read-only report by default, backs up before applying changes, archives instead of deleting, normalizes Windows extended paths, prunes dead config projects, rotates large logs, and moves stale worktrees.",
       "discovered_via": "code-search",
@@ -3697,7 +3745,7 @@
       "source_url": "https://github.com/vibeforge1111/keep-codex-fast/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "降低学术论文的 AIGC 查重率和 AI 味。适用于 Claude Code 和 Codex。 基于知网、万方、PaperPass、PaperPure 等检测器原理，使用扫描定位、 确定性替换、句子级重构和 Anti-AI 审计，在保持学术语体、事实、数据、 引用和专业术语一致的前提下减少模板化 AI 痕迹。Use when 用户要求降 AI 味、 降低 AIGC 率、去 AI 检测、降低 AI 查重误判、让论文更像人写的，或提到 “去 AI 味”“降重”“AIGC 查重”。",
       "discovered_via": "code-search",
@@ -3713,7 +3761,7 @@
       "source_url": "https://github.com/xiaofenggan01/aigc-reduce/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Use this skill when the user wants to inspect, search, export, verify, clean up, delete, restore, or purge local Codex sessions stored under ~/.codex.",
       "discovered_via": "code-search",
@@ -3729,7 +3777,7 @@
       "source_url": "https://github.com/1939869736luosi/codex-sessions-manager/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Create game-ready fixed-cell pixel-art character spritesheets from text concepts, reference images, or existing character art. Use when Codex needs to design, generate, clean up, validate, and package 2D game characters with native 32x32, 64x64, or 128x128 cells; 4-way or 8-way directions; idle, walk/run, jump, attack, archer, caster, or other animation strips; transparent GIF/WebP previews; and per-direction targeted regeneration.",
       "discovered_via": "code-search",
@@ -3761,7 +3809,7 @@
       "source_url": "https://github.com/Jiang-Yude/notebooklm-connector/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-08-23T16:42:28.650757Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "ブラウザからローカルのワークスペース（Markdown / コード / フロントマター）を閲覧・編集する軽量 Web アプリ。Wiki-link / Backlinks / Quick Switcher / Mermaid / ライト・ダークテーマ対応。「workspace-web-editor 起動して」「web editor で開いて」で使用。",
       "discovered_via": "code-search",
@@ -3777,7 +3825,7 @@
       "source_url": "https://github.com/karaage0703/workspace-web-editor/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-08-23T16:42:28.650757Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "长期目标续推 skill，支持多 thread 并行。设置一个跨多轮对话的目标（写代码、写文章、做迁移、跑实验等任何任务），自动续推直到完成或被 ESC 中断。当用户输入 /goal、或描述一个需要持续多轮才能完成的目标（\"把所有 X 改成 Y\"、\"重构 Z 直到测试全过\"、\"批量生成 N 篇文章直到达标\"、\"持续优化直到 ...\"）时使用。基于 OpenAI Codex CLI 的 /goal 机制移植，核心是 completion audit 防过早完成 + 用 /loop 自动续推 + thread 隔离。",
       "discovered_via": "code-search",
@@ -3793,7 +3841,7 @@
       "source_url": "https://github.com/limin112/claude-goal-skill/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Cross-platform skill for Codex, Claude Code, and DeepSeek Harness (DSH) that creates, updates, compacts, rotates, repairs, and reviews durable repository handoffs. Use when bootstrapping cross-session memory; creating or maintaining AGENT_HANDOFF.md and .agent-handoff files; adding AGENTS.md or .claude/CLAUDE.md rules; enforcing continuation recovery or closeout; managing oversized snapshots and logs; installing optional Claude advisory hooks; or reviewing handoff quality.",
       "discovered_via": "code-search",
@@ -3825,7 +3873,7 @@
       "source_url": "https://github.com/browser-use/terminal/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Use this skill when the user wants to design, plan, redesign, upgrade, or improve the UI of a website, app, SaaS, dashboard, AI tool, landing page, portfolio, admin panel, mobile screen, or Vibe Coding project, especially when the user asks for a more premium, polished, real-product-like, modern, high-end, aesthetic, less generic, less AI-looking, or implementation-ready UI direction.",
       "discovered_via": "code-search",
@@ -3841,7 +3889,7 @@
       "source_url": "https://github.com/ziguishian/premium-ui-builder-skill/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Translate English PDF files into Simplified Chinese visual PDFs while preserving the original page images, layout, typography feel, colors, charts, and overall design. Use when Codex receives an English PDF and the user asks for a Chinese PDF version, page-image translation, PDF localization, or a translated PDF assembled from generated/edited page images using the imagegen skill.",
       "discovered_via": "code-search",
@@ -3889,7 +3937,7 @@
       "source_url": "https://github.com/grp06/goalcraft/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Generate, pixel-tag, migrate, and operate Hent-ai character image pools with VisualAffectV2 nearest-neighbor routing. Use when creating character images, changing emotion routing, moving assets to local storage, importing a set, or validating OpenClaw media delivery.",
       "discovered_via": "code-search",
@@ -3905,7 +3953,7 @@
       "source_url": "https://github.com/IYENTeam/Hent-ai/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "GitHub label-driven workflow that lets a local AI handle issues / PRs; the daemon listens for `pending/agent` and dispatches work. Every issue's design proposal / discussion / code / Claude conversation / tmux history is filed under the issue number, so you can find or resume any of it later just by knowing the issue number. Commands include setup (deploy to a project), status (check daemon state), disable (turn off a project's daemon)",
       "discovered_via": "code-search",
@@ -3921,7 +3969,7 @@
       "source_url": "https://github.com/GigleAI/cavil-loop/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-08-23T16:42:28.650757Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "大师.skill — 输入「我做的细分行业」，自动完成行业大佬调研 / 工具地图 / 工作流 / 知识正典 / 信息源 / 术语标准 六轨深度调研，提炼为可运行的「行业 Master OS」skill。 生成的 {industry}.master skill 是自包含目录，所有 hermit agent / Claude Code agent / OpenClaw / Codex 都能安装，让 AI 立刻进入「这行的资深人」模式。 触发词：「造大师」「做个 X 的 master skill」「我是 X 行业」「让 agent 变成 X 大师」「update 大师 X」「大师 X」「我做 X，帮我蒸一个」。",
       "discovered_via": "code-search",
@@ -3937,7 +3985,7 @@
       "source_url": "https://github.com/swaylq/master-skill/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Install the bundled Codex pet named 奶龙 from this repository. Use when the user asks for 奶龙.skills, 奶龙宠物, this yellow character pet, or wants Codex to install a prebuilt pet package into ~/.codex/pets without regenerating images.",
       "discovered_via": "code-search",
@@ -3969,7 +4017,7 @@
       "source_url": "https://github.com/gitmoot/gitmoot/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "合成竖屏对话短视频（游戏背景 + 角色头像 + 彩色字幕 + Fish Audio TTS）。支持缺少角色图时调用 [$imagegen](/Users/snowywar/.codex/skills/imagegen/SKILL.md) 生成头像，并要求真实透明背景或纯净实底，禁止棋盘格假透明。含 YAML 脚本、音色搜索、无 TTS 预览与完整成片。Use when the user mentions dialogue-shorts、对话短视频、语录视频、熊大语录、Fish Audio TTS、或本工具包路径。",
       "discovered_via": "code-search",
@@ -3985,7 +4033,7 @@
       "source_url": "https://github.com/jiayuqi7813/shuodedaoli-skill/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "One-click starter pack and curator for Codex/agent skills. Use when a beginner wants a high-quality default skills setup across common needs, when the user asks to install useful skills without researching them one by one, or when the installed skills library needs auditing, deduplication, conflict resolution, global-vs-backup selection, restore planning, or a written skills inventory.",
       "discovered_via": "code-search",
@@ -4001,7 +4049,7 @@
       "source_url": "https://github.com/Tyuts/xiaobai-skills/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Use Google Antigravity CLI (agy) for code review, adversarial review, debugging, long-running task delegation, or large-context investigation. Hands off to agy's large-context window when the host wants a second opinion or a background pass instead of solving the task file-by-file. Survives the June 18, 2026 gemini-cli sunset by depending only on the agy binary.",
       "discovered_via": "code-search",
@@ -4017,7 +4065,7 @@
       "source_url": "https://github.com/sakibsadmanshajib/antigravity-plugin/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "「天命」长篇小说协同创作系统。当用户使用「天命：大纲」「天命：规划」「天命：目录」 「天命：草案」「天命：正文」「天命：体检」「天命：存档」等指令进行多卷长篇小说写作， 或需要保证跨章节的世界观一致性、伏笔回收、节奏控制、文风稳定时使用本 Skill。 本系统依赖外部知识库：《世界基石.md》《世界观规则.md》《角色档案.md》《档案事件.md》《文风样本.md》。",
       "discovered_via": "code-search",
@@ -4033,7 +4081,7 @@
       "source_url": "https://github.com/zy-zmc/tianming-skill/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Use when a user wants to create, audit, restore, or cloud-upload a privacy-safe backup of their AI workbench, local agent skills, automations, project tools, and continuity memory. Supports configurable paths, cloud providers, personal memory templates, and self-audited replacement backups without exposing secrets.",
       "discovered_via": "code-search",
@@ -4097,7 +4145,7 @@
       "source_url": "https://github.com/lynote-ai/ai-text-detector/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "当 Codex 需要根据参考图片、截图、白板图、系统架构图、流程图或业务图，在 Microsoft Visio 中生成、复刻、录屏演示或教学拆解图表时使用。本技能覆盖环境检查、参考图拆解、Visio COM 自动化、鼠标键盘可见录屏准备、导出预览验证，以及可分享教程资料交付。",
       "discovered_via": "code-search",
@@ -4145,7 +4193,7 @@
       "source_url": "https://github.com/Sven-Mirana/sublation/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Process uploaded or local images into single semantic element PNGs and layered PSD files. Use whenever the user says PSD图层提取, use this skill, process an uploaded image, extract all image elements, split an image into PSD layers, create elements_contact_sheet.png for confirmation, or convert a poster/product/detail image into editable Photoshop layers. Default workflow is image to single element extraction to elements_contact_sheet.png confirmation to PSD assembly.",
       "discovered_via": "code-search",
@@ -4161,7 +4209,7 @@
       "source_url": "https://github.com/JongLeePc/gpt-image2-layered-psd/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "安装、配置、配对、迁移、升级、诊断、回滚或卸载 Mimi Remote；在 macOS 上安装和维护 Mimi Remote Mac 菜单栏 App / DMG，或通过 Homebrew、Linux user-systemd 部署 agentd；从源码构建 iPhone/iPad App；配置 Codex 主通道和可选 Claude Code 实验 Runtime。用户提出“安装 Mimi Remote”“安装或修复 Mac 菜单栏 App”“在 iPad/iPhone 上使用 Codex 或 Claude Code”“部署、迁移或修复 agentd”“升级、回滚、卸载 Mimi Remote”“构建 MimiRemote iOS App”或处理配对、私网连接、Runtime 故障时使用。",
       "discovered_via": "code-search",
@@ -4177,7 +4225,7 @@
       "source_url": "https://github.com/gaixianggeng/mimi-remote/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-08-02T17:14:50.661889Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "master",
       "description": "Call Agnes AI / Sapiens AI generation APIs for text, image, and video. Use when the user asks to use Agnes models, Agnes Image, Agnes Video, Agnes 2.0 Flash, apihub.agnes-ai.com, or to generate text, images, edit images, create videos, animate images, create keyframe videos, or test Agnes API calls.",
       "discovered_via": "code-search",
@@ -4193,7 +4241,7 @@
       "source_url": "https://github.com/Yacey/agnes-ai-generation-skill/blob/master/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Delegate bounded side tasks to a DeepSeek-backed Codex CLI subagent through the official DeepSeek API, persistent sessions, and an interactive Terminal monitor.",
       "discovered_via": "code-search",
@@ -4225,7 +4273,7 @@
       "source_url": "https://github.com/RASHMOR1/dlt-auditor/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Diagnose and repair Codex Desktop Computer Use, Any App, bundled plugin mirror/cache, in-app browser, and Google Chrome external browser control failures on Windows. Use when Computer Use is missing, Any App is unavailable, Chrome says extension not connected, browser/native-host install fails, WindowsApps copy hangs, or Codex Desktop Store updates break local plugin paths.",
       "discovered_via": "code-search",
@@ -4241,7 +4289,23 @@
       "source_url": "https://github.com/zhanyuyue7-dotcom/codex-computer-use/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
+      "default_branch": "main",
+      "description": "调研中国硕士研究生考试（考研）目标院校与专业的历年招生数据，评估择校爆冷/爆热、缩招、推免挤压、复试线虚低、专业课变更和复试风险，并给出冲稳保建议。适用于用户询问考研择校、院校难度、报录比、复试线、招生计划、统考名额、推免比例、拟录取分数、某校会不会爆、目标分数或需要导入自有 CSV/JSON 数据时。应先搜索公开网络和官方来源，确实找不到关键数据后再向用户索取补充材料；支持 Codex、Claude Code 和其他能读取 Skill Markdown 的 agent。",
+      "discovered_via": "code-search",
+      "eligible": true,
+      "exclusion_reason": null,
+      "key": "1262530176:SKILL.md",
+      "name": "kaoyan-navigator",
+      "path": "SKILL.md",
+      "repository": "mcxiaoxiao/kaoyan-navigator-skill",
+      "repository_id": 1262530176,
+      "repository_node_id": "R_kgDOS0CugA",
+      "repository_url": "https://github.com/mcxiaoxiao/kaoyan-navigator-skill",
+      "source_url": "https://github.com/mcxiaoxiao/kaoyan-navigator-skill/blob/main/SKILL.md"
+    },
+    {
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Cross-agent terminal process hygiene for Codex and Claude Code. Use before running terminal commands that may open shells, dev servers, watchers, workers, bots, miners, indexers, daemons, Docker/Kubernetes foreground processes, or any Node/Python/Rust/Go/Java/PHP/.NET command whose normal success state is to remain alive. Enforces bounded execution, managed background processes, PID/process-group tracking, log capture, readiness checks, status reporting, and cleanup.",
       "discovered_via": "code-search",
@@ -4257,7 +4321,7 @@
       "source_url": "https://github.com/yanowo/agent-process-guard/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "创作者全域内容搜索总控 Skill。用户发送平台名+关键词、平台链接，或要求分析博主、文章风格、热度、点赞、收藏、评论、爆款原因、选题方向时触发；根据平台和任务自动路由到小红书热门笔记、全域内容搜索、公众号爆款搜索、公众号赛道分析等分支 Skill。",
       "discovered_via": "code-search",
@@ -4305,7 +4369,23 @@
       "source_url": "https://github.com/blader/arbitrage/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
+      "default_branch": "main",
+      "description": "Generate publication-ready scientific figures for AI/CS research papers. Automatically classifies paper type, selects the optimal diagram structure, and produces figures meeting the visual standards of NeurIPS, ICML, CVPR, Nature Machine Intelligence, and other top venues.",
+      "discovered_via": "code-search",
+      "eligible": true,
+      "exclusion_reason": null,
+      "key": "1269807645:SKILL.md",
+      "name": "scientific-figure-generator",
+      "path": "SKILL.md",
+      "repository": "Deepshare-Official/CCF-Figure",
+      "repository_id": 1269807645,
+      "repository_node_id": "R_kgDOS6-6HQ",
+      "repository_url": "https://github.com/Deepshare-Official/CCF-Figure",
+      "source_url": "https://github.com/Deepshare-Official/CCF-Figure/blob/main/SKILL.md"
+    },
+    {
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Converts arbitrary source material into an executable structured Codex skill package. Use when the user provides text, notes, documents, PDFs, transcripts, videos, courses, articles, repositories, workflows, chat logs, or rough ideas and asks to turn them into a Skill, SKILL.md, skill scaffold, reusable agent workflow, operational prompt, or structured capability. Also use for 把内容变成skill, 文档转skill, 视频转skill, 课程转skill, 工作流沉淀成skill, or 从资料生成可执行Skill.",
       "discovered_via": "code-search",
@@ -4337,7 +4417,7 @@
       "source_url": "https://github.com/baihe26/zju-literature-downloader/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Use when Codex needs to batch collect high-view X/Twitter posts from creator/account lists and save them into Obsidian with the official Obsidian Web Clipper. Trigger for requests like “抓取/扒取 X 推文到 Obsidian”, “按浏览量筛选博主推文”, “用 Obsidian Web Clipper 保存推文/长文”, or “把对标博主爆款推文归档”. This skill is for macOS Chrome/Dia workflows where X is logged in and Obsidian Web Clipper is installed.",
       "discovered_via": "code-search",
@@ -4449,6 +4529,22 @@
       "source_url": "https://github.com/sunflower-of-parchman/codex-hygiene/blob/main/SKILL.md"
     },
     {
+      "checked_at": "2026-09-20T18:47:15.631954Z",
+      "default_branch": "main",
+      "description": "用 Figma MCP 生成 B/C 端可编辑 UI 原型。用户说画原型、线框图、Figma 稿、后台页面、App 页面时使用。 强制嵌入 frontend-design 全流程（design-plan → Anti-Slop → page.ui.yaml → Figma → 截图自审 → 增量 patch）， 配合 DESIGN.md 双轨视觉，避免 AI 默认审美与抽卡式重生成。无 spec 不生成；无 Anti-Slop PASS 不调用 use_figma。",
+      "discovered_via": "code-search",
+      "eligible": true,
+      "exclusion_reason": null,
+      "key": "1294567068:SKILL.md",
+      "name": "product-prototype-figma",
+      "path": "SKILL.md",
+      "repository": "pmlaowangba-lab/laowangba-pmprototype-skill",
+      "repository_id": 1294567068,
+      "repository_node_id": "R_kgDOTSmGnA",
+      "repository_url": "https://github.com/pmlaowangba-lab/laowangba-pmprototype-skill",
+      "source_url": "https://github.com/pmlaowangba-lab/laowangba-pmprototype-skill/blob/main/SKILL.md"
+    },
+    {
       "checked_at": "2026-09-06T18:17:27.722658Z",
       "default_branch": "main",
       "description": "Use when turning a YouTube URL or local presentation, explainer, interview, podcast, or product-demo video into complete screenshot-led notes, faithful light-polished text, HTML, PDF, or a shareable ZIP.",
@@ -4465,7 +4561,7 @@
       "source_url": "https://github.com/chenzixin1/watchless/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Install, customize, switch, verify, or restore a full adaptive theme for the Codex desktop app on macOS or Windows. Use when the user wants a Codex theme beyond official color settings, wants to turn a personal image into a full-window Codex wallpaper with adaptive readability, needs the skin reapplied after a Codex update, wants to switch saved themes from the menu bar or tray, or needs a safe rollback without modifying the official app or app.asar.",
       "discovered_via": "code-search",
@@ -4497,7 +4593,7 @@
       "source_url": "https://github.com/Finderchangchang/codex-autoskin/blob/master/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Select and compare language models using Artificial Analysis benchmark scores, pricing, speed, and task fit. Use when choosing a model for coding, writing, knowledge work, agents, math, science, reasoning, multilingual, or multimodal tasks; when comparing cost per intelligence; or when determining which model names and aliases are available in the current Codex or Claude Code runtime.",
       "discovered_via": "code-search",
@@ -4513,7 +4609,7 @@
       "source_url": "https://github.com/tkellogg/model-selection/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "当需要生成、改写、扩展或反向拆解 AI 写真、人像摄影、editorial photography 中文提示词时使用；也用于用户提供一组写真参考图，希望换一位人物、按同一摄影企划重新拍摄新分镜，并在明确要求生图时完成 Codex Image 生成、检查与可选归档。普通提示词请求默认不主动生图。",
       "discovered_via": "code-search",
@@ -4529,7 +4625,7 @@
       "source_url": "https://github.com/nuyoah-ai-works/nuyoah-xiezhen-prompt/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Улучшить/оптимизировать/переписать промпт под ТЕКУЩУЮ модель по официальным правилам вендора (Claude Code, Codex, Gemini CLI, Grok, Kimi, Qwen) и объяснить почему. Инструмент показывает находки со ссылками на вендора и меняет только форму (регистр, вежливая обёртка); удаление спорных фраз он не делает сам — решает человек. Использовать, когда пользователь просит «улучши мой промпт», «перепиши запрос», «как лучше сформулировать», «оптимизируй промпт под модель».",
       "discovered_via": "code-search",
@@ -4561,7 +4657,7 @@
       "source_url": "https://github.com/zhoutian1995/love-roommate/blob/main/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "guide",
       "description": "仅由用户手动调用，模型不主动触发。开始或继续课程：先联网研究主题并建立技术地图，再由学习者选择方向；每次讲一个单元。",
       "discovered_via": "code-search",
@@ -4577,7 +4673,23 @@
       "source_url": "https://github.com/sai-7i/daxue-zhidao/blob/guide/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
+      "default_branch": "main",
+      "description": "Convert slide images, screenshots, scanned PDFs, and image-only PPT/PPTX files into high-fidelity object-level editable PowerPoint, including semantic-region mixed reconstruction, measured flowcharts and knowledge graphs, native circle nodes and connectors, single-object thin and filled arrows, speaker-note preservation, and rendered QA. Use for 图片转可编辑PPT、截图还原PPT、扫描PDF恢复、图片型PPTX转换、流程图/知识图谱/复合图形/箭头重建; not for authoring a new deck from notes.",
+      "discovered_via": "code-search",
+      "eligible": true,
+      "exclusion_reason": null,
+      "key": "1336076986:SKILL.md",
+      "name": "image2ppt",
+      "path": "SKILL.md",
+      "repository": "Paul-Jeo/Image2PPT",
+      "repository_id": 1336076986,
+      "repository_node_id": "R_kgDOT6Lqug",
+      "repository_url": "https://github.com/Paul-Jeo/Image2PPT",
+      "source_url": "https://github.com/Paul-Jeo/Image2PPT/blob/main/SKILL.md"
+    },
+    {
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Create a 3×3 animated GIF sticker pack from a character reference image plus nine reactions or a theme. Use for nine-grid motion sticker, 九宫格动态表情包, or transparent sticker-pack requests; do not use for ordinary image edits, single stickers, or generic GIF conversion.",
       "discovered_via": "code-search",
@@ -4721,7 +4833,7 @@
       "source_url": "https://github.com/CherryHQ/cherry-studio/blob/main/resources/code-cli-skills/code-mate-codex/SKILL.md"
     },
     {
-      "checked_at": "2026-09-06T18:17:27.722658Z",
+      "checked_at": "2026-09-20T18:47:15.631954Z",
       "default_branch": "main",
       "description": "Install, register, and configure x-use, the browser-native MCP server for X (Twitter) automation that needs no X API key. Covers pip install, MCP client registration for Claude Desktop, Claude Code, Codex, Cursor and Windsurf, cookie-based account setup, keywords, and persona. Use when the user wants to set up x-use, add an X account, connect X or Twitter automation to their agent, or when x-use tools are unavailable or unconfigured.",
       "discovered_via": "code-search",
@@ -4738,7 +4850,16 @@
     }
   ],
   "errors": [
-    "global search skipped: GitHub HTTP 429: {\"message\":\"try again in 659.45881ms\",\"documentation_url\":\"https://docs.github.com/rest/search/search#search-code\",\"status\":\"429\"}",
+    "BanmaXM/operate-ui-by-screenshot/SKILL.md: frontmatter description must be 8-500 characters",
+    "BayramAnnakov/activitywatch-analysis-skill/SKILL.md: frontmatter name is missing or invalid",
+    "ExplosiveCoderflome/ani-book-skill/SKILL.md: frontmatter description must be 8-500 characters",
+    "Faust-Donf/beamer-academic/SKILL.md: frontmatter description must be 8-500 characters",
+    "FrankS-IntelLab/agentic-kaggle-skill/SKILL.md: frontmatter description must be 8-500 characters",
+    "Gayaya999/personal-ip-generator/SKILL.md: no Codex/Agent Skills compatibility evidence",
+    "Goldentrii/AgentRecall-X/SKILL.md: frontmatter description must be 8-500 characters",
+    "Guing/xhs-downloader-skill/SKILL.md: SKILL.md must begin with YAML frontmatter",
+    "Hao0321/ai-media-generator/SKILL.md: frontmatter description must be 8-500 characters",
+    "IgorGanapolsky/ThumbGate/SKILL.md: frontmatter description must be 8-500 characters",
     "K-Dense-AI/scientific-agent-skills/skills/alphagenome/SKILL.md: frontmatter description must be 8-500 characters",
     "K-Dense-AI/scientific-agent-skills/skills/analytical-method-validation/SKILL.md: frontmatter description must be 8-500 characters",
     "K-Dense-AI/scientific-agent-skills/skills/arbor/SKILL.md: frontmatter description must be 8-500 characters",
@@ -4779,6 +4900,7 @@
     "K-Dense-AI/scientific-agent-skills/skills/pathogen-variant-surveillance/SKILL.md: frontmatter description must be 8-500 characters",
     "K-Dense-AI/scientific-agent-skills/skills/pathway-enrichment/SKILL.md: frontmatter description must be 8-500 characters",
     "K-Dense-AI/scientific-agent-skills/skills/pdf/SKILL.md: no Codex/Agent Skills compatibility evidence",
+    "KaguraNanaga/document-format-skills/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "MicrosoftDocs/Agent-Skills/skills/azure-active-directory-b2c/SKILL.md: frontmatter description must be 8-500 characters",
     "MicrosoftDocs/Agent-Skills/skills/azure-advisor/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "MicrosoftDocs/Agent-Skills/skills/azure-ai-vision/SKILL.md: frontmatter description must be 8-500 characters",
@@ -4786,7 +4908,7 @@
     "MicrosoftDocs/Agent-Skills/skills/azure-analysis-services/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "MicrosoftDocs/Agent-Skills/skills/azure-anomaly-detector/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "MicrosoftDocs/Agent-Skills/skills/azure-anyscale-on-azure/SKILL.md: no Codex/Agent Skills compatibility evidence",
-    "MicrosoftDocs/Agent-Skills/skills/azure-api-center/SKILL.md: frontmatter description must be 8-500 characters",
+    "MicrosoftDocs/Agent-Skills/skills/azure-api-center/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "MicrosoftDocs/Agent-Skills/skills/azure-api-management/SKILL.md: frontmatter description must be 8-500 characters",
     "MicrosoftDocs/Agent-Skills/skills/azure-app-configuration/SKILL.md: frontmatter description must be 8-500 characters",
     "MicrosoftDocs/Agent-Skills/skills/azure-app-service/SKILL.md: frontmatter description must be 8-500 characters",
@@ -4796,7 +4918,7 @@
     "MicrosoftDocs/Agent-Skills/skills/azure-arc/SKILL.md: frontmatter description must be 8-500 characters",
     "MicrosoftDocs/Agent-Skills/skills/azure-architecture/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "MicrosoftDocs/Agent-Skills/skills/azure-artifact-signing/SKILL.md: no Codex/Agent Skills compatibility evidence",
-    "MicrosoftDocs/Agent-Skills/skills/azure-artifacts/SKILL.md: no Codex/Agent Skills compatibility evidence",
+    "MicrosoftDocs/Agent-Skills/skills/azure-artifacts/SKILL.md: frontmatter description must be 8-500 characters",
     "MicrosoftDocs/Agent-Skills/skills/azure-attestation/SKILL.md: frontmatter description must be 8-500 characters",
     "MicrosoftDocs/Agent-Skills/skills/azure-automation/SKILL.md: frontmatter description must be 8-500 characters",
     "MicrosoftDocs/Agent-Skills/skills/azure-backup/SKILL.md: frontmatter description must be 8-500 characters",
@@ -4805,7 +4927,7 @@
     "MicrosoftDocs/Agent-Skills/skills/azure-blob-storage/SKILL.md: frontmatter description must be 8-500 characters",
     "MicrosoftDocs/Agent-Skills/skills/azure-blueprints/SKILL.md: frontmatter description must be 8-500 characters",
     "MicrosoftDocs/Agent-Skills/skills/azure-boards/SKILL.md: no Codex/Agent Skills compatibility evidence",
-    "MicrosoftDocs/Agent-Skills/skills/azure-bot-service/SKILL.md: frontmatter description must be 8-500 characters",
+    "MicrosoftDocs/Agent-Skills/skills/azure-bot-service/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "MicrosoftDocs/Agent-Skills/skills/azure-business-process-tracking/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "MicrosoftDocs/Agent-Skills/skills/azure-cache-redis/SKILL.md: frontmatter description must be 8-500 characters",
     "MicrosoftDocs/Agent-Skills/skills/azure-carbon-optimization/SKILL.md: no Codex/Agent Skills compatibility evidence",
@@ -4864,7 +4986,7 @@
     "MicrosoftDocs/Agent-Skills/skills/azure-extended-zones/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "MicrosoftDocs/Agent-Skills/skills/azure-external-attack-surface-management/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "MicrosoftDocs/Agent-Skills/skills/azure-face/SKILL.md: frontmatter description must be 8-500 characters",
-    "MicrosoftDocs/Agent-Skills/skills/azure-files/SKILL.md: no Codex/Agent Skills compatibility evidence",
+    "MicrosoftDocs/Agent-Skills/skills/azure-files/SKILL.md: frontmatter description must be 8-500 characters",
     "MicrosoftDocs/Agent-Skills/skills/azure-firewall-manager/SKILL.md: frontmatter description must be 8-500 characters",
     "MicrosoftDocs/Agent-Skills/skills/azure-firewall/SKILL.md: frontmatter description must be 8-500 characters",
     "MicrosoftDocs/Agent-Skills/skills/azure-firmware-analysis/SKILL.md: frontmatter description must be 8-500 characters",
@@ -4882,6 +5004,13 @@
     "NVIDIA/skills/skills/accelerated-computing-cudf/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "NVIDIA/skills/skills/aiq-research/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "NVIDIA/skills/skills/amc-setup-calibration-stack/SKILL.md: no Codex/Agent Skills compatibility evidence",
+    "NVIDIA/skills/skills/bionemo-kermt-add-cmim-pretrain/SKILL.md: no Codex/Agent Skills compatibility evidence",
+    "NVIDIA/skills/skills/bionemo-kermt-continue-pretrain/SKILL.md: no Codex/Agent Skills compatibility evidence",
+    "NVIDIA/skills/skills/bionemo-kermt-embed/SKILL.md: no Codex/Agent Skills compatibility evidence",
+    "NVIDIA/skills/skills/bionemo-kermt-infer/SKILL.md: no Codex/Agent Skills compatibility evidence",
+    "NVIDIA/skills/skills/bionemo-kermt-monitor/SKILL.md: no Codex/Agent Skills compatibility evidence",
+    "NVIDIA/skills/skills/bionemo-kermt-pretrain-scratch/SKILL.md: no Codex/Agent Skills compatibility evidence",
+    "NVIDIA/skills/skills/bionemo-kermt-setup/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "NVIDIA/skills/skills/cudaq-guide/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "NVIDIA/skills/skills/cudaq-importing/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "NVIDIA/skills/skills/cuopt-developer/SKILL.md: no Codex/Agent Skills compatibility evidence",
@@ -4965,10 +5094,14 @@
     "NVIDIA/skills/skills/doca-telemetry-utils/SKILL.md: frontmatter description must be 8-500 characters",
     "NVIDIA/skills/skills/doca-telemetry/SKILL.md: frontmatter description must be 8-500 characters",
     "NVIDIA/skills/skills/doca-upgrade/SKILL.md: frontmatter description must be 8-500 characters",
-    "NVIDIA/skills/skills/doca-urom-svc/SKILL.md: frontmatter description must be 8-500 characters",
-    "NVIDIA/skills/skills/doca-urom/SKILL.md: frontmatter description must be 8-500 characters",
-    "NVIDIA/skills/skills/doca-verbs/SKILL.md: frontmatter description must be 8-500 characters",
-    "NVIDIA/skills/skills/doca-version/SKILL.md: frontmatter description must be 8-500 characters",
+    "NewTurn2017/fable-senior-mode/SKILL.md: frontmatter description must be 8-500 characters",
+    "Paidax01/web-to-design-md/SKILL.md: frontmatter description must be 8-500 characters",
+    "Picrew/CodeAtlas/SKILL.md: SKILL.md frontmatter is malformed",
+    "Rimagination/dy-note/SKILL.md: frontmatter description must be 8-500 characters",
+    "Sunwood-ai-labs/SourceSage/SKILL.md: no Codex/Agent Skills compatibility evidence",
+    "Vivixiao980/xhs-cover-skill/SKILL.md: frontmatter description must be 8-500 characters",
+    "ZCZHAO-1999/shakespeare-writing-studio/SKILL.md: no Codex/Agent Skills compatibility evidence",
+    "ZongziForu/cn-law-hub/SKILL.md: frontmatter description must be 8-500 characters",
     "anthropics/skills/skills/academy-guide/SKILL.md: frontmatter description must be 8-500 characters",
     "anthropics/skills/skills/algorithmic-art/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "anthropics/skills/skills/brand-guidelines/SKILL.md: no Codex/Agent Skills compatibility evidence",
@@ -4989,6 +5122,10 @@
     "anthropics/skills/skills/webapp-testing/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "anthropics/skills/skills/xlsx/SKILL.md: frontmatter description must be 8-500 characters",
     "anthropics/skills/template/SKILL.md: no Codex/Agent Skills compatibility evidence",
+    "atian-create/lingzao-skill/SKILL.md: frontmatter description must be 8-500 characters",
+    "c-narcissus/research-paper-figure-skill-factory/SKILL.md: frontmatter description must be 8-500 characters",
+    "carolinaaafy/travel-memory-card-duo/SKILL.md: frontmatter description must be 8-500 characters",
+    "cth9191/cloneify/SKILL.md: frontmatter description must be 8-500 characters",
     "github/awesome-copilot/.github/skills/agentic-workflows/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "github/awesome-copilot/.github/skills/create-canvas-extension/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "github/awesome-copilot/skills/acquire-codebase-knowledge/SKILL.md: no Codex/Agent Skills compatibility evidence",
@@ -5089,6 +5226,10 @@
     "github/awesome-copilot/skills/cosmosdb-datamodeling/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "github/awesome-copilot/skills/create-agentsmd/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "github/awesome-copilot/skills/create-architectural-decision-record/SKILL.md: no Codex/Agent Skills compatibility evidence",
+    "joeseesun/qiaomu-learning/SKILL.md: frontmatter description must be 8-500 characters",
+    "kennethkhoocy/lit-review-orchestrator/SKILL.md: frontmatter description must be 8-500 characters",
+    "makinux/adversarial-panel/SKILL.md: frontmatter description must be 8-500 characters",
+    "op7418/Claude-to-IM-skill/SKILL.md: frontmatter description must be 8-500 characters",
     "openai/skills/skills/.curated/aspnet-core/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "openai/skills/skills/.curated/chatgpt-apps/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "openai/skills/skills/.curated/cloudflare-deploy/SKILL.md: no Codex/Agent Skills compatibility evidence",
@@ -5111,9 +5252,16 @@
     "openai/skills/skills/.curated/vercel-deploy/SKILL.md: no Codex/Agent Skills compatibility evidence",
     "openai/skills/skills/.curated/winui-app/SKILL.md: frontmatter description must be 8-500 characters",
     "openai/skills/skills/.curated/yeet/SKILL.md: no Codex/Agent Skills compatibility evidence",
-    "openai/skills/skills/.system/imagegen/SKILL.md: frontmatter description must be 8-500 characters"
+    "openai/skills/skills/.system/imagegen/SKILL.md: frontmatter description must be 8-500 characters",
+    "petar-nauka/fact-check-skill/SKILL.md: frontmatter description must be 8-500 characters",
+    "rafsilva85/credit-optimizer-v5/SKILL.md: no Codex/Agent Skills compatibility evidence",
+    "sheeki03/tirith/SKILL.md: frontmatter description must be 8-500 characters",
+    "wjgoarxiv/autoresearch-skill/SKILL.md: frontmatter description must be 8-500 characters",
+    "wrsmith108/claude-md-optimizer/SKILL.md: frontmatter description must be 8-500 characters",
+    "xuemian168/bazi-skill/SKILL.md: frontmatter description must be 8-500 characters",
+    "yizhiyanhua-ai/fireworks-open-eli5/SKILL.md: no Codex/Agent Skills compatibility evidence"
   ],
-  "generated_at": "2026-09-13T18:50:45.640063Z",
+  "generated_at": "2026-09-20T18:50:07.105799Z",
   "schema_version": "1.0",
-  "search_degraded": true
+  "search_degraded": false
 }
