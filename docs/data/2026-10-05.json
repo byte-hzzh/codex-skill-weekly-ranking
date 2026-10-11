@@ -1,0 +1,275 @@
+{
+  "algorithm_version": "weekly-v1",
+  "complete": true,
+  "demo": false,
+  "entries": [
+    {
+      "candidate_key": "1048065319:plugin/skills/version-bump/SKILL.md",
+      "components": {
+        "commit_percentile": 0.927673,
+        "fork_percentile": 0.984277,
+        "star_percentile": 1.0
+      },
+      "description": "Automated semantic versioning and release workflow for Claude Code plugins. Handles version increments across package.json, marketplace.json, plugin.json manifests, build verification, git tagging, GitHub releases, and changelog generation. NPM publishing is the final human-required handoff because the maintainer raised npm security.",
+      "metrics": {
+        "allocated_fork_delta": 192.75,
+        "allocated_star_delta": 2724.0,
+        "path_commits": 2,
+        "raw_fork_delta": 257,
+        "raw_star_delta": 3632,
+        "repository_forks": 8739,
+        "repository_stars": 99678
+      },
+      "name": "version-bump",
+      "path": "plugin/skills/version-bump/SKILL.md",
+      "rank": 1,
+      "repository": "thedotmack/claude-mem",
+      "repository_url": "https://github.com/thedotmack/claude-mem",
+      "score": 98.32,
+      "source_url": "https://github.com/thedotmack/claude-mem/blob/main/plugin/skills/version-bump/SKILL.md"
+    },
+    {
+      "candidate_key": "1179264259:autoplan/SKILL.md",
+      "components": {
+        "commit_percentile": 0.996855,
+        "fork_percentile": 0.902516,
+        "star_percentile": 0.921384
+      },
+      "description": "Auto-review pipeline — reads the full CEO, design, eng, and DX review skills from disk and runs them sequentially with auto-decisions using 6 decision principles. (gstack)",
+      "metrics": {
+        "allocated_fork_delta": 9.6807,
+        "allocated_star_delta": 87.9328,
+        "path_commits": 11,
+        "raw_fork_delta": 96,
+        "raw_star_delta": 872,
+        "repository_forks": 20185,
+        "repository_stars": 135977
+      },
+      "name": "autoplan",
+      "path": "autoplan/SKILL.md",
+      "rank": 2,
+      "repository": "garrytan/gstack",
+      "repository_url": "https://github.com/garrytan/gstack",
+      "score": 93.36,
+      "source_url": "https://github.com/garrytan/gstack/blob/main/autoplan/SKILL.md"
+    },
+    {
+      "candidate_key": "1179264259:review/SKILL.md",
+      "components": {
+        "commit_percentile": 0.993711,
+        "fork_percentile": 0.886792,
+        "star_percentile": 0.915094
+      },
+      "description": "Pre-landing PR review. (gstack)",
+      "metrics": {
+        "allocated_fork_delta": 8.0672,
+        "allocated_star_delta": 73.2773,
+        "path_commits": 9,
+        "raw_fork_delta": 96,
+        "raw_star_delta": 872,
+        "repository_forks": 20185,
+        "repository_stars": 135977
+      },
+      "name": "review",
+      "path": "review/SKILL.md",
+      "rank": 3,
+      "repository": "garrytan/gstack",
+      "repository_url": "https://github.com/garrytan/gstack",
+      "score": 92.66,
+      "source_url": "https://github.com/garrytan/gstack/blob/main/review/SKILL.md"
+    },
+    {
+      "candidate_key": "1103012935:.agents/skills/openclaw-ci-limits/SKILL.md",
+      "components": {
+        "commit_percentile": 0.948113,
+        "fork_percentile": 0.918239,
+        "star_percentile": 0.91195
+      },
+      "description": "Manage OpenClaw GitHub Actions and Blacksmith CI capacity, runner-registration budgets, fanout caps, main-push single-flight, shard sizing, hosted-runner offload, queue health, and safe ramp-down/ramp-up changes. Use when tuning `.github/workflows/*`, `docs/ci.md`, CI runner labels, matrix `max-parallel`, ClawSweeper/Blacksmith burst protection, CodeQL runner placement, or investigating slow/queued OpenClaw CI.",
+      "metrics": {
+        "allocated_fork_delta": 16.5517,
+        "allocated_star_delta": 64.4828,
+        "path_commits": 4,
+        "raw_fork_delta": 96,
+        "raw_star_delta": 374,
+        "repository_forks": 82360,
+        "repository_stars": 391683
+      },
+      "name": "openclaw-ci-limits",
+      "path": ".agents/skills/openclaw-ci-limits/SKILL.md",
+      "rank": 4,
+      "repository": "openclaw/openclaw",
+      "repository_url": "https://github.com/openclaw/openclaw",
+      "score": 92.01,
+      "source_url": "https://github.com/openclaw/openclaw/blob/main/.agents/skills/openclaw-ci-limits/SKILL.md"
+    },
+    {
+      "candidate_key": "1000362065:skills/codebase-memory-mcp/SKILL.md",
+      "components": {
+        "commit_percentile": 0.904088,
+        "fork_percentile": 0.921384,
+        "star_percentile": 0.924528
+      },
+      "description": "Use when exploring unfamiliar code, mapping architecture, finding symbols or relationships, tracing callers, callees, data flow or dependencies, assessing impact, auditing dead or complex code, or handling explicit Codebase Memory requests. Otherwise skip tasks confined to a supplied known file, tiny one-file check, exact literal, configuration value, error string, or non-code text.",
+      "metrics": {
+        "allocated_fork_delta": 18.0,
+        "allocated_star_delta": 91.6,
+        "path_commits": 1,
+        "raw_fork_delta": 45,
+        "raw_star_delta": 229,
+        "repository_forks": 5097,
+        "repository_stars": 39921
+      },
+      "name": "codebase-memory-mcp",
+      "path": "skills/codebase-memory-mcp/SKILL.md",
+      "rank": 5,
+      "repository": "github/awesome-copilot",
+      "repository_url": "https://github.com/github/awesome-copilot",
+      "score": 92.0,
+      "source_url": "https://github.com/github/awesome-copilot/blob/main/skills/codebase-memory-mcp/SKILL.md"
+    },
+    {
+      "candidate_key": "1073224795:skills/using-superpowers/SKILL.md",
+      "components": {
+        "commit_percentile": 0.443396,
+        "fork_percentile": 0.987421,
+        "star_percentile": 0.996855
+      },
+      "description": "Use when starting any conversation - establishes how to find and use skills, requiring skill invocation before ANY response including clarifying questions",
+      "metrics": {
+        "allocated_fork_delta": 204.0,
+        "allocated_star_delta": 2372.0,
+        "path_commits": 0,
+        "raw_fork_delta": 204,
+        "raw_star_delta": 2372,
+        "repository_forks": 26586,
+        "repository_stars": 297605
+      },
+      "name": "using-superpowers",
+      "path": "skills/using-superpowers/SKILL.md",
+      "rank": 6,
+      "repository": "obra/superpowers",
+      "repository_url": "https://github.com/obra/superpowers",
+      "score": 88.47,
+      "source_url": "https://github.com/obra/superpowers/blob/main/skills/using-superpowers/SKILL.md"
+    },
+    {
+      "candidate_key": "1157102282:skills/config-codex-cli/SKILL.md",
+      "components": {
+        "commit_percentile": 0.443396,
+        "fork_percentile": 0.992138,
+        "star_percentile": 0.992138
+      },
+      "description": "Step-by-step agent workflow to configure the OpenAI Codex CLI on any machine (Linux, macOS, Windows) to use OmniRoute as an OpenAI-compatible backend. Detects OS and shell, writes config.toml and 7 named profiles, sets environment variables, and verifies the setup.",
+      "metrics": {
+        "allocated_fork_delta": 212.5,
+        "allocated_star_delta": 1167.5,
+        "path_commits": 0,
+        "raw_fork_delta": 425,
+        "raw_star_delta": 2335,
+        "repository_forks": 10871,
+        "repository_stars": 75265
+      },
+      "name": "config-codex-cli",
+      "path": "skills/config-codex-cli/SKILL.md",
+      "rank": 7,
+      "repository": "diegosouzapw/OmniRoute",
+      "repository_url": "https://github.com/diegosouzapw/OmniRoute",
+      "score": 88.24,
+      "source_url": "https://github.com/diegosouzapw/OmniRoute/blob/release%2Fv3.8.51/skills/config-codex-cli/SKILL.md"
+    },
+    {
+      "candidate_key": "1157102282:skills/omni-cli-tools/SKILL.md",
+      "components": {
+        "commit_percentile": 0.443396,
+        "fork_percentile": 0.992138,
+        "star_percentile": 0.992138
+      },
+      "description": "Manage CLI tool integrations exposed via the API. List, configure, and invoke CLI tool plugins that extend OmniRoute's automation surface.",
+      "metrics": {
+        "allocated_fork_delta": 212.5,
+        "allocated_star_delta": 1167.5,
+        "path_commits": 0,
+        "raw_fork_delta": 425,
+        "raw_star_delta": 2335,
+        "repository_forks": 10871,
+        "repository_stars": 75265
+      },
+      "name": "omni-cli-tools",
+      "path": "skills/omni-cli-tools/SKILL.md",
+      "rank": 8,
+      "repository": "diegosouzapw/OmniRoute",
+      "repository_url": "https://github.com/diegosouzapw/OmniRoute",
+      "score": 88.24,
+      "source_url": "https://github.com/diegosouzapw/OmniRoute/blob/release%2Fv3.8.51/skills/omni-cli-tools/SKILL.md"
+    },
+    {
+      "candidate_key": "1048065319:cowork/skills/mem-search/SKILL.md",
+      "components": {
+        "commit_percentile": 0.443396,
+        "fork_percentile": 0.981132,
+        "star_percentile": 0.987421
+      },
+      "description": "This skill should be used when the user asks to \"search memory\", \"what do you remember about X\", \"check claude-mem\", \"mem search\", \"find past observations\", \"what did we do last session\", or wants prior-session context about a project, decision, file, or task. Searches the user's Claude-Mem (cmem.ai) memory.",
+      "metrics": {
+        "allocated_fork_delta": 64.25,
+        "allocated_star_delta": 908.0,
+        "path_commits": 0,
+        "raw_fork_delta": 257,
+        "raw_star_delta": 3632,
+        "repository_forks": 8739,
+        "repository_stars": 99678
+      },
+      "name": "mem-search",
+      "path": "cowork/skills/mem-search/SKILL.md",
+      "rank": 9,
+      "repository": "thedotmack/claude-mem",
+      "repository_url": "https://github.com/thedotmack/claude-mem",
+      "score": 87.77,
+      "source_url": "https://github.com/thedotmack/claude-mem/blob/main/cowork/skills/mem-search/SKILL.md"
+    },
+    {
+      "candidate_key": "1223170290:skills/hand-drawn-diagrams/SKILL.md",
+      "components": {
+        "commit_percentile": 0.443396,
+        "fork_percentile": 0.935535,
+        "star_percentile": 0.982704
+      },
+      "description": "Generate hand-drawn Excalidraw diagrams from a prompt — animated SVG, hosted edit link, and PNG export. Works with Claude Code, Codex, Gemini CLI, and any agent supporting standard skill paths.",
+      "metrics": {
+        "allocated_fork_delta": 41.0,
+        "allocated_star_delta": 571.5,
+        "path_commits": 0,
+        "raw_fork_delta": 82,
+        "raw_star_delta": 1143,
+        "repository_forks": 11583,
+        "repository_stars": 100551
+      },
+      "name": "hand-drawn-diagrams",
+      "path": "skills/hand-drawn-diagrams/SKILL.md",
+      "rank": 10,
+      "repository": "nexu-io/open-design",
+      "repository_url": "https://github.com/nexu-io/open-design",
+      "score": 86.78,
+      "source_url": "https://github.com/nexu-io/open-design/blob/main/skills/hand-drawn-diagrams/SKILL.md"
+    }
+  ],
+  "generated_at": "2026-10-11T20:23:15.508109Z",
+  "limitations": [
+    "Stars and forks are repository aggregate snapshots, not Skill installs.",
+    "Path commit counts measure default-branch history touching the Skill path, not effort.",
+    "GitHub does not provide this project with exact public stargazer event times."
+  ],
+  "ranking_status": "official",
+  "schema_version": "1.0",
+  "source_observed_at": [
+    "2026-10-04T19:39:42.167555Z",
+    "2026-10-11T20:19:44.475849Z"
+  ],
+  "stale_from_week": null,
+  "week": {
+    "end_date": "2026-10-11",
+    "start_date": "2026-10-05",
+    "timezone": "Asia/Shanghai"
+  }
+}

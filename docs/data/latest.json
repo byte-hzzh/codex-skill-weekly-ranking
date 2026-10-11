@@ -4,273 +4,272 @@
   "demo": false,
   "entries": [
     {
-      "candidate_key": "1136590548:.agents/skills/unified-memory/SKILL.md",
+      "candidate_key": "1048065319:plugin/skills/version-bump/SKILL.md",
       "components": {
-        "commit_percentile": 0.935593,
-        "fork_percentile": 0.977966,
-        "star_percentile": 0.984746
+        "commit_percentile": 0.927673,
+        "fork_percentile": 0.984277,
+        "star_percentile": 1.0
       },
-      "description": "Share durable, inspectable context and handoffs between Claude, Codex, Hermes, Cursor, OpenCode, and other agents through the local ECC Memory Vault. Use when an agent must save work state, transfer context, resume another agent's task, or search shared project knowledge.",
+      "description": "Automated semantic versioning and release workflow for Claude Code plugins. Handles version increments across package.json, marketplace.json, plugin.json manifests, build verification, git tagging, GitHub releases, and changelog generation. NPM publishing is the final human-required handoff because the maintainer raised npm security.",
       "metrics": {
-        "allocated_fork_delta": 99.875,
-        "allocated_star_delta": 836.0,
-        "path_commits": 1,
-        "raw_fork_delta": 799,
-        "raw_star_delta": 6688,
-        "repository_forks": 38532,
-        "repository_stars": 257615
-      },
-      "name": "unified-memory",
-      "path": ".agents/skills/unified-memory/SKILL.md",
-      "rank": 1,
-      "repository": "affaan-m/ECC",
-      "repository_url": "https://github.com/affaan-m/ECC",
-      "score": 97.39,
-      "source_url": "https://github.com/affaan-m/ECC/blob/main/.agents/skills/unified-memory/SKILL.md"
-    },
-    {
-      "candidate_key": "1136590548:.cursor/skills/unified-memory/SKILL.md",
-      "components": {
-        "commit_percentile": 0.935593,
-        "fork_percentile": 0.977966,
-        "star_percentile": 0.984746
-      },
-      "description": "Share durable, inspectable context and handoffs between Claude, Codex, Hermes, Cursor, OpenCode, and other agents through the local ECC Memory Vault. Use when an agent must save work state, transfer context, resume another agent's task, or search shared project knowledge.",
-      "metrics": {
-        "allocated_fork_delta": 99.875,
-        "allocated_star_delta": 836.0,
-        "path_commits": 1,
-        "raw_fork_delta": 799,
-        "raw_star_delta": 6688,
-        "repository_forks": 38532,
-        "repository_stars": 257615
-      },
-      "name": "unified-memory",
-      "path": ".cursor/skills/unified-memory/SKILL.md",
-      "rank": 2,
-      "repository": "affaan-m/ECC",
-      "repository_url": "https://github.com/affaan-m/ECC",
-      "score": 97.39,
-      "source_url": "https://github.com/affaan-m/ECC/blob/main/.cursor/skills/unified-memory/SKILL.md"
-    },
-    {
-      "candidate_key": "1103012935:.agents/skills/openclaw-ci-limits/SKILL.md",
-      "components": {
-        "commit_percentile": 0.99322,
-        "fork_percentile": 0.938983,
-        "star_percentile": 0.918644
-      },
-      "description": "Manage OpenClaw GitHub Actions and Blacksmith CI capacity, runner-registration budgets, fanout caps, main-push single-flight, shard sizing, hosted-runner offload, queue health, and safe ramp-down/ramp-up changes. Use when tuning `.github/workflows/*`, `docs/ci.md`, CI runner labels, matrix `max-parallel`, ClawSweeper/Blacksmith burst protection, CodeQL runner placement, or investigating slow/queued OpenClaw CI.",
-      "metrics": {
-        "allocated_fork_delta": 40.5161,
-        "allocated_star_delta": 147.871,
-        "path_commits": 7,
-        "raw_fork_delta": 157,
-        "raw_star_delta": 573,
-        "repository_forks": 81902,
-        "repository_stars": 389608
-      },
-      "name": "openclaw-ci-limits",
-      "path": ".agents/skills/openclaw-ci-limits/SKILL.md",
-      "rank": 3,
-      "repository": "openclaw/openclaw",
-      "repository_url": "https://github.com/openclaw/openclaw",
-      "score": 93.66,
-      "source_url": "https://github.com/openclaw/openclaw/blob/main/.agents/skills/openclaw-ci-limits/SKILL.md"
-    },
-    {
-      "candidate_key": "1108837393:packages/omo-codex/plugin/skills/init-deep/SKILL.md",
-      "components": {
-        "commit_percentile": 0.971186,
-        "fork_percentile": 0.911864,
-        "star_percentile": 0.922034
-      },
-      "description": "(builtin) Initialize hierarchical AGENTS.md knowledge base",
-      "metrics": {
-        "allocated_fork_delta": 15.6,
-        "allocated_star_delta": 151.2,
+        "allocated_fork_delta": 192.75,
+        "allocated_star_delta": 2724.0,
         "path_commits": 2,
-        "raw_fork_delta": 26,
-        "raw_star_delta": 252,
-        "repository_forks": 5674,
-        "repository_stars": 69012
+        "raw_fork_delta": 257,
+        "raw_star_delta": 3632,
+        "repository_forks": 8739,
+        "repository_stars": 99678
       },
-      "name": "init-deep",
-      "path": "packages/omo-codex/plugin/skills/init-deep/SKILL.md",
-      "rank": 4,
-      "repository": "code-yeongyu/oh-my-openagent",
-      "repository_url": "https://github.com/code-yeongyu/oh-my-openagent",
-      "score": 93.03,
-      "source_url": "https://github.com/code-yeongyu/oh-my-openagent/blob/dev/packages/omo-codex/plugin/skills/init-deep/SKILL.md"
-    },
-    {
-      "candidate_key": "1103012935:.agents/skills/autoreview/SKILL.md",
-      "components": {
-        "commit_percentile": 0.981356,
-        "fork_percentile": 0.915254,
-        "star_percentile": 0.881356
-      },
-      "description": "Structured Codex, Claude, Amp, Pi, or Kimi code review when explicitly requested.",
-      "metrics": {
-        "allocated_fork_delta": 20.2581,
-        "allocated_star_delta": 73.9355,
-        "path_commits": 3,
-        "raw_fork_delta": 157,
-        "raw_star_delta": 573,
-        "repository_forks": 81902,
-        "repository_stars": 389608
-      },
-      "name": "autoreview",
-      "path": ".agents/skills/autoreview/SKILL.md",
-      "rank": 5,
-      "repository": "openclaw/openclaw",
-      "repository_url": "https://github.com/openclaw/openclaw",
-      "score": 90.64,
-      "source_url": "https://github.com/openclaw/openclaw/blob/main/.agents/skills/autoreview/SKILL.md"
+      "name": "version-bump",
+      "path": "plugin/skills/version-bump/SKILL.md",
+      "rank": 1,
+      "repository": "thedotmack/claude-mem",
+      "repository_url": "https://github.com/thedotmack/claude-mem",
+      "score": 98.32,
+      "source_url": "https://github.com/thedotmack/claude-mem/blob/main/plugin/skills/version-bump/SKILL.md"
     },
     {
       "candidate_key": "1179264259:autoplan/SKILL.md",
       "components": {
-        "commit_percentile": 0.935593,
-        "fork_percentile": 0.883051,
-        "star_percentile": 0.9
+        "commit_percentile": 0.996855,
+        "fork_percentile": 0.902516,
+        "star_percentile": 0.921384
       },
       "description": "Auto-review pipeline — reads the full CEO, design, eng, and DX review skills from disk and runs them sequentially with auto-decisions using 6 decision principles. (gstack)",
       "metrics": {
-        "allocated_fork_delta": 8.0,
-        "allocated_star_delta": 93.25,
-        "path_commits": 1,
+        "allocated_fork_delta": 9.6807,
+        "allocated_star_delta": 87.9328,
+        "path_commits": 11,
         "raw_fork_delta": 96,
-        "raw_star_delta": 1119,
-        "repository_forks": 19838,
-        "repository_stars": 132853
+        "raw_star_delta": 872,
+        "repository_forks": 20185,
+        "repository_stars": 135977
       },
       "name": "autoplan",
       "path": "autoplan/SKILL.md",
-      "rank": 6,
+      "rank": 2,
       "repository": "garrytan/gstack",
       "repository_url": "https://github.com/garrytan/gstack",
-      "score": 90.46,
+      "score": 93.36,
       "source_url": "https://github.com/garrytan/gstack/blob/main/autoplan/SKILL.md"
     },
     {
-      "candidate_key": "1179264259:benchmark/SKILL.md",
+      "candidate_key": "1179264259:review/SKILL.md",
       "components": {
-        "commit_percentile": 0.935593,
-        "fork_percentile": 0.883051,
-        "star_percentile": 0.9
+        "commit_percentile": 0.993711,
+        "fork_percentile": 0.886792,
+        "star_percentile": 0.915094
       },
-      "description": "Performance regression detection using the browse daemon. (gstack)",
+      "description": "Pre-landing PR review. (gstack)",
       "metrics": {
-        "allocated_fork_delta": 8.0,
-        "allocated_star_delta": 93.25,
-        "path_commits": 1,
+        "allocated_fork_delta": 8.0672,
+        "allocated_star_delta": 73.2773,
+        "path_commits": 9,
         "raw_fork_delta": 96,
-        "raw_star_delta": 1119,
-        "repository_forks": 19838,
-        "repository_stars": 132853
+        "raw_star_delta": 872,
+        "repository_forks": 20185,
+        "repository_stars": 135977
       },
-      "name": "benchmark",
-      "path": "benchmark/SKILL.md",
-      "rank": 7,
+      "name": "review",
+      "path": "review/SKILL.md",
+      "rank": 3,
       "repository": "garrytan/gstack",
       "repository_url": "https://github.com/garrytan/gstack",
-      "score": 90.46,
-      "source_url": "https://github.com/garrytan/gstack/blob/main/benchmark/SKILL.md"
+      "score": 92.66,
+      "source_url": "https://github.com/garrytan/gstack/blob/main/review/SKILL.md"
     },
     {
-      "candidate_key": "1079456184:skills/database-lookup/SKILL.md",
+      "candidate_key": "1103012935:.agents/skills/openclaw-ci-limits/SKILL.md",
       "components": {
-        "commit_percentile": 0.981356,
-        "fork_percentile": 0.864407,
-        "star_percentile": 0.888136
+        "commit_percentile": 0.948113,
+        "fork_percentile": 0.918239,
+        "star_percentile": 0.91195
       },
-      "description": "Query documented public database APIs with explicit endpoints, filters, pagination, and provenance. Use when a scientific, regulatory, financial, or other database-backed fact must be retrieved reproducibly from a named source rather than inferred from general knowledge.",
+      "description": "Manage OpenClaw GitHub Actions and Blacksmith CI capacity, runner-registration budgets, fanout caps, main-push single-flight, shard sizing, hosted-runner offload, queue health, and safe ramp-down/ramp-up changes. Use when tuning `.github/workflows/*`, `docs/ci.md`, CI runner labels, matrix `max-parallel`, ClawSweeper/Blacksmith burst protection, CodeQL runner placement, or investigating slow/queued OpenClaw CI.",
       "metrics": {
-        "allocated_fork_delta": 7.25,
-        "allocated_star_delta": 93.0625,
-        "path_commits": 3,
-        "raw_fork_delta": 116,
-        "raw_star_delta": 1489,
-        "repository_forks": 4057,
-        "repository_stars": 44735
+        "allocated_fork_delta": 16.5517,
+        "allocated_star_delta": 64.4828,
+        "path_commits": 4,
+        "raw_fork_delta": 96,
+        "raw_star_delta": 374,
+        "repository_forks": 82360,
+        "repository_stars": 391683
       },
-      "name": "database-lookup",
-      "path": "skills/database-lookup/SKILL.md",
-      "rank": 8,
-      "repository": "K-Dense-AI/scientific-agent-skills",
-      "repository_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "score": 90.32,
-      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/database-lookup/SKILL.md"
+      "name": "openclaw-ci-limits",
+      "path": ".agents/skills/openclaw-ci-limits/SKILL.md",
+      "rank": 4,
+      "repository": "openclaw/openclaw",
+      "repository_url": "https://github.com/openclaw/openclaw",
+      "score": 92.01,
+      "source_url": "https://github.com/openclaw/openclaw/blob/main/.agents/skills/openclaw-ci-limits/SKILL.md"
+    },
+    {
+      "candidate_key": "1000362065:skills/codebase-memory-mcp/SKILL.md",
+      "components": {
+        "commit_percentile": 0.904088,
+        "fork_percentile": 0.921384,
+        "star_percentile": 0.924528
+      },
+      "description": "Use when exploring unfamiliar code, mapping architecture, finding symbols or relationships, tracing callers, callees, data flow or dependencies, assessing impact, auditing dead or complex code, or handling explicit Codebase Memory requests. Otherwise skip tasks confined to a supplied known file, tiny one-file check, exact literal, configuration value, error string, or non-code text.",
+      "metrics": {
+        "allocated_fork_delta": 18.0,
+        "allocated_star_delta": 91.6,
+        "path_commits": 1,
+        "raw_fork_delta": 45,
+        "raw_star_delta": 229,
+        "repository_forks": 5097,
+        "repository_stars": 39921
+      },
+      "name": "codebase-memory-mcp",
+      "path": "skills/codebase-memory-mcp/SKILL.md",
+      "rank": 5,
+      "repository": "github/awesome-copilot",
+      "repository_url": "https://github.com/github/awesome-copilot",
+      "score": 92.0,
+      "source_url": "https://github.com/github/awesome-copilot/blob/main/skills/codebase-memory-mcp/SKILL.md"
     },
     {
       "candidate_key": "1073224795:skills/using-superpowers/SKILL.md",
       "components": {
-        "commit_percentile": 0.452542,
-        "fork_percentile": 1.0,
-        "star_percentile": 1.0
+        "commit_percentile": 0.443396,
+        "fork_percentile": 0.987421,
+        "star_percentile": 0.996855
       },
       "description": "Use when starting any conversation - establishes how to find and use skills, requiring skill invocation before ANY response including clarifying questions",
       "metrics": {
-        "allocated_fork_delta": 293.0,
-        "allocated_star_delta": 3788.0,
+        "allocated_fork_delta": 204.0,
+        "allocated_star_delta": 2372.0,
         "path_commits": 0,
-        "raw_fork_delta": 293,
-        "raw_star_delta": 3788,
-        "repository_forks": 25595,
-        "repository_stars": 286121
+        "raw_fork_delta": 204,
+        "raw_star_delta": 2372,
+        "repository_forks": 26586,
+        "repository_stars": 297605
       },
       "name": "using-superpowers",
       "path": "skills/using-superpowers/SKILL.md",
-      "rank": 9,
+      "rank": 6,
       "repository": "obra/superpowers",
       "repository_url": "https://github.com/obra/superpowers",
-      "score": 89.05,
+      "score": 88.47,
       "source_url": "https://github.com/obra/superpowers/blob/main/skills/using-superpowers/SKILL.md"
     },
     {
       "candidate_key": "1157102282:skills/config-codex-cli/SKILL.md",
       "components": {
-        "commit_percentile": 0.452542,
-        "fork_percentile": 0.994915,
-        "star_percentile": 0.994915
+        "commit_percentile": 0.443396,
+        "fork_percentile": 0.992138,
+        "star_percentile": 0.992138
       },
       "description": "Step-by-step agent workflow to configure the OpenAI Codex CLI on any machine (Linux, macOS, Windows) to use OmniRoute as an OpenAI-compatible backend. Detects OS and shell, writes config.toml and 7 named profiles, sets environment variables, and verifies the setup.",
       "metrics": {
-        "allocated_fork_delta": 269.5,
-        "allocated_star_delta": 1850.5,
+        "allocated_fork_delta": 212.5,
+        "allocated_star_delta": 1167.5,
         "path_commits": 0,
-        "raw_fork_delta": 539,
-        "raw_star_delta": 3701,
-        "repository_forks": 9183,
-        "repository_stars": 65639
+        "raw_fork_delta": 425,
+        "raw_star_delta": 2335,
+        "repository_forks": 10871,
+        "repository_stars": 75265
       },
       "name": "config-codex-cli",
       "path": "skills/config-codex-cli/SKILL.md",
-      "rank": 10,
+      "rank": 7,
       "repository": "diegosouzapw/OmniRoute",
       "repository_url": "https://github.com/diegosouzapw/OmniRoute",
-      "score": 88.64,
+      "score": 88.24,
       "source_url": "https://github.com/diegosouzapw/OmniRoute/blob/release%2Fv3.8.51/skills/config-codex-cli/SKILL.md"
+    },
+    {
+      "candidate_key": "1157102282:skills/omni-cli-tools/SKILL.md",
+      "components": {
+        "commit_percentile": 0.443396,
+        "fork_percentile": 0.992138,
+        "star_percentile": 0.992138
+      },
+      "description": "Manage CLI tool integrations exposed via the API. List, configure, and invoke CLI tool plugins that extend OmniRoute's automation surface.",
+      "metrics": {
+        "allocated_fork_delta": 212.5,
+        "allocated_star_delta": 1167.5,
+        "path_commits": 0,
+        "raw_fork_delta": 425,
+        "raw_star_delta": 2335,
+        "repository_forks": 10871,
+        "repository_stars": 75265
+      },
+      "name": "omni-cli-tools",
+      "path": "skills/omni-cli-tools/SKILL.md",
+      "rank": 8,
+      "repository": "diegosouzapw/OmniRoute",
+      "repository_url": "https://github.com/diegosouzapw/OmniRoute",
+      "score": 88.24,
+      "source_url": "https://github.com/diegosouzapw/OmniRoute/blob/release%2Fv3.8.51/skills/omni-cli-tools/SKILL.md"
+    },
+    {
+      "candidate_key": "1048065319:cowork/skills/mem-search/SKILL.md",
+      "components": {
+        "commit_percentile": 0.443396,
+        "fork_percentile": 0.981132,
+        "star_percentile": 0.987421
+      },
+      "description": "This skill should be used when the user asks to \"search memory\", \"what do you remember about X\", \"check claude-mem\", \"mem search\", \"find past observations\", \"what did we do last session\", or wants prior-session context about a project, decision, file, or task. Searches the user's Claude-Mem (cmem.ai) memory.",
+      "metrics": {
+        "allocated_fork_delta": 64.25,
+        "allocated_star_delta": 908.0,
+        "path_commits": 0,
+        "raw_fork_delta": 257,
+        "raw_star_delta": 3632,
+        "repository_forks": 8739,
+        "repository_stars": 99678
+      },
+      "name": "mem-search",
+      "path": "cowork/skills/mem-search/SKILL.md",
+      "rank": 9,
+      "repository": "thedotmack/claude-mem",
+      "repository_url": "https://github.com/thedotmack/claude-mem",
+      "score": 87.77,
+      "source_url": "https://github.com/thedotmack/claude-mem/blob/main/cowork/skills/mem-search/SKILL.md"
+    },
+    {
+      "candidate_key": "1223170290:skills/hand-drawn-diagrams/SKILL.md",
+      "components": {
+        "commit_percentile": 0.443396,
+        "fork_percentile": 0.935535,
+        "star_percentile": 0.982704
+      },
+      "description": "Generate hand-drawn Excalidraw diagrams from a prompt — animated SVG, hosted edit link, and PNG export. Works with Claude Code, Codex, Gemini CLI, and any agent supporting standard skill paths.",
+      "metrics": {
+        "allocated_fork_delta": 41.0,
+        "allocated_star_delta": 571.5,
+        "path_commits": 0,
+        "raw_fork_delta": 82,
+        "raw_star_delta": 1143,
+        "repository_forks": 11583,
+        "repository_stars": 100551
+      },
+      "name": "hand-drawn-diagrams",
+      "path": "skills/hand-drawn-diagrams/SKILL.md",
+      "rank": 10,
+      "repository": "nexu-io/open-design",
+      "repository_url": "https://github.com/nexu-io/open-design",
+      "score": 86.78,
+      "source_url": "https://github.com/nexu-io/open-design/blob/main/skills/hand-drawn-diagrams/SKILL.md"
     }
   ],
-  "generated_at": "2026-09-13T18:53:11.849878Z",
+  "generated_at": "2026-10-11T20:23:15.508109Z",
   "limitations": [
     "Stars and forks are repository aggregate snapshots, not Skill installs.",
     "Path commit counts measure default-branch history touching the Skill path, not effort.",
-    "GitHub does not provide this project with exact public stargazer event times.",
-    "No new valid ranking was produced; this view preserves the last successful ranking and its original observation times."
+    "GitHub does not provide this project with exact public stargazer event times."
   ],
-  "ranking_status": "stale",
+  "ranking_status": "official",
   "schema_version": "1.0",
   "source_observed_at": [
-    "2026-09-06T18:20:09.855010Z",
-    "2026-09-13T18:50:45.690833Z"
+    "2026-10-04T19:39:42.167555Z",
+    "2026-10-11T20:19:44.475849Z"
   ],
-  "stale_from_week": "2026-09-28",
+  "stale_from_week": null,
   "week": {
-    "end_date": "2026-09-13",
-    "start_date": "2026-09-07",
+    "end_date": "2026-10-11",
+    "start_date": "2026-10-05",
     "timezone": "Asia/Shanghai"
   }
 }
